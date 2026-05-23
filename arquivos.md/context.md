@@ -96,8 +96,22 @@
 - **Status:** PRONTO PARA SUBMISSÃO
 - **Periódico Alvo:** Revista Alcance (UNIVALI)
 - **URL:** https://periodicos.univali.br/index.php/ra/index
+- **e-ISSN:** 1983-716X
 - **Versões:** v1 e v2 disponíveis
 - **Arquivos:** `paradoxo_produtividade_ia_v1.docx`, `paradoxo_produtividade_ia_v2.docx`, `tabelas.xlsx`, `Documento suplementar - revista alcance.docx`
+- **REQUISITOS PARA SUBMISSÃO:**
+  - 7.000-9.000 palavras (incluindo título, resumos, texto, referências, ilustrações)
+  - Times New Roman 12, espaçamento simples
+  - Margens: superior e esquerda 3cm, inferior e direita 2cm
+  - Formato: Word (.docx)
+  - Citações e referências: APA 7ª edição
+  - **Título em português, inglês e espanhol**
+  - **Resumo Estruturado (máx 260 palavras cada):** Objetivo, Design/Metodologia, Resultados, Limitações, Implicações Práticas, Implicações Sociais, Implicações Teóricas, Originalidade/Valor
+  - **Palavras-chave:** 3-5 em PT/EN/ES
+  - Anonimato obrigatório (sem identificação no manuscrito)
+  - Número máximo de autores: 4
+  - **Obs:** Não é permitido que o mesmo autor tenha 2 artigos em avaliação simultaneamente na Alcance
+  - Versão em inglês do texto aprovado necessária antes da publicação
 
 ---
 
