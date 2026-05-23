@@ -1,0 +1,98 @@
+Document: Prontos-Submissao\Artigo - Paradoxo da Produtividade IA\Artigo_Alcance_FINAL_EXPANDED.docx
+Total paras (non-empty, not in tables): 144
+Nonconforming paras: 21
+
+Sample nonconforming paragraphs:
+Index 0: preview: O PARADOXO DA PRODUTIVIDADE DA IA: ANÁLISE CRÍTICA DO DISCURSO CORPORATIVO SOBRE DEMISSÕES TECNOLÓGICAS
+ align=CENTER (1) space_after=6.0 fonts=['Times New Roman'] sizes=[12.0]
+
+Index 1: preview: THE AI PRODUCTIVITY PARADOX: CRITICAL ANALYSIS OF CORPORATE DISCOURSE ON TECHNOLOGICAL LAYOFFS
+ align=CENTER (1) space_after=6.0 fonts=['Times New Roman'] sizes=[12.0]
+
+Index 2: preview: EL PARADOJA DE LA PRODUCTIVIDAD DE LA IA: ANÁLISIS CRÍTICO DEL DISCURSO CORPORATIVO SOBRE DESPIDOS TECNOLÓGICOS
+ align=CENTER (1) space_after=6.0 fonts=['Times New Roman'] sizes=[12.0]
+
+Index 3: preview: Resumo
+ align=CENTER (1) space_after=6.0 fonts=['Times New Roman'] sizes=[12.0]
+
+Index 13: preview: Abstract
+ align=CENTER (1) space_after=6.0 fonts=['Times New Roman'] sizes=[12.0]
+
+Index 23: preview: Resumen
+ align=CENTER (1) space_after=6.0 fonts=['Times New Roman'] sizes=[12.0]
+
+Index 37: preview: A perspectiva histórica revela que as transformações tecnológicas não seguem um padrão linear de substituição de trabalh
+ align=None space_after=None fonts=[] sizes=[]
+
+Index 38: preview: O contexto tecnológico contemporâneo tem sido marcado pela proliferação de sistemas de inteligência artificial em divers
+ align=None space_after=None fonts=[] sizes=[]
+
+Index 54: preview: Com o intuito de padronizar a terminologia deste manuscrito, é essencial delinear a fronteira entre os termos AI Washing
+ align=None space_after=None fonts=[] sizes=[]
+
+Index 55: preview: Barney & Clark (2007) aprofundaram a análise dos recursos intangíveis, destacando que o capital humano organizacional re
+ align=None space_after=None fonts=[] sizes=[]
+
+Index 56: preview: A teoria do capital humano, desenvolvida por Becker (1964), oferece perspectiva complementar ao destacar que o valor dos
+ align=None space_after=None fonts=[] sizes=[]
+
+Index 57: preview: A literatura empírica contemporânea tem investigado sistematicamente os impactos reais da inteligência artificial sobre 
+ align=None space_after=None fonts=[] sizes=[]
+
+Index 63: preview: Os critérios de seleção das empresas analisadas foram definidos de forma a garantir relevância e comparabilidade dos cas
+ align=None space_after=None fonts=[] sizes=[]
+
+Index 64: preview: Os dados foram coletados a partir de múltiplas fontes, classificadas em primárias e secundárias conforme os critérios es
+ align=None space_after=None fonts=[] sizes=[]
+
+Index 67: preview: O estudo adota uma abordagem de análise crítica do discurso corporativo, buscando ir além da superfície literal das decl
+ align=None space_after=None fonts=[] sizes=[]
+
+Index 68: preview: As categorias de análise criadas para este estudo incluem seis dimensões principais. A primeira categoria, natureza da j
+ align=None space_after=None fonts=[] sizes=[]
+
+Index 76: preview: No contexto das demissões justificadas pela IA, a Teoria da Agência sugere que os executivos podem ter incentivos para a
+ align=None space_after=None fonts=[] sizes=[]
+
+Index 77: preview: Kaplan & Minton (2012) investigaram a relação entre desempenho financeiro e rotatividade de CEOs, demonstrando que a pre
+ align=None space_after=None fonts=[] sizes=[]
+
+Index 80: preview: Jensen (1986) aprofundou a análise dos custos de agência através do conceito de free cash flow. O autor define free cash
+ align=None space_after=None fonts=[] sizes=[]
+
+Index 114: preview: Em última análise, a compreensão das motivações reais por trás das demissões atribuídas à IA constitui etapa necessária 
+ align=None space_after=None fonts=[] sizes=[]
+
+
+References found: 24
+
+Citations extracted: 25
+
+Citations not in references (sample):
+('Abel et al.', '2022')
+('Barney & Clark', '2007')
+('Bloomberg', '2024')
+('Brynjolfsson & McAfee', '2014')
+('Clark', '2007')
+('Creswell & Creswell', '2018')
+('Felten et al.', '2023')
+('Frey & Osborne', '2017')
+('Jensen & Meckling', '1976')
+('Kaplan & Minton', '2012')
+('Kenney & Zysman', '2016')
+('Minton', '2012')
+('Osborne', '2017')
+
+References not cited (sample):
+('Abel', '2022')
+('Autor', '2003')
+('Autor', '2015')
+('Barney', '2007')
+('Brynjolfsson', '2014')
+('Creswell', '2018')
+('Felten', '2023')
+('Frey', '2017')
+('Hajikhani', '2025')
+('Jensen', '1976')
+('Kaplan', '2012')
+('Kenney', '2016')

@@ -32,7 +32,7 @@
 
 ## Status Consolidado dos Artigos
 
-### 1. Artigos Submetidos (Aguardando Parecer) - 5 artigos
+### 1. Artigos Submetidos (Aguardando Parecer) - 6 artigos
 
 > **NOTA:** Estes são artigos de pesquisas PARALELAS ao doutorado.
 
@@ -78,7 +78,7 @@
 
 ---
 
-### 2. Artigos Prontos para Submissão - 2 artigos
+### 2. Artigos Prontos para Submissão - 1 artigo
 
 #### Artigo 6: Entre a Escravidão Digital e a Fuga Institucional
 - **Status:** REJEITADO - PRONTO PARA NOVA SUBMISSÃO
@@ -93,12 +93,12 @@
 - **Ação:** Adaptar manuscrito incluindo discussão de contribuições práticas para profissionais de Administração antes de submeter a O&S ou CEBAPE.
 
 #### Artigo 7: O Paradoxo da Produtividade da IA
-- **Status:** PRONTO PARA SUBMISSÃO
+- **Status:** SUBMETIDO
 - **Periódico Alvo:** Revista Alcance (UNIVALI)
 - **URL:** https://periodicos.univali.br/index.php/ra/index
 - **e-ISSN:** 1983-716X
 - **Versões:** v1 e v2 disponíveis
-- **Arquivos:** `paradoxo_produtividade_ia_v1.docx`, `paradoxo_produtividade_ia_v2.docx`, `tabelas.xlsx`, `Documento suplementar - revista alcance.docx`
+- **Arquivos:** `Submetidos/Artigo - Paradoxo da Produtividade IA/` (manuscrito de submissão, documentação suplementar e relatórios de finalização)
 - **REQUISITOS PARA SUBMISSÃO:**
   - 7.000-9.000 palavras (incluindo título, resumos, texto, referências, ilustrações)
   - Times New Roman 12, espaçamento simples
@@ -245,7 +245,7 @@ A tese é composta por 17 artigos sobre "Copiloto Algorítmico para Compras Púb
 
 1. **Acompanhar artigos submetidos** - Verificar pareceres das revistas (RGT, Liceu-online, RCCC, Ambiente Contábil, Universo Contábil)
 2. **Submeter artigo 6** - TPA (credenciais já disponíveis: renatodeoliveirarosa / Rabo1000!)
-3. **Submeter artigo 7** - Revista Alcance
+3. **Acompanhar artigo 7** - Revista Alcance (submetido)
 4. **Revisar artigos Messan** - Incorporar correções dos artigos 8 e 9
 5. **Continuar desenvolvimento artigos Eigedin** - Artigos 10 e 11
 6. **Avançar artigos da tese** - Desenvolver os 17 artigos conforme estrutura
@@ -267,8 +267,8 @@ Artigos 2026/
 │   ├── formatacao.md           # Regras de formatação
 │   ├── diretrizes.md           # Diretrizes por periódico
 │   └── graficos.md             # Visualização de dados
-├── Submetidos/                   # 5 artigos submetidos
-├── Prontos-Submissao/            # 2 artigos prontos + HTMLs
+├── Submetidos/                   # 6 artigos submetidos
+├── Prontos-Submissao/            # 1 artigo pronto + HTMLs
 ├── Em-Desenvolvimento/           # 2 artigos em desenvolvimento (Eigedin)
 ├── Antigos/                      # Artigos antigos e ideias
 ├── Congressos 2026.xlsx          # Calendarização de eventos

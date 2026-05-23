@@ -1,0 +1,8 @@
+Input: C:\Users\Renato\Documents\Artigos 2026\Prontos-Submissao\Artigo - Paradoxo da Produtividade IA\Artigo_Alcance_FINAL_SUBMIT.docx
+Output: C:\Users\Renato\Documents\Artigos 2026\Prontos-Submissao\Artigo - Paradoxo da Produtividade IA\Artigo_Alcance_FINAL_SUBMIT_CLEAN.docx
+Removed paragraphs: 4
+
+[37] Bloomberg (2024). [VERIFICAR: entrada obtida automaticamente e possivelmente incorreta — substituir por referência correta].
+[38] Clark (2007). [VERIFICAR: entrada obtida automaticamente e possivelmente incorreta — substituir por referência correta].
+[39] Minton (2012). [VERIFICAR: entrada obtida automaticamente e possivelmente incorreta — substituir por referência correta].
+[40] Osborne (2017). [VERIFICAR: entrada obtida automaticamente e possivelmente incorreta — substituir por referência correta].

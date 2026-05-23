@@ -382,6 +382,6 @@ O projeto conta com um monitor interativo para os artigos das pesquisas paralela
 | **GitHub Pages** | https://renato0503.github.io/Artigos-Parelelos |
 | **Repositório** | https://github.com/renato0503/Artigos-Parelelos |
 | **Artigos** | 11 artigos monitorados |
-| **Status** | 5 submetidos, 2 prontos, 2 em correção, 2 em desenvolvimento |
+| **Status** | 6 submetidos, 1 pronto, 2 em correção, 2 em desenvolvimento |
 
 O monitor permite filtrar por status, categoria, periódico e buscar por título/autor/palavras-chave.

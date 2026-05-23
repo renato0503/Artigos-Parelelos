@@ -168,8 +168,8 @@ def calcular_complexidade(texto: str) -> dict:
 
 **Organização Artigos Paralelos:**
 - `index.html` - Monitor interativo com 11 artigos
-- `Submetidos/` - 5 artigos aguardando parecer
-- `Prontos-Submissao/` - 2 artigos prontos
+- `Submetidos/` - 6 artigos aguardando parecer
+- `Prontos-Submissao/` - 1 artigo pronto
 - `Em-Desenvolvimento/` - 2 artigos em desenvolvimento
 - `arquivos.md/` - Documentação de referência
 

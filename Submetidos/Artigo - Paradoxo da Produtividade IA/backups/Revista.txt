@@ -1,0 +1,365 @@
+https://periodicos.univali.br/index.php/ra/index
+
+renatorosa
+
+
+2
+
+SUMÁRIO
+
+INSTRUÇÕES GERAIS E CONDIÇÕES PARA SUBMISSÃO ..................................3
+Condições para submissão ..................................................................................3
+Preparando a submissão ......................................................................................4
+DIRETRIZES PARA ARTIGO.....................................................................................4
+DIRETRIZES PARA CASOS DE ENSINO..................................................................6
+DIRETRIZES PARA ARTIGO TECNOLÓGICO .........................................................9
+
+3
+INSTRUÇÕES GERAIS E CONDIÇÕES PARA SUBMISSÃO
+A Revista Alcance aceita apenas artigos teóricos-empíricos, tecnológicos e
+casos para ensino inéditos referentes a problemas nacionais ou internacionais, nas
+áreas de Administração (de acordo com o escopo editorial e áreas de interesse)
+escritos em português, inglês ou espanhol, desde que os autores submetam uma
+versão em inglês do texto antes da publicação. A prioridade editorial é de artigos que
+apresentem relevante contribuição teórica, prática e social para a literatura de
+Administração.
+
+Condições para submissão
+Como parte do processo de submissão, os autores são obrigados a verificar a
+conformidade da submissão em relação a todos os itens listados a seguir. As
+submissões que não estiverem de acordo com as normas serão devolvidas aos
+autores.
+1. Os conceitos, opiniões e ideias publicados nos trabalhos são de inteira e
+única responsabilidade de seu(s) autor(es).
+2. Os manuscritos submetidos à Alcance devem ser inéditos. Sendo que, os
+trabalhos publicados em anais de encontros científicos, como congressos,
+seminários, simpósios etc. são considerados inéditos.
+3. Os artigos podem ser submetidos em inglês, português e espanhol, desde
+que os autores submetam uma versão em inglês do texto aprovado antes
+para a publicação.
+4. Os manuscritos não podem estar em processo de avaliação em nenhum
+outro veículo de publicação, durante todo o processo de avaliação.
+5. Número máximo de autores por artigo: 4.
+6. Seguir as orientações completas sobre a submissão de artigos científicos,
+tecnológicos e casos para ensino.
+7. Anonimato dos autores devem estar presentes em todos os documentos
+submetidos, exceto Carta para o Editor.
+
+4
+
+Preparando a submissão
+• Os artigos e documentos serão submetidos somente por meio de formulário
+eletrônico disponível no site da Revista.
+• Os autores devem preencher corretamente seus dados no sistema de
+submissão, essas informações são indispensáveis no momento de
+publicação.
+• Submissões em desacordo com as normas ou incompletas serão devolvidas
+aos autores.
+
+A submissão de um manuscrito inclui (itens obrigatórios):
+1. Uma carta ao editor (anexar em Documentos Suplementares) – Clique aqui
+para acessar o modelo da carta;
+2. Inserir os dados completos dos autores (como filiação institucional, e-mail,
+endereço, telefone e número de registro ORCID iD (obrigatório));
+3. O manuscrito principal em formato Word, deve conter título e resumo em
+português, em inglês e em espanhol;
+4. O instrumento de pesquisa utilizado para coleta de dados (anexar em
+Documentos Suplementares); (Instrumento de coleta de dados (tanto de
+pesquisas qualitativas quanto quantitativas), como: questionário e/ou roteiro
+de entrevista completo aplicado, traduções e adequação de instrumentos
+estrangeiros adotados.)
+5. O arquivo deve ser enviado em formato editável, como Word 6.0 ou superior.
+
+DIRETRIZES PARA ARTIGO
+
+FORMATO
+• Times New Roman, tamanho 12
+• Espaçamento entre linhas: simples; depois 6
+• Alinhamento justificado
+• Margens: superior e esquerda – 3 cm, inferior e direita – 2 cm
+• Número de palavras, incluindo títulos, resumos, texto, referências e ilustrações:
+entre 7.000 a 9.000 palavras.
+• Citações, referências e ilustrações devem seguir as normas da American
+Psychological Association (APA). Resumo das regras da APA, clique aqui.
+Na primeira página deverão constar:
+
+5
+
+• Título (em português, inglês e espanhol);
+• Resumo Estruturado (em português, inglês e espanhol) – máximo de 260
+palavras – conforme abaixo:
+- Objetivo (obrigatório)
+- Design / metodologia / abordagem (obrigatório)
+- Resultados (obrigatório)
+- Limitações / implicações da pesquisa (se aplicável)
+- Implicações práticas (se aplicável)
+- Implicações sociais (se aplicável)
+- Implicações teóricas (se aplicável)
+- Originalidade / valor (obrigatório)
+
+• Palavras-chave (em português, em inglês e em espanhol) – de 3 a 5 palavras-
+chave.
+
+A partir da segunda página, deve vir o corpo do artigo ou documento. Não há
+exigências rígidas de formato, mas todos os artigos devem conter os elementos
+essenciais necessários para comunicar o argumento do manuscrito. Usualmente os
+artigos são estruturados por meio das seções Introdução, Referencial Teórico,
+Procedimentos Metodológicos, Resultados e Discussão e Conclusão.
+INTRODUÇÃO: espera-se que os autores apresentem, não necessariamente na
+ordem a seguir:
+• O objetivo do artigo;
+• A lacuna identificada na literatura que está sendo preenchida pelo artigo;
+• Justificativas para a importância da lacuna;
+• Explicações a respeito de como o artigo preenche a lacuna;
+• Uma breve descrição dos aspectos metodológicos;
+• Uma síntese dos resultados e suas implicações teóricas inovadoras;
+• Uma breve apresentação das próximas seções do artigo.
+REFERENCIAL TEÓRICO: apresentar uma síntese dos estudos anteriores
+diretamente relacionados ao fenômeno de pesquisa, abarcando artigos científicos
+nacionais e internacionais, com destaque para as lacunas no conhecimento;
+apresentação da(s) teoria(s) que sustenta(m) o estudo, com ênfase na definição dos
+seus principais conceitos. É importante enfatizar que a seção teórica deve ampliar o
+conhecimento a respeito do fenômeno, e não repetir a apresentação de teorias já
+publicadas em outros artigos.
+PROCEDIMENTOS METODOLÓGICOS: apresentar informações detalhadas. A
+ênfase deve ser colocada na descrição de como o estudo foi realizado, e sugerimos
+fortemente evitar o uso de taxonomias que não permitem entender ao leitor o que
+efetivamente foi realizado.
+RESULTADOS E DISCUSSÕES: espera-se que os autores explorem o significado
+dos resultados obtidos, e não apenas os apresentem de forma estanque. O contraste
+com a literatura é importante, mas recomendamos evitar o uso extensivo de citações
+e discussão de artigos já publicados. É fundamental discutir as limitações do estudo,
+
+6
+as ameaças à robustez dos resultados e os eventuais procedimentos que tenham sido
+adotados para limitar o impacto de tais ameaças.
+CONCLUSÃO: enfatizar o significado dos resultados, e não repetir a sua
+apresentação. É esperado que os autores discutam as implicações teóricas, práticas
+e sociais dos resultados obtidos, no sentido de destacar como os autores esperam
+que a pesquisa futura seja impactada pelos resultados obtidos no artigo, e quais
+oportunidades de pesquisa se abrem a partir dos resultados encontrados.
+
+ESCLARECIMENTOS:
+A fim de garantir o anonimato do processo de avaliação, o(s) autor(es) não
+deve(m) se identificar no corpo do artigo ou documento.
+As citações devem ser feitas no corpo do texto no sistema autor-data, incluindo
+os números de páginas (quando for o caso), conforme normas da APA. As referências
+completas das obras citadas deverão ser apresentadas em ordem alfabética ao final
+do texto, conforme norma APA. As ilustrações tais como figuras e tabelas, devem ser
+elaboradas segundo a norma APA, sempre em preto e branco, juntamente com
+legendas, créditos e fonte. Caso haja ilustrações importadas de outros programas,
+como o Excel e Power Point, enviar também o arquivo de origem, nos documentos
+suplementares.
+As notas de referência e explicativas devem ser evitadas. Quando essas notas
+forem estritamente necessárias, devem ser numeradas sequencialmente no corpo do
+texto e inseridas no final do texto. Além disso, siglas ao longo do texto também devem
+ser evitadas. O autor deve avaliar a necessidade do uso de siglas, se pouco usada
+talvez não seja necessária. Não é permitido o uso de siglas em tabelas.
+
+DIRETRIZES PARA CASOS DE ENSINO
+
+FORMATO
+• Times New Roman, tamanho 12
+• Espaçamento entre linhas: simples; depois 6
+• Alinhamento justificado
+• Margens: superior e esquerda – 3 cm, inferior e direita – 2 cm
+• Número de palavras, incluindo títulos, resumos, texto, referências e ilustrações:
+entre 5.000 a 7.000 palavras.
+• Citações, referências e ilustrações devem seguir as normas da American
+Psychological Association (APA). Resumo das regras da APA, clique aqui.
+Na primeira página deverão constar:
+• Título (em português, inglês e espanhol);
+• Resumo Estruturado (em português, inglês e espanhol) – máximo de 260
+palavras – conforme abaixo:
+- Dilema (obrigatório)
+
+7
+
+- Objetivo educacional (obrigatório)
+- Contextualização (obrigatório)
+- Tema principal (Obrigatório)
+- Público (graduação, formação executiva, mestrado, doutorado (obrigatório)
+- Limitações (se aplicável)
+- Originalidade / valor (obrigatório)
+
+• Palavras-chave (em português, em inglês e em espanhol) – de 3 a 5 palavras-
+chave.
+
+A partir da segunda página, deve vir o corpo do artigo ou documento.
+INTRODUÇÃO: Texto visando elucidar a quem se destina o caso, por exemplo,
+empresa ou setor (comentando brevemente sobre o mesmo) e contendo uma
+contextualização do tema escolhido (o conteúdo que levou a construção do caso).
+DESCRIÇÃO DO CASO: As informações poderão estar subdivididas em tópicos,
+conforme o autor achar conveniente. Relatar as principais informações sobre o caso
+tais como, mercado de atuação; produtos e serviços oferecidos; breve histórico;
+localização e estrutura organizacional; principais concorrentes; clientes e
+fornecedores, etc., de acordo com a temática do caso.
+NOTAS DE ENSINO
+1. Objetivos Educacionais
+O caso pode contemplar mais de um tema a ser trabalhado em uma aula, dependendo
+das informações contidas no mesmo. Nesse sentido é importante comentar que temas
+serão trabalhados em uma aula em que o caso venha a ser utilizado. Em que
+disciplinas o caso se encaixa? Nível dos alunos a quem o caso se destina (graduação?
+mestrado? formação executiva?). É indispensável a apresentação do plano de aula
+que deverá conter, no mínimo, atividades, objetivos educacionais de cada atividade e
+tempo sugerido.
+2. Fontes De Dados
+Comentar sobre os procedimentos metodológicos em termos de fontes (primárias e
+secundárias), instrumentos e formas de coleta dos dados.
+3. Questões para Discussão
+Devem ser propostas pelo menos 02 questões que estimulem a discussão em sala de
+aula e que tenham como base o conteúdo teórico principal descrito nos objetivos
+educacionais.
+4. Revisão de Literatura e Análise
+Neste item deve constar uma revisão da literatura atual relativa aos fundamentos
+teóricos sobre o tema e sub-temas abordados no caso, bem como a análise do caso
+(discussão) . Podem ser separados em subitens dependendo do conteúdo teórico a
+ser explorado.
+REFERÊNCIAS
+
+8
+Relacionar as obras usadas no Caso e nas Notas de Ensino utilizando as normas
+vigentes da American Psychological Association (APA) para referências.
+BIBLIOGRAFIAS RECOMENDADAS
+Incluir as referências que são interessantes para que o aluno consiga ter informações
+suficientes do arcabouço teórico a fim de resolver o caso.
+APÊNDICES E ANEXOS
+Quando for necessário
+
+ESCLARECIMENTOS:
+a) Conceitos de ‘Caso para Ensino’
+Casos são relatos de experiências vivenciadas por organizações, de interesse
+científico no campo da Administração, adaptados para uso didático. Um caso deve
+descrever uma situação em exame e propor questões para reflexão, com o objetivo
+de analisar decisões tomadas por uma organização que a conduziram ao momento
+em questão e, assim, contribuir para o aperfeiçoamento de suas ações, além de
+proporcionar oportunidade para aprimorar o processo de ensino-aprendizagem.
+b) Critérios e características técnicas:
+Os Casos para Ensino em Administração devem estar de acordo com os seguintes
+critérios e características técnicas:
+1. Atualidade do caso: O(s) autor(es) de casos deve(m) considerar que o seu principal
+objetivo é didático, o que significa que deve(m) focar: (1) na apresentação da natureza
+da situação organizacional em questão; (2) na descrição dos fatos que consolidam tal
+situação empresarial; (3) na apresentação sintética dos objetivos educacionais do
+caso; (4) na descrição sumária da forma de obtenção dos dados que compõem o caso;
+(5) na indicação do público que faria melhor uso do caso.
+2. Existem dois tipos de casos de ensino: (1) Caso real: baseado em trabalho de
+campo na(s) empresa(s) mencionada(s) no caso, e/ou em dados secundários (citar as
+fontes). (2) Armchair case: baseado em experiência de consultoria; os autores devem
+enviar uma declaração afirmando que o caso é fruto de suas experiências como
+consultores.
+3. Na descrição do caso não cabem Referências. Elas devem aparecer nas Notas de
+Ensino por ocasião da revisão de literatura e/ou se o autor quiser recomendar leituras
+pertinentes com a situação descrita no caso. As referências deverão ser apresentadas
+no corpo do texto, incluindo o sobrenome do autor da fonte, a data de publicação e o
+número de página (se for o caso), conforme normas da APA. Referências completas
+do(s) autor(es) citados deverão ser apresentadas em ordem alfabética, no final do
+texto, de acordo com as normas da APA.
+
+4. Notas não devem ser inseridas no rodapé. Use-as o menos possível, numerando-
+as sequencialmente no corpo do texto, e as apresente no final do caso, antes das
+
+Referências.
+5. Qualquer que seja o tipo de caso, os autores devem enviar uma carta assinada por
+um executivo da(s) empresa(s) mencionada(s), autorizando a publicação do caso. As
+empresas focalizadas nos casos de ensino podem ter seus nomes disfarçados, porém
+o disfarce não elimina a necessidade do envio da autorização de publicação.
+
+9
+Obs.: As normas apresentadas acima foram adaptadas do periódico Revista de
+Administração Contemporânea (RAC) da Associação Nacional de Pós-Graduação e
+Pesquisa em Administração (ANPAD).
+
+DIRETRIZES PARA ARTIGO TECNOLÓGICO
+
+FORMATO
+• Times New Roman, tamanho 12
+• Espaçamento entre linhas: simples; depois 6
+• Alinhamento justificado
+• Margens: superior e esquerda – 3 cm, inferior e direita – 2 cm
+• Número de palavras, incluindo títulos, resumos, texto, referências e ilustrações:
+entre 7.000 a 9.000 palavras.
+• Citações, referências e ilustrações devem seguir as normas da American
+Psychological Association (APA). Resumo das regras da APA, clique aqui.
+Na primeira página deverão constar:
+• Título (em português, inglês e espanhol);
+• Resumo Estruturado (em português, inglês e espanhol) – máximo de 260
+palavras – conforme abaixo:
+- Objetivo (obrigatório)
+- Contexto (obrigatório)
+- Diagnóstico (obrigatório)
+- Limitações / implicações da pesquisa (se aplicável)
+- Implicações práticas (se aplicável)
+- Implicações sociais (se aplicável)
+- Implicações teóricas (se aplicável)
+- Originalidade / valor (obrigatório)
+
+• Palavras-chave (em português, em inglês e em espanhol) – de 3 a 5 palavras-
+chave.
+
+A partir da segunda página, deve vir o corpo do artigo ou documento.
+INTRODUÇÃO: Recomenda-se que a proposta apresente uma descrição resumida e
+objetiva da delimitação da situaçãoproblema, indicando sua oportunidade e sua
+relevância para o contexto e a integração teoria-prática. Podem ser indicados estudos
+
+e projetos já implantados em outras organizações ou contextos similares, destacando-
+se as melhores práticas relacionadas à situação-problema/oportunidade investigada,
+
+as lacunas percebidas na organização/realidade de estudo, evidenciando que o
+problema exige uma solução (que poderá ser uma proposta ou conjunto de ações,
+proposta de modelos, metodologias ou desenvolvimento de um projeto, tecnologia,
+etc.); ou ainda a existência de uma oportunidade para o desenvolvimento de soluções
+junto à organização/realidade e a forma como tal oportunidade pode ser
+explorada/desenvolvida, visando à obtenção de resultados superiores. Ao final da
+
+10
+introdução, deve-se apresentar o objetivo do artigo tecnológico, que pode ser
+delimitado a partir de sua amplitude; da perspectiva temporal (recorte em função da
+viabilidade); do ponto de vista da situação-problema ou da oportunidade
+(características do fenômeno de interesse).
+CONTEXTO E A REALIDADE INVESTIGADA: Nesta seção, recomenda-se indicar as
+informações e os conteúdos relevantes para a identificação da organização/contexto
+do estudo, destacando os dados básicos da organização/setor/contexto; a descrição
+geral de seu ambiente (interno e externo); o histórico e a realidade da organização
+e/ou do setor pesquisado, e as principais características organizacionais ou do
+contexto (ex.: empresa, estado, município, etc.).
+DIAGNÓSTICO DA SITUAÇÃO-PROBLEMA E/OU OPORTUNIDADE: Neste item,
+recomenda-se apresentar a situação-problema e/ou oportunidade de
+melhoria/inovação vinculada ao contexto em análise (organização/governo/atores
+sociais envolvidos), demonstrando, se possível, a postura multidisciplinar do trabalho,
+a utilização de diferentes abordagens teóricocientíficas, privilegiando o rigor da
+investigação científica sem perder de vista o seu objetivo principal. Para isso, é
+possível considerar diferentes abordagens teóricas para a análise de alternativas de
+suporte à resolução da situação- 8 problema e/ou de desenvolvimento da
+oportunidade de melhoria/inovação; a descrição do processo e do uso de técnicas
+variadas e complementares para o levantamento de dados e informações
+(triangulação); a participação dos atores organizacionais e sociais envolvidos com a
+situação-problema e/ou com a oportunidade.
+ANÁLISE DA SITUAÇÃO-PROBLEMA E PROPOSTAS DE
+INOVAÇÃO/INTERVENÇÃO/RECOMENDAÇÃO: O artigo tecnológico pode
+apresentar e discutir as possíveis alternativas para a resolução da situação-problema
+ou para a/o exploração/desenvolvimento da oportunidade de melhoria/inovação.
+Espera-se que as alternativas sejam fundamentadas em bases teóricas e que a
+análise seja descrita de forma objetiva, indicando as etapas e os passos percorridos
+para chegar à construção da proposta (descrição do processo/aspectos de
+metodologia). A análise também pode indicar os ganhos gerados pelas alternativas
+mais indicadas para a resolução da situação-problema e/ou de oportunidade de
+melhoria/inovação, tanto para a organização/realidade investigada como para as
+pessoas e grupos envolvidos, interna e externamente.
+CONCLUSÕES E CONTRIBUIÇÃO TECNOLÓGICA/SOCIAL: Recomenda-se indicar
+a contribuição da proposta para as organizações e/ou para a sociedade, com ênfase
+nos benefícios, oportunidades de melhorias e consequências das possíveis soluções
+ou desdobramentos da proposta de solução da situação-problema para a organização
+ou a realidade estudada.
+
+ESCLARECIMENTOS: Como se trata de um trabalho de cunho científico, o artigo
+tecnológico deve apresentar as bases teórico metodológicas que lhe dão suporte.
+Embora não exijam um capítulo à parte de fundamentação teórica, elas devem
+aparecer ao longo do trabalho, podendo estar diluídas nos itens anteriormente citados,
+
+11
+com ênfase nos itens: Diagnóstico da situação-problema e/ou oportunidade e Análise
+da Situação-problema e propostas de inovação/intervenção/recomendação.
+Obs.: As normas apresentadas acima foram adaptadas do periódico Revista de
+Administração Contemporânea (RAC) da Associação Nacional de Pós-Graduação e
+Pesquisa em Administração (ANPAD).

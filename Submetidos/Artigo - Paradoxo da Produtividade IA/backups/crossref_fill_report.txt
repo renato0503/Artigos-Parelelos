@@ -1,0 +1,8 @@
+{'missing': {'author': 'Bloomberg', 'year': '2024', 'raw': "('Bloomberg', '2024')"}, 'ref': 'Bloomberg, M. (2024). PHYSIOLOGICAL AGING AND ITS USE AS A MARKER OF INEQUALITIES IN HEALTH: CROSS-NATIONAL PERSPECTIVES. Innovation in Aging, 8(Supplement_1), 375-375. https://doi.org/10.1093/geroni/igae098.1219', 'doi': '10.1093/geroni/igae098.1219'}
+
+{'missing': {'author': 'Clark', 'year': '2007', 'raw': "('Clark', '2007')"}, 'ref': 'Clark, S. & Clark, S. (2007). 12 Going on 29. https://doi.org/10.5040/9798216955092', 'doi': '10.5040/9798216955092'}
+
+{'missing': {'author': 'Minton', 'year': '2012', 'raw': "('Minton', '2012')"}, 'ref': 'Minton, E. (2012). Alimentación Saludable: Ideas para desayunos que no requieren cocción. EDIS, 2012(5). https://doi.org/10.32473/edis-fy1315-2012', 'doi': '10.32473/edis-fy1315-2012'}
+
+{'missing': {'author': 'Osborne', 'year': '2017', 'raw': "('Osborne', '2017')"}, 'ref': 'Osborne, W. (2017). Amel Boubekeur  and Olivier Roy , eds. Whatever Happened to the Islamists? Salafis, Heavy Metal Muslims and the Lure of Consumerist Islam. New York: Columbia University Press, 2012. ix + 224 pages, about the contributors, notes, bibliography, index. Cloth US$21.00 ISBN 978-0-231-15426-0.. Review of Middle East Studies, 51(1), 148-148. https://doi.org/10.1017/rms.2017.15', 'doi': '10.1017/rms.2017.15'}
+
