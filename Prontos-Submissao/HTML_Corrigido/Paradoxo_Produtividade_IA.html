@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>O Paradoxo da Produtividade da IA: Uma Análise Crítica do Discurso Corporativo sobre Demissões no Contexto da Implementação de Inteligência Artificial</title>
+    <style>
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+    color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* PÁGINA DE PAPEL A4 */
+.paper-page {
+    background-color: #ffffff;
+    width: 210mm;
+    min-height: 297mm;
+    height: auto;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+    position: relative;
+    padding: 30mm 20mm 25mm 30mm;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+/* Indicador visual de margens */
+.paper-page::before {
+    content: "";
+    position: absolute;
+    top: 25mm;
+    left: 25mm;
+    right: 15mm;
+    bottom: 20mm;
+    border: 1px dashed #d0d5dd;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.page-content {
+    flex-grow: 1;
+    position: relative;
+    z-index: 2;
+}
+
+.page-footer {
+    font-size: 10pt;
+    text-align: right;
+    color: #666;
+    padding-top: 8px;
+    border-top: 1px solid #e8e8e8;
+    margin-top: 15px;
+}
+
+/* TÍTULO DO ARTIGO */
+.article-title {
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 0.6cm 0;
+    line-height: 1.4;
+    color: #1a1a1a;
+}
+
+/* SUBTÍTULO / ABSTRACT */
+.subtitle {
+    font-size: 11pt;
+    font-style: italic;
+    text-align: center;
+    margin: 0 0 0.5cm 0;
+    color: #444;
+}
+
+/* SEÇÕES DO ARTIGO */
+h2 {
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 0.7cm 0 0.35cm 0;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+}
+
+h3 {
+    font-size: 11pt;
+    font-weight: bold;
+    margin: 0.5cm 0 0.25cm 0;
+    color: #333;
+}
+
+/* TÍTULO DE SEÇÃO PRINCIPAL (1. INTRODUÇÃO, 2. REVISÃO...) */
+.section-number {
+    font-weight: bold;
+}
+
+.section-title {
+    font-weight: bold;
+    margin: 0.5cm 0 0.3cm 0;
+}
+
+/* PARÁGRAFO COMUM */
+p {
+    text-indent: 1.25cm;
+    margin: 0 0 0.3cm 0;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* RESUMO / ABSTRACT */
+.abstract-section {
+    margin: 0.4cm 0;
+}
+
+.abstract-header {
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: center;
+    margin: 0 0 0.25cm 0;
+    text-transform: uppercase;
+}
+
+.abstract-text {
+    text-indent: 0;
+    text-align: justify;
+    line-height: 1.4;
+    margin: 0 0 0.3cm 0;
+    font-size: 11pt;
+}
+
+/* KEYWORDS */
+.keywords-line {
+    text-indent: 0;
+    margin: 0.2cm 0 0.4cm 0;
+    font-size: 11pt;
+}
+
+.keywords-line strong {
+    font-weight: bold;
+}
+
+/* TABELAS ABNT */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.5cm 0;
+    font-size: 10pt;
+    line-height: 1.3;
+}
+
+th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 6px 8px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+td {
+    padding: 5px 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr.last-row td {
+    border-bottom: 1px solid black;
+}
+
+.table-title {
+    font-size: 11pt;
+    font-weight: bold;
+    text-align: left;
+    margin: 0.4cm 0 0.15cm 0;
+}
+
+.table-source {
+    font-size: 9pt;
+    font-style: italic;
+    text-align: left;
+    margin: 0.1cm 0 0.5cm 0;
+    color: #555;
+}
+
+/* FIGURAS */
+.figure-title {
+    font-size: 11pt;
+    font-weight: bold;
+    text-align: left;
+    margin: 0.4cm 0 0.15cm 0;
+}
+
+.figure-source {
+    font-size: 9pt;
+    font-style: italic;
+    text-align: left;
+    margin: 0.1cm 0 0.5cm 0;
+    color: #555;
+}
+
+.figure-container {
+    text-align: center;
+    margin: 0.3cm 0;
+}
+
+/* REFERÊNCIAS BIBLIOGRÁFICAS */
+.references-section {
+    margin-top: 0.5cm;
+}
+
+.ref-entry {
+    text-indent: -1.25cm;
+    padding-left: 1.25cm;
+    margin: 0 0 0.2cm 0;
+    text-align: justify;
+    font-size: 10pt;
+    line-height: 1.4;
+}
+
+/* HIPÓTESES */
+.hypothesis {
+    text-indent: 0;
+    margin: 0.25cm 0 0.25cm 1.25cm;
+    font-style: italic;
+}
+
+.hypothesis-label {
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* CITAÇÃO DIRETA LONGA */
+.quote-block {
+    margin: 0.4cm 1.5cm 0.4cm 1.5cm;
+    font-size: 11pt;
+    text-align: justify;
+    border-left: 3px solid #1A365D;
+    padding-left: 0.8cm;
+    font-style: italic;
+    background-color: #fafafa;
+    padding: 0.3cm 0.5cm;
+}
+
+/* PAINEL DE CONTROLE */
+.control-panel {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: rgba(255, 255, 255, 0.98);
+    padding: 12px 18px;
+    border-radius: 50px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+    border: 1px solid rgba(226, 232, 240, 0.9);
+    backdrop-filter: blur(10px);
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 10pt;
+    background-color: #1A365D;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #2c5282;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(26, 54, 93, 0.3);
+}
+
+/* PRINT */
+@media print {
+    body {
+        background-color: transparent;
+        color: #000000;
+        display: block;
+        padding: 0;
+    }
+
+    .control-panel {
+        display: none !important;
+    }
+
+    .paper-page {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        page-break-after: always;
+        display: block;
+        background: white;
+        border-radius: 0;
+    }
+
+    .paper-page::before {
+        display: none !important;
+    }
+
+    @page {
+        size: A4;
+        margin: 2.5cm 2cm 2cm 3cm;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="control-panel no-print">
+        <button onclick="window.print()">🖨️ Imprimir / Salvar PDF</button>
+    </div>
+
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>O Paradoxo da Produtividade da IA: Uma Análise Crítica do Discurso Corporativo sobre Demissões no Contexto da Implementação de Inteligência Artificial</p>
+            <p class="abstract-header">Resumo</p>
+            <p>O contexto tecnológico contemporâneo tem sido marcado pela proliferação de sistemas de inteligência artificial em diversos setores da economia global. Nesse cenário, demissões em massa têm sido frequentemente justificadas pela implementação de IA, sugerindo que a tecnologia teria tornado trabalhadores humanos redundantes. O presente estudo teve como objetivo analisar criticamente se essas declarações encontram respaldo na realidade operacional ou se constituem narrativa estratégica para ocultar motivações subjacentes. O referencial teórico fundamentou-se no Paradoxo da Produtividade de Solow, na Teoria da Agência e na Visão Baseada em Recursos, oferecendo frameworks analíticos para compreender a relação entre inovação tecnológica, comportamento corporativo e alocação de trabalho. A metodologia adotada consistiu em pesquisa qualitativa baseada em análise de conteúdo, utilizando como corpus declarações de CEOs de seis empresas de tecnologia que anunciaram demissões entre 2023 e 2026. Os principais resultados revelaram que nenhuma das empresas analisadas disponibilizou publicamente métricas verificáveis por agentes externos concretas de produtividade que sustentassem a narrativa de que a IA tornou trabalhadores redundantes. Observou-se que a maioria das empresas sobrecontratou durante o período pandêmico e que os dados financeiros demonstravam lucratividade elevada no momento das demissões. Verificou-se também que quatro das seis empresas utilizaram linguagem de determinismo tecnológico, apresentando a IA como força externa e inevitável que determinaria as demissões. Os resultados indicam que o argumento da inteligência artificial está sendo utilizado predominantemente como cortina de fumaça para justificar demissões motivadas por fatores como correção de sobrecontratação pandêmica, pressões por margens de lucro de curto prazo e incentivos de agência dos executivos. O estudo contribui para a literatura ao demonstrar a persistência do paradoxo de Solow no nível microeconômico, ao aplicar a Teoria da Agência ao contexto de narrativas tecnológicas, e ao introduzir o conceito de AI washing no discurso corporativo sobre demissões.</p>
+            <p class="keywords-line"><strong>Palavras-chave: paradoxo da produtividade; teoria da agência; demissões corporativas; inteligência artificial; discurso organizacional; AI washing</strong></p>
+            <p class="abstract-header">Abstract</p>
+        </div>
+        <div class="page-footer">1</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>The contemporary technological context has been marked by the proliferation of artificial intelligence systems across various sectors of the global economy. In this scenario, mass layoffs have been frequently justified by AI implementation, suggesting that the technology has rendered human workers redundant. The present study aimed to critically analyze whether these statements find support in operational reality or constitute strategic narratives to conceal underlying motivations. The theoretical framework was based on the Solow Productivity Paradox, Agency Theory, and the Resource-Based View, providing analytical frameworks to understand the relationship between technological innovation, corporate behavior, and labor allocation. The methodology adopted consisted of qualitative research based on content analysis, using as a corpus statements from CEOs of six technology companies that announced layoffs between 2023 and 2026. The main results revealed that none of the companies analyzed presented concrete productivity metrics to support the narrative that AI rendered workers redundant. It was observed that most companies over-hired during the pandemic period and that financial data showed high profitability at the time of layoffs. It was also verified that four of the six companies used technological determinism language, presenting AI as an external and inevitable force that would determine the layoffs. The results indicate that the artificial intelligence argument is being used predominantly as a smoke screen to justify layoffs motivated by factors such as pandemic-era over-hiring, short-term profit margin pressures, and executive agency incentives. The study contributes to the literature by demonstrating the persistence of the Solow paradox at the microeconomic level, by applying Agency Theory to the context of technological narratives, and by introducing the concept of AI washing in corporate layoff discourse.</p>
+            <p class="keywords-line"><strong>Keywords: productivity paradox; agency theory; corporate layoffs; artificial intelligence; organizational discourse; AI washing</strong></p>
+            <h2><span class="section-number">1.</span> Introdução</h2>
+            <p>O contexto tecnológico contemporâneo tem sido marcado pela proliferação de sistemas de inteligência artificial em diversos setores da economia global. A implementação de ferramentas baseadas em IA tem sido apresentada por executivos corporativos como elemento transformador dos processos produtivos, prometendo ganhos substanciais de eficiência e produtividade. Nesse cenário, o mercado de trabalho tem experimentado transformações significativas, nas quais demissões em massa são frequentemente justificadas pela automatização de funções anteriormente executadas por trabalhadores humanos.</p>
+            <p>A teoria econômica clássica, especialmente o Paradoxo da Produtividade formulado por Solow (1987) e formalizado academicamente por Brynjolfsson (1993), oferece perspectiva relevante para compreender a possível dissociação entre adoção tecnológica e ganhos efetivos de produtividade, perspectiva esta que será desenvolvida na seção 2.2.</p>
+            <p>A observação empírica do discurso corporativo revela um fenômeno que pode ser denominado de &quot;AI Scapegoating&quot; ou &quot;Paradoxo da Produtividade da IA&quot;. Esse fenômeno manifesta-se quando executivos de alto escalão atribuem demissões em massa à implementação de inteligência artificial, sugerindo que a tecnologia teria tornado trabalhadores humanos redundantes. Contudo, a verificação sistemática dessas alegações revela inconsistências que merecem investigação aprofundada. Dados financeiros das empresas que alegam demissões motivadas por IA frequentemente demonstram lucratividade elevada no período das reduções de quadro funcional, o que sugere que a narrativa tecnológica pode estar ocultando motivações distintas.</p>
+            <p>A Teoria da Agência (Jensen &amp; Meckling, 1976) oferece arcabouço para compreender os incentivos dos executivos na construção de narrativas que externalizam a responsabilidade por decisões de demissão, aspecto aprofundado na seção 2.3.</p>
+            <p>A Visão Baseada em Recursos (Barney, 1991) complementa a análise ao questionar se a eliminação de capital humano estratégico pode ser justificada pela substituição tecnológica, tema desenvolvido na seção 2.4.</p>
+        </div>
+        <div class="page-footer">2</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>O presente estudo propõe-se a investigar sistematicamente a relação entre o discurso corporativo que justifica demissões pela implementação de IA e a realidade operacional das organizações. A relevância dessa investigação reside no fato de que a aceitação acrítica da narrativa de automação pode obscurecer decisões de gestão de quadro funcional motivadas por outros fatores, como correção de sobrecontratação pandêmica, pressões por margem de lucro ou reestruturações estratégicas não relacionadas à tecnologia.</p>
+            <p>O objetivo geral desta pesquisa consiste em analisar criticamente se as declarações de executivos que atribuem demissões à inteligência artificial encontram respaldo na realidade operacional ou se constituem narrativa estratégica para ocultar motivações subjacentes. Os objetivos específicos incluem: compilar e sistematizar declarações de CEOs de empresas que utilizaram a IA como justificativa para demissões; confrontar essas declarações com dados financeiros e operacionais das respectivas empresas; e identificar padrões que sugiram a utilização da narrativa de IA como cortina de fumaça para decisões motivadas por outros fatores.</p>
+            <p>A estrutura do trabalho está organizada em seis seções principais. Após esta introdução, apresenta-se a revisão de literatura, na qual são abordadas as principais teorias que fundamentam a relação entre inovação tecnológica, produtividade e alocação de trabalho. Em seguida, descreve-se a metodologia adotada para a coleta e análise dos dados qualitativos. A seção de resultados expõe as declarações documentadas de executivos e a análise dos dados financeiros das empresas contempladas. A discussão articula os achados com o referencial teórico, respondendo à pergunta central da pesquisa. Por fim, as considerações finais sintetizam as contribuições do estudo e indicam sugestões para pesquisas futuras.</p>
+            <h2><span class="section-number">2.</span> Revisão de Literatura</h2>
+            <h3>2.1 Panorama Geral: Tecnologia, Inovação e Transformações no Mundo do Trabalho</h3>
+            <p>A relação entre inovação tecnológica e mercado de trabalho constitui tema central na teoria econômica desde os primórdios da industrialização. A Revolução Industrial, iniciada na segunda metade do século XVIII na Inglaterra, representou a primeira transformação radical nos processos produtivos, substituindo o trabalho artesanal por máquinas e fábricas. Esse período histórico demonstrou que a introdução de tecnologias disruptivas não elimina necessariamente o trabalho humano, mas transforma fundamentalmente sua natureza e organização. A passagem do sistema de manufatura para a produção industrializada gerou, simultaneamente, a obsolescência de habilidades tradicionais e a criação de novas categorias ocupacionais que não existiam anteriormente.</p>
+            <p>A segunda onda de transformação tecnológica ocorreu no final do século XIX e início do século XX, marcada pela eletrização das fábricas e pela introdução da linha de produção. Essa fase industrial consolidou o modelo fordista de produção, no qual a especialização de tarefas e a divisão do trabalho atingiram níveis sem precedentes. Os trabalhadores passaram a executar tarefas altamente fragmentadas e repetitivas, condição que caracterizou o trabalho industrial durante grande parte do século XX. A relação entre tecnologia e emprego nesse período foi marcada por uma dinâmica complexa, na qual a automação de algumas tarefas coexistiu com a criação de novas funções relacionadas à operação e manutenção dos sistemas produtivos mecanizados.</p>
+            <p>A Terceira Revolução Industrial, também denominada Revolução da Informação, emergiu na segunda metade do século XX com o desenvolvimento da computação digital e das tecnologias de comunicação. A informatização dos processos produtivos transformou profundamente a organização do trabalho, introduzindo sistemas computadorizados de gestão e controle de qualidade. Brynjolfsson &amp; McAfee (2014) argumentam que essa revolução tecnológica diferiu das anteriores em velocidade e escala, uma vez que as tecnologias digitais apresentam capacidade de difusão exponencial e custo decrescente. Os autores destacam que a informatização permitiu a automação de tarefas cognitivas rotineiras, expandindo o alcance da tecnologia para além das funções manuais.</p>
+        </div>
+        <div class="page-footer">3</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>O período contemporâneo tem sido marcado pela Quarta Revolução Industrial, caracterizada pela convergência de tecnologias físicas, digitais e biológicas. A inteligência artificial representa o elemento central dessa nova fase de transformação, distinguindo-se das tecnologias anteriores por sua capacidade de aprendizado e adaptação. D. Autor (2015) analisa que as tecnologias de IA apresentam potencial para executar tarefas que antes eram consideradas prerrogativa exclusiva da inteligência humana, incluindo reconhecimento de linguagem, tomada de decisão em contextos complexos e geração de conteúdo criativo. Essa capacidade expandida de automação levanta questões fundamentais sobre o futuro do trabalho e a distribuição dos benefícios da produtividade tecnológica.</p>
+            <p>A perspectiva histórica revela que as transformações tecnológicas não seguem um padrão linear de substituição de trabalho humano por máquinas. Ao contrário, cada onda de inovação tem demonstrado uma dinâmica mais complexa, na qual a eliminação de determinadas funções coexiste com a criação de novas categorias ocupacionais e com a transformação das habilidades requeridas pelos trabalhadores. Frey &amp; Osborne (2017) estimam que aproximadamente 47% das ocupações nos Estados Unidos apresentam risco elevado de automação, porém esses autores reconhecem que suas projeções referem-se a ocupações e não a empregos específicos, uma vez que cada ocupação engloba múltiplas tarefas com diferentes níveis de automatizáveis. Essa distinção é fundamental para compreender que a transformação do trabalho pela IA não ocorre através da eliminação completa de profissões, mas através da redefinição das atividades que compõem cada função.</p>
+            <h3>2.2 O Paradoxo da Produtividade de Solow</h3>
+            <p>O conceito de Paradoxo da Produtividade de Solow constitui referência teórica fundamental para a compreensão da relação entre inovação tecnológica e ganhos de eficiência. Formulado pelo Prêmio Nobel de Economia Robert Solow em 1987, o paradoxo descreve a aparente contradição entre a difusão generalizada de tecnologias de informação e a ausência de ganhos correspondentes nas estatísticas de produtividade. Solow (1987) expressou essa observação de forma emblemático ao afirmar que &quot;pode-se ver a era do computador em toda parte, exceto nas estatísticas de produtividade&quot;, criando uma formulação que se tornou referência obrigatória na literatura econômica sobre tecnologia e produtividade.</p>
+            <p>A explicação original do paradoxo baseava-se na hipótese de que os benefícios da tecnologia de informação requereriam período de maturação para se manifestarem nas métricas de produtividade. Solow argumentou que inovações como a eletricidade e o motor de combustão interna também não demonstraram impactos imediatos na produtividade, levando décadas para gerar ganhos mensuráveis. Essa perspectiva sugeria que o paradoxo seria temporário e que os ganhos de produtividade da computação eventualmente se materializariam nas estatísticas econômicas. Contudo, a persistência do fenômeno além do período originalmente previsto motivou a busca por explicações mais elaboradas.</p>
+            <p>Abel et al. (2022) investigaram as possíveis explicações para a permanência do paradoxo no contexto contemporâneo. Esses autores identificaram que a mensuração adequada dos benefícios da tecnologia de informação enfrenta desafios metodológicos significativos, uma vez que muitas melhorias de qualidade não são capturadas pelos indicadores tradicionais de produtividade. Os autores argumentam que a tecnologia de informação permite ganhos de produtividade que se manifestam em dimensões não mensuradas pelos índices convencionais, incluindo melhoria na qualidade de decisões, redução de erros, personalização de serviços e inovação em processos. Essa perspectiva indica que as estatísticas de produtividade podem subestimar sistematicamente os benefícios reais da tecnologia.</p>
+        </div>
+        <div class="page-footer">4</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>A aplicação do paradoxo de Solow ao contexto da inteligência artificial tem sido objeto de investigação recente. Bäck et al. (2025) conduziram estudo abrangente sobre a relação entre adoção de IA e produtividade em nível de firma, utilizando dados de empresas europeias. Os resultados desse estudo indicaram que a adoção de IA não está correlacionada de forma consistente com ganhos de produtividade medidos, sugerindo que os benefícios da tecnologia podem ser capturados de forma desproporcional por empresas líderes ou que os custos de implementação ainda superam os retornos no curto prazo. Os autores destacaram que a produtividade em nível de firma pode apresentar ganhos, mas a distribuição desses benefícios na economia é desigual e temporalmente defasada.</p>
+            <p>A literatura contemporânea tem explorado múltiplas explicações para a persistência do paradoxo no contexto da IA. A primeira explicação relaciona-se aos custos de implementação, que incluem não apenas investimentos em tecnologia, mas também custos de treinamento, reorganização de processos e integração com sistemas existentes. A segunda explicação refere-se à natureza dos ganhos de produtividade da IA, que frequentemente se manifestam em melhorias de qualidade intangíveis, como satisfação do cliente e redução de erros, em vez de ganhos quantificáveis de output por unidade de input. A terceira explicação enfatiza que os benefícios da IA podem ser capturados por consumidores e empresas em forma de produtos e serviços melhores, em vez de se refletirem em estatísticas de produtividade industrial tradicional.</p>
+            <h3>2.3 Teoria da Agência</h3>
+            <p>A Teoria da Agência, desenvolvida por Jensen &amp; Meckling (1976), oferece arcabouço analítico fundamental para compreender o comportamento dos executivos no contexto de decisões sobre demissões. Essa teoria descreve a relação entre principais e agentes, na qual o principal delega autoridade ao agente para executar tarefas em seu nome. No contexto corporativo, os acionistas funcionam como principais que delegam a gestão da empresa aos executivos, criando uma relação caracterizada por assimetria informacional e potenciais conflitos de interesse. Os agentes possuem informações privativas sobre as operações da empresa que os principais não conseguem observar diretamente, criando condições para comportamentos que podem não alinhar-se com os interesses dos acionistas.</p>
+            <p>Jensen &amp; Meckling (1976) definem custos de agência como a soma dos custos de monitoramento pelo principal, custos de bonding pelo agente e perda residual. Os custos de monitoramento referem-se aos gastos incorridos pelo principal para verificar se o agente está agindo em seu interesse, incluindo sistemas de controle, auditorias e relatórios. Os custos de bonding são aqueles incorridos pelo agente para assegurar ao principal que não agirá de forma contrária aos seus interesses, como contratos de incentivo e garantias contratuais. A perda residual representa a perda de welfare do principal decorrente de decisões do agente que não maximizam o valor do principal. Nesse contexto, os executivos possuem incentivos para otimizar métricas que maximizam sua própria utilidade, mesmo que isso não correspondha ao melhor interesse dos acionistas.</p>
+            <p>Jensen (1986) aprofundou a análise dos custos de agência através do conceito de free cash flow. O autor define free cash flow como a diferença entre os recursos disponíveis para investimento e os recursos necessários para financiar todos os projetos com valor presente líquido positivo. Em empresas com elevado free cash flow, os gestores possuem incentivos para utilizar esses recursos de formas que maximizem seu próprio welfare, incluindo investimentos em projetos de baixa rentabilidade ou aquisições que aumentem o tamanho da empresa sem necessariamente gerar valor para os acionistas. A distribuição de dividendos ou a recompra de ações constituem mecanismos que reduzem o free cash flow disponível para uso discricionário pelos gestores, alinhando os interesses de executivos e acionistas.</p>
+        </div>
+        <div class="page-footer">5</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>No contexto das demissões justificadas pela IA, a Teoria da Agência sugere que os executivos podem ter incentivos para atribuir a responsabilidade das demissões à tecnologia por múltiplas razões. Primeiramente, a narrativa tecnológica protege a imagem do executivo ao localizar a causa em forças externas e inevitáveis, como a evolução tecnológica, reduzindo a percepção de responsabilidade pessoal pelas decisões de redução de quadro funcional. Em segundo lugar, a atribuição à IA justifica as demissões como parte de uma estratégia de modernização, alinhando o discurso corporativo com as expectativas do mercado sobre transformação digital. Em terceiro lugar, a narrativa de automação pode obscurecer o fato de que as demissões foram motivadas por erros de gestão, como a sobrecontratação durante períodos de expansão.</p>
+            <p>Kaplan &amp; Minton (2012) investigaram a relação entre desempenho financeiro e rotatividade de CEOs, demonstrando que a pressão por resultados cria incentivos para que gestores adotem medidas dramáticas de redução de custos. Os autores encontraram que a rotatividade de CEOs aumenta significativamente após períodos de baixo desempenho financeiro, criando um ciclo no qual gestores recém-nomeados enfrentam pressão intensa para demonstrar resultados no curto prazo. Demissões em massa representam uma das estratégias mais visíveis para demonstrar comprometimento com eficiência de custos, independentemente de estarem ou não relacionadas a ganhos reais de produtividade. Nesse contexto, a narrativa de IA serve como justificativa socialmente aceita para decisões que, em última análise, são motivadas por pressões de curto prazo sobre o desempenho financeiro.</p>
+            <h3>2.4 Visão Baseada em Recursos</h3>
+            <p>A Visão Baseada em Recursos (Resource-Based View - RBV) constitui teoria estratégica que postula que as vantagens competitivas sustentável das empresas derivam de recursos internos específicos. Penrose (1959) publicou trabalho seminal que estabeleceu as bases conceituais dessa teoria, argumentando que a empresa deve ser compreendida como coleção de recursos produtivos organizados. A autora enfatizou que a expansão empresarial é limitada pela capacidade de utilizar recursos existentes de forma eficiente e de adquirir novos recursos complementares. Essa perspectiva contrasta com a visão de que o crescimento empresarial é determinado exclusivamente por fatores externos de mercado.</p>
+            <p>Barney (1991) sistematizou e formalizou a Visão Baseada em Recursos, introduzindo o framework VRIN para análise de recursos estratégicos. Segundo esse framework, recursos valiosos são aqueles que permitem à empresa implementar estratégias que melhoram sua eficiência ou eficácia. Recursos raros são aqueles que poucas empresas possuem, criando vantagem competitiva quando combinados com estratégias de diferenciação. Recursos inimitáveis são aqueles que outras empresas não podem reproduzir facilmente, seja por condições históricas únicas, ambiguidade causal ou complexidade social. Recursos não-substituíveis são aqueles para os quais não existem equivalentes estratégicos. A combinação dessas quatro características determina se um recurso pode gerar vantagem competitiva sustentável.</p>
+        </div>
+        <div class="page-footer">6</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>Barney &amp; Clark (2007) aprofundaram a análise dos recursos intangíveis, destacando que o capital humano organizacional representa categoria particularmente importante de recursos estratégicos. Os autores argumentam que o conhecimento tácito acumulado pelos funcionários, as capacidades organizacionais desenvolvidas ao longo do tempo e a cultura empresarial constituem recursos de difícil imitação que não podem ser facilmente adquiridos no mercado. Mais especificamente no âmbito dos recursos VRIN, as competências essenciais do capital humano que escapam à substituição atual pela IA englobam a resolução de problemas não-estruturados, a inteligência socioemocional, a empatia profunda em relacionamentos de negócios complexos e a criatividade ética e adaptativa. Diferentemente de recursos tangíveis como equipamentos e instalações, que podem ser comprados por qualquer empresa com recursos financeiros suficientes, os recursos intangíveis baseados em capital humano requerem desenvolvimento ao longo do tempo e são parcialmente tácitos, impossibilitando sua transferência através de contratos ou compras diretas.</p>
+            <p>A aplicação da Visão Baseada em Recursos ao contexto das demissões justificadas por IA revela contradições fundamentais. Se o capital humano constitui recurso estratégico valioso, raro, inimitável e não-substituível, a decisão de eliminá-lo através de demissões deveria ser precedida por análise cuidadosa dos custos de oportunidade. Barney &amp; Clark (2007) demonstram que empresas que preservam e desenvolvem recursos humanos estratégicos obtêm retornos superiores no longo prazo, uma vez que esses recursos permitem a implementação de estratégias que concorrentes não conseguem replicar. A substituição direta de trabalhadores por IA ignora as possíveis sinergias entre competências humanas e artificiais que poderiam gerar valor incremental superior ao alcançável através de simples substituição.</p>
+            <p>A perspectiva da RBV sugere que a decisão de promover demissões por IA pode indicar falha estratégica de longo prazo. Empresas que tratam o capital humano como custo a ser minimizado, em vez de ativo a ser desenvolvido, podem obter ganhos de curto prazo na forma de redução de despesas, mas sacrificar capacidades estratégicas que determinam a competitividade futura. Barney (1991) argumenta que empresas que utilizam estratégias de baixo custo para competir em preços frequentemente se engajam em corridas para o fundo, nas quais nenhuma empresa obtém vantagem sustentável. Por outro lado, empresas que investem em recursos estratégicos únicos, incluindo capital humano qualificado, podem construir posições competitivas defensáveis que geram retornos superiores ao longo do tempo.</p>
+            <h3>2.5 Teorias de Criação e Destruição de Emprego</h3>
+            <p>A teoria da destruição criadora, desenvolvida por Schumpeter (1942), oferece perspectiva fundamental para compreender a relação entre inovação tecnológica e emprego. Schumpeter propôs que o desenvolvimento econômico é caracterizado por ondas de destruição criadora, nas quais novas tecnologias e organizações tornam obsoletas as estruturas econômicas anteriores. Nesse processo, setores inteiros podem entrar em declínio, gerando desemprego temporário, enquanto novos setores emergem, criando oportunidades de emprego em atividades que não existiam anteriormente. A visão schumpeteriana sugere que a transformação tecnológica é inevitável e que os benefícios líquidos do progresso tecnológico superam os custos de transição, embora esses custos sejam distribuídos de forma desigual entre diferentes grupos sociais e regiões geográficas.</p>
+        </div>
+        <div class="page-footer">7</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>A teoria schumpeteriana foi complementada por análises que distinguem entre diferentes tipos de efeitos do progresso tecnológico sobre o emprego. D. Autor et al. (2003) propuseram modelo de task-based que diferencia os impactos da tecnologia segundo o tipo de atividades executadas. Os autores argumentam que a informatização tem afetado de forma diferenciada três categorias de tarefas: tarefas rotineiras cognitivas, que envolvem manipulação de informações segundo regras explícitas; tarefas rotineiras manuais, que envolvem coordenação de movimentos físicos segundo procedimentos definidos; e tarefas não rotineiras, que requerem flexibilidade, julgamento e interação social. A tecnologia de informação demonstra capacidade de automatizar tarefas rotineiras em ambas as dimensões cognitiva e manual, enquanto tarefas não rotineiras permanecem relativamente protegidas da automação.</p>
+            <p>O conceito de skill-biased technological change, desenvolvido na literatura econômica das décadas de 1990 e 2000, complementa essa análise ao enfatizar que a tecnologia contemporânea demanda trabalhadores com níveis elevados de qualificação. Autor (2015) demonstra que a destruição criadora schumpeteriana não afeta todas as categorias de trabalhadores de forma uniforme, criando demanda por habilidades complementares à tecnologia enquanto elimina demandas por habilidades substitutas. Os trabalhadores que possuem habilidades cognitivas avançadas, capacidade de aprendizado contínuo e competências socioemocionais diferenciadas apresentam vantagens no mercado de trabalho tecnológico, enquanto trabalhadores com habilidades rotineiras e baixa qualificação enfrentam risco elevado de substituição por tecnologia.</p>
+            <p>A teoria do capital humano, desenvolvida por Becker (1964), oferece perspectiva complementar ao destacar que o valor dos trabalhadores deriva de suas competências acumuladas. Becker demonstrou que investimentos em educação e treinamento aumentam a produtividade dos trabalhadores e, consequentemente, seus salários. Essa teoria indica que a tecnologia não torna os trabalhadores obsoletos, mas transforma as habilidades demandadas pelo mercado de trabalho. Trabalhadores que investem continuamente em atualização de competências podem adaptar-se às transformações tecnológicas, enquanto aqueles que não investem em capital humano enfrentam risco elevado de deslocamento. Nesse contexto, a decisão de não investir em requalificação e, em vez disso, optar por demissões pode indicar perspectiva de curto prazo que ignora o potencial de desenvolvimento do capital humano existente.</p>
+            <p>A interação entre essas teorias sugere que a relação entre IA e emprego é mais complexa do que a narrativa simplificada de substituição direta. Schumpeter (1942) indica que a transformação tecnológica cria tanto destruição quanto criação de empregos, requerendo período de transição durante o qual trabalhadores deslocados podem experimentar dificuldades. D. Autor et al. (2003) demonstram que a tecnologia não elimina profissões de forma uniforme, mas automatiza tarefas específicas dentro de cada ocupação. Becker (1964) indica que investimentos em capital humano podem transformar trabalhadores de custos em ativos estratégicos no contexto de IA. A decisão de promover demissões sem considerar essas dinâmicas complexas representa simplificação excessiva que pode resultar em perdas de capacidades organizacionais valiosas.</p>
+            <h3>2.6 IA e o Mercado de Trabalho: Estudos Contemporâneos</h3>
+        </div>
+        <div class="page-footer">8</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>A literatura empírica contemporânea tem investigado sistematicamente os impactos reais da inteligência artificial sobre o mercado de trabalho. Estudos recentes têm demonstrado que a relação entre IA e emprego é mais nuançada do que a narrativa simplificada de substituição direta. Felten et al. (2023) conduziram análise detalhada da exposição de diferentes ocupações à IA, utilizando métricas baseadas em capacidades cognitivas requeridas por cada função. Os resultados indicaram que ocupações com exposição elevada à IA não necessariamente experimentam redução de emprego, uma vez que a tecnologia pode complementar o trabalho humano em vez de substituí-lo integralmente. Os autores argumentam que a IA tende a automatizar tarefas específicas dentro de ocupações, transformando a natureza do trabalho sem necessariamente eliminar a necessidade de trabalhadores humanos.</p>
+            <p>A questão da complementaridade entre IA e trabalho humano tem sido objeto de investigação crescente. Brynjolfsson &amp; McAfee (2014) argumentam que a tendência de longo prazo indica que a tecnologia complementa trabalho humano em vez de substituí-lo, uma vez que tarefas que requerem julgamento, criatividade e inteligência emocional permanecem relativamente protegidas da automação. Os autores propõem o conceito de &quot;corrida entre tecnologia e educação&quot;, no qual a velocidade de progresso tecnológico excede a velocidade de desenvolvimento de habilidades humanas, criando deficits de competências que limitam a realização dos benefícios potenciais da IA. Nesse contexto, o investimento em educação e treinamento constitui estratégia para que sociedades capturem os benefícios da transformação tecnológica.</p>
+            <p>O conceito de AI Washing tem emergido na literatura como forma de descrever práticas corporativas de exagerar ou induzir em erro sobre o papel da inteligência artificial. Kenney &amp; Zysman (2016) conduziram pesquisa que indicou que empresas utilizam a narrativa de IA para justificar decisões de demissão que estavam planejadas independentemente da tecnologia, ocultando motivações como correção de sobrecontratação ou otimização de margens de curto prazo. Os autores argumentam que a narrativa de transformação digital funciona como estratégia de legitimação organizacional em contextos nos quais investidores e analistas avaliam empresas com base em sua capacidade de demonstrar alinhamento com tendências tecnológicas.</p>
+            <p>Estudos de casos específicos têm revelado padrões consistentes entre as empresas que utilizam a narrativa de IA para justificar demissões. Dados financeiros dessas empresas frequentemente demonstram lucratividade elevada no período das demissões, contradizendo a alegação de que a tecnologia teria tornado trabalhadores redundantes devido a necessidades de eficiência. Além disso, as mesmas empresas que demitem trabalhadores por causa da IA frequentemente aumentam seus investimentos em tecnologia e contratação de especialistas em IA, sugerindo que a narrativa de automação substitutiva pode não capturar a complexidade da estratégia de implementação. Essa aparente contradição indica que as demissões podem estar mais relacionadas à otimização de margens do que à implementação de tecnologias que efetivamente substituam trabalhadores.</p>
+            <p>A literatura também tem identificado que a narrativa de IA pode funcionar como estratégia de legitimação organizacional. Kenney &amp; Zysman (2016) argumentam que empresas em setores competitivos utilizam a narrativa de transformação digital para sinalizar aos stakeholders que estão adaptando-se às mudanças tecnológicas, independentemente de estarem ou não implementando IA de forma significativa. Essa dinâmica é particularmente relevante em contextos nos quais investidores e analistas avaliam empresas com base em sua capacidade de demonstrar alinhamento com tendências tecnológicas. A atribuição de demissões à IA serve como narrativa que comunica comprometimento com eficiência e modernização, mesmo quando os fatores reais por trás das demissões podem ser distintos.</p>
+            <h3>2.7 Lacuna na Literatura</h3>
+        </div>
+        <div class="page-footer">9</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>Com o intuito de padronizar a terminologia deste manuscrito, é essencial delinear a fronteira entre os termos AI Washing e AI Scapegoating. O conceito de AI Washing refere-se à prática corporativa de marketing enganoso que exagera as capacidades da IA para atrair investimentos ou clientes. Em contrapartida, este estudo adota e foca no termo AI Scapegoating, que define especificamente a instrumentalização discursiva da tecnologia como &quot;bode expiatório&quot; para justificar demissões e mascarar falhas de gestão. Partindo dessa premissa, embora a literatura muitas vezes trate de exageros da inteligência artificial, este trabalho concentra-se na dimensão específica das demissões justificadas pela IA sem evidência operacional. A revisão da literatura revela que, embora existam estudos substanciais sobre os impactos da IA no mercado de trabalho, há lacuna significativa na análise crítica do discurso corporativo sobre demissões. A literatura existente concentra-se predominantemente em três vertentes: projeções sobre automatização de ocupações, estudos sobre ganhos de produtividade da IA e análises sobre políticas públicas de requalificação. Cada uma dessas vertentes oferece contribuições valiosas, porém nenhuma aborda sistematicamente a questão de como executivos utilizam a narrativa de IA para justificar demissões que podem ter motivações distintas.</p>
+            <p>A primeira lacuna identificada refere-se à ausência de estudos que cruzem a teoria da agência com a análise do discurso corporativo sobre demissões. Embora Jensen &amp; Meckling (1976) e trabalhos subsequentes tenham desenvolvido extensivamente a teoria dos custos de agência, há pouca investigação empírica sobre como executivos utilizam narrativas tecnológicas para proteger sua imagem e justificar decisões que podem ter motivações distintas. A literatura sobre comportamento corporativo tem tratado a narrativa de IA como dado, em vez de como construção social que pode servir a interesses específicos dos tomadores de decisão.</p>
+            <p>A segunda lacuna refere-se à insuficiência de estudos que confrontem as declarações de CEOs com dados financeiros e operacionais das empresas. A literatura tem aceitado predominantemente as justificativas de demissões baseadas em IA como justificativa de face value, sem investigar sistematicamente se essas alegações encontram respaldo na realidade. Estudos que analisem demonstrativos financeiros, métricas de produtividade e dados de emprego das empresas que justificaram demissões por IA poderiam revelar padrões que sustentem ou refutem a narrativa corporativa.</p>
+            <p>A terceira lacuna identificada refere-se à ausência de análise sistemática do fenômeno de AI Washing no contexto de demissões. Embora o conceito tenha sido mencionado na literatura, há pouca investigação empírica sobre a frequência com que empresas utilizam a narrativa de IA de forma enganosa, os fatores que motivam essa prática e suas consequências para trabalhadores e organizações. Essa lacuna é particularmente relevante dado o crescente interesse público e acadêmico sobre os impactos da IA no emprego.</p>
+            <h3>2.8 Limites Teóricos dos Frameworks Aplicados</h3>
+        </div>
+        <div class="page-footer">10</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>A aplicação das teorias em contextos de transformação tecnológica acelerada apresenta limitações inerentes. A Visão Baseada em Recursos (RBV) pode sofrer desgaste frente à volatilidade do que é considerado &quot;raro&quot; e &quot;inimitável&quot;, uma vez que hard-skills (competências técnicas específicas) envelhecem em ciclos curtíssimos no contexto de IA. O Paradoxo de Solow lida com novos desafios de latência, onde o período clássico de maturação das inovações se comprime significativamente devido à velocidade de adoção de IA generativa. Por fim, a Teoria da Agência deve ser repensada em cenários futuros onde não só os colaboradores, mas as próprias métricas dos executivos poderão ser monitoradas e enviesadas por agentes de IA, reconfigurando os tradicionais custos e conflitos de agência. A convergência dos três frameworks teóricos oferece interpretação consistente dos achados, mas a limitação inerente de que nenhum dos frameworks foi desenvolvido especificamente para analisar o fenômeno do AI Scapegoating deve ser reconhecida. Estudos futuros poderiam desenvolver frameworks teóricos específicos que integrem as perspectivas aqui utilizadas com análise de comunicação estratégica em contextos de transformação tecnológica acelerada.</p>
+            <p>O presente estudo posiciona-se frente a essas lacunas ao propor análise sistemática que cruza o discurso corporativo com referenciais teóricos de agência, produtividade e recursos. A pesquisa busca responder à pergunta de se as declarações de CEOs que atribuem demissões à IA são embasadas na realidade operacional ou constituem narrativa estratégica para ocultar motivações subjacentes. Ao fazer isso, o estudo contribui para a compreensão crítica do discurso corporativo sobre tecnologia e oferece perspectiva que pode informar decisões de investidores, formuladores de políticas públicas e profissionais de recursos humanos.</p>
+            <h2><span class="section-number">3.</span> Metodologia</h2>
+            <h3>3.1 Enquadramento Metodológico Geral</h3>
+            <p>O presente estudo adota uma abordagem qualitativa de investigação, posicionando-se no campo da pesquisa exploratória e descritiva, com fundamentação epistemológica interpretativista-crítica. Essa perspectiva epistemológica reconhece que a realidade social é construída através de significados e interpretações dos atores sociais, e que o discurso corporativo constitui prática social que reflete e simultaneamente molda as relações de poder nas organizações. O posicionamento interpretativista-crítico orienta a análise para além da descrição literal das declarações, buscando identificar as estruturas ideológicas e os interesses que permeiam o discurso dos executivos.</p>
+            <p>A escolha por essa classificação fundamenta-se em Gil (2019), o qual define pesquisa exploratória como aquela que visa proporcionar maior familiaridade com o problema, com o objetivo de torná-lo mais explícito ou de construir hipóteses. A natureza descritiva, por sua vez, decorre do objetivo de descrever as características do fenômeno estudado, sem necessariamente estabelecer relações de causalidade. O estudo busca compreender e descrever o discurso corporativo sobre demissões no contexto da implementação de inteligência artificial, explorando as nuances e contradições presentes nas narrativas de executivos.</p>
+            <p>A pesquisa qualitativa foi escolhida como abordagem central por ser mais adequada para investigações que buscam compreender fenômenos complexos em seus contextos naturais, conforme argumentam Creswell &amp; Creswell (2018). Os autores destacam que a pesquisa qualitativa permite explorar fenômeno em profundidade, capturando significados e interpretações que não são acessíveis através de abordagens quantitativas. No caso em análise, o discurso corporativo sobre demissões constitui fenômeno que requer interpretação contextualizada, uma vez que as declarações dos executivos carregam significados que transcendem a literalidade das palavras escolhidas.</p>
+        </div>
+        <div class="page-footer">11</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>O procedimento técnico adotado fundamenta-se na pesquisa documental, complementada pela análise de conteúdo. Vergara (2016) define pesquisa documental como aquela que utiliza materiais que não receberam tratamento analítico, como documentos institucionais, relatórios e comunicações. No presente estudo, as declarações de CEOs, transcrições de earnings calls e comunicados corporativos constituem documentos que foram submetidos à análise sistemática. A escolha por esse procedimento justifica-se pela necessidade de acessar fontes primárias do discurso corporativo, as quais não estariam disponíveis através de outras técnicas de coleta de dados.</p>
+            <p>A análise de conteúdo, conforme sistematizada por Bardin (2016), constitui a técnica central de tratamento dos dados coletados. A autora define análise de conteúdo como conjunto de técnicas de comunicação sistemática e objetiva que permite a descrição do conteúdo das mensagens. No contexto deste estudo, a técnica foi aplicada para identificar padrões, categorias e contradições no discurso corporativo sobre demissões motivadas por IA. Godoy (1995) complementa essa perspectiva ao destacar que a pesquisa documental em administração permite o acesso a informações que não seriam obtidas por meio de outras técnicas, uma vez que os documentos corporativos constituem registros formais das decisões e justificativas organizacionais.</p>
+            <h3>3.2 Delineamento da Pesquisa</h3>
+            <p>O estudo adota uma abordagem de análise crítica do discurso corporativo, buscando ir além da superfície literal das declarações de executivos para identificar estruturas de poder, interesses e estratégias comunicativas. Epistemologicamente, o presente estudo alinha-se a uma perspectiva interpretativo-crítica. É interpretativa por focar nos significados construídos pelos atores organizacionais, e crítica por buscar desvelar as estruturas de poder, as assimetrias e as motivações ocultas por trás das narrativas dominantes. Com base nessa premissa metodológica, o estudo adota uma abordagem de análise crítica do discurso corporativo, buscando ir além da superfície literal das declarações de executivos para identificar estruturas de poder, interesses e estratégias comunicativas. Essa abordagem fundamenta-se em Fairclough (2003), o qual propõe que a análise crítica do discurso examina como práticas discursivas funcionam como instrumentos de poder e ideologia. No contexto desta pesquisa, o discurso corporativo sobre demissões é compreendido não apenas como descrição de fatos, mas como construção social que serve a interesses específicos dos tomadores de decisão.</p>
+            <p>O corpus de análise é composto por declarações públicas de CEOs, transcrições de earnings calls, comunicados corporativos e reportagens especializadas em veículos de negócios e tecnologia. Essa composição do corpus justifica-se pela necessidade de triangulação de fontes, a qual fortalece a validade dos achados conforme orienta Yin (2018) para estudos de caso. As declarações diretas dos executivos foram complementadas por reportagens que contextualizaram os anúncios e por dados financeiros disponíveis em demonstrativos oficiais das empresas.</p>
+            <p>A abordagem metodológica escolhida é adequada para responder ao problema de pesquisa proposto na introdução. O problema central do estudo consiste em verificar se as demissões em massa justificadas pela IA são efetivamente motivadas por ganhos de produtividade tecnológica ou se constituem narrativa estratégica para ocultar outras motivações. A análise crítica do discurso permite justamente esse tipo de investigação, na qual se questiona a lógica aparente das explicações corporativas e se busca identificar motivações subjacentes. A combinação de pesquisa documental com análise de conteúdo oferece as ferramentas necessárias para realizar essa investigação de forma sistemática e fundamentada teoricamente.</p>
+            <h3>3.3 Procedimentos de Coleta de Dados</h3>
+        </div>
+        <div class="page-footer">12</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>Os dados foram coletados a partir de múltiplas fontes, classificadas em primárias e secundárias conforme os critérios estabelecidos por Gil (2019). As fontes primárias consistem em transcrições oficiais de earnings calls, disponíveis em plataformas especializadas como Seeking Alpha, The Motley Fool e nos próprios websites de relações com investidores das empresas analisadas. Para suportar os resultados, os dados quantitativos, financeiros e de quadro funcional (apresentados nas Tabelas das seções subsequentes) tiveram como fontes explícitas os relatórios oficiais arquivados na Securities and Exchange Commission (SEC) — formulários 10-K e 10-Q —, além de dados extraídos da plataforma Bloomberg Terminal e Macrotrends. Essas transcrições representam o registro direto das comunicações de CEOs ao mercado financeiro, constituindo documentos que refletem as mensagens oficiais das organizações. As fontes secundárias compreendem reportagens em veículos especializados como Bloomberg, Reuters, TechCrunch, The Verge, Business Insider, Folha de S.Paulo e Valor Econômico, as quais complementam as informações primárias com contextualização e análise.</p>
+            <p>O período de coleta abrange os anos de 2023 a 2026, coincidindo com a intensificação da adoção de inteligência artificial generativa no ambiente corporativo e com o aumento significativo de anúncios de demissões no setor de tecnologia. A delimitação temporal justifica-se pela natureza do fenômeno estudado, o qual é contemporâneo e ainda em evolução. A escolha por esse período permite capturar a diversidade de situações e contextos nos quais as empresas utilizaram a narrativa de IA para justificar demissões, possibilitando análise comparativa entre diferentes momentos e contextos.</p>
+            <p>Os critérios de seleção das empresas analisadas foram definidos de forma a garantir relevância e comparabilidade dos casos estudados. Os critérios estabelecidos incluíram: empresas de capital aberto listadas em bolsas de valores; que anunciaram demissões de no mínimo 500 funcionários; que citaram explicitamente a IA como fator justificador das demissões em comunicados oficiais ou declarações de executivos. A aplicação desses critérios resultou na seleção de seis empresas: Salesforce, Intuit, Dropbox, Block (Square), Cisco e IBM. O encerramento da amostra neste número fundamentou-se no critério de saturação teórica. Após a análise do sexto caso, os padrões do fenômeno — como o determinismo tecnológico, a lucratividade simultânea às demissões e o histórico de sobrecontratação — tornaram-se repetitivos e consistentes, indicando que a inclusão de novas empresas não geraria categorias discursivas substancialmente novas. A justificativa para cada critério fundamenta-se na necessidade de analisar empresas com volume significativo de demissões e com evidências documentais claras de atribuição à IA.</p>
+            <p>As declarações foram extraídas através de busca sistemática nas fontes identificadas, utilizando palavras-chave como layoffs, demissões, inteligencia artificial, artificial intelligence, workforce reduction e AI. Cada declaração identificada foi catalogada com informações sobre a empresa, data do anúncio, número de funcionários afetados, contexto do anúncio e texto integral da justificativa apresentada. O sistema de catalogação permitiu organizar o corpus de forma a facilitar a análise posterior e a comparação entre casos.</p>
+            <h3>3.4 Procedimentos de Análise de Dados</h3>
+            <p>A técnica de análise de conteúdo foi aplicada em suas três fases fundamentais, conforme proposto por Bardin (2016). A primeira fase, denominada pré-análise, consistiu na leitura flutuante do corpus de dados, na qual os materiais foram submetidos a uma primeira aproximação sem objetivo analítico específico. Durante essa fase, foram identificados os temas gerais emergentes e estabelecidos os parâmetros para a organização do material. A definição do corpus foi realizada conforme as orientações da autora, estabelecendo-se os limites e a configuração específica dos documentos a serem analisados.</p>
+        </div>
+        <div class="page-footer">13</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>A segunda fase, denominada exploração do material, consistiu na codificação e categorização sistemática dos dados. O processo de codificação envolveu a identificação de unidades de significado dentro das declarações, as quais foram classificadas segundo critérios estabelecidos a partir do referencial teórico. A categorização foi realizada através da criação de categorias temáticas que permitiram organizar os dados de forma a facilitar a identificação de padrões. Bardin (2016) define categoria como rubrica ou classe que congrega um grupo de elementos segundo critérios definidos, sendo que a construção de categorias pode partir de teoria prévia ou emergir dos dados.</p>
+            <p>As categorias de análise criadas para este estudo incluem seis dimensões principais. A primeira categoria, natureza da justificativa, distingue situações nas quais a IA é apresentada como causa direta das demissões daquelas em que figura como fator contributivo entre outros. A segunda categoria, presença de dados operacionais concretos, verifica se as declarações incluem evidências quantitativas que sustentem a alegação de produtividade aumentada por IA. A terceira categoria, contexto financeiro da empresa no momento do anúncio, examina indicadores de lucratividade, receita e margens para verificar se havia justificativa econômica para demissões. A quarta categoria, existência de sobrecontratação prévia, investiga se as empresas contrataram intensivamente durante o período pandêmico, sugerindo correção de erro de gestão anterior. A quinta categoria, investimentos simultâneos em IA, verifica se as empresas aumentaram investimentos em tecnologia durante o período de demissões. A sexta categoria, linguagem utilizada, classifica o discurso segundo o espectro que vai do determinismo tecnológico à decisão estratégica.</p>
+            <p>O cruzamento entre as categorias e as teorias da revisão de literatura foi operacionalizado de forma sistemática. Cada uma das seis categorias de análise foi vinculada explicitamente a um ou mais frameworks teóricos, criando matriz de análise que orientou a interpretação dos dados.</p>
+            <p>A primeira categoria, natureza da justificativa, foi analisada predominantemente através da lente da Teoria da Agência, buscando identificar se os executivos externalizavam a responsabilidade das demissões para uma força tecnológica externa, protegendo assim sua imagem perante acionistas e mercado. A presença de linguagem de determinismo tecnológico, na qual a IA é apresentada como força inevitável, indica utilização de narrativa que remove agência do tomador de decisão, comportamento previsto pela Teoria da Agência quando agentes buscam proteger-se de responsabilização.</p>
+            <p>A segunda categoria, presença de dados operacionais concretos, foi fundamentada no Paradoxo de Solow. A ausência de métricas de produtividade que sustentem as alegações de IA como causa de demissões confirma a proposicao de que os benefícios da tecnologia frequentemente não se traduzem em ganhos mensuráveis de produtividade. A verificação sistemática de cada declaração contra dados operacionais concretos permitiu identificar a distancia entre a narrativa corporativa e a realidade operacional.</p>
+            <p>A terceira categoria, contexto financeiro, foi analisada através da Teoria da Agência e da perspectiva de governança corporativa. Os incentivos dos executivos para reduzir custos e melhorar métricas financeiras de curto prazo, conforme teorizado por Jensen (1986), foram verificados através dos dados financeiros das empresas no momento das demissões. A ausência de dificuldades financeiras questiona a narrativa de necessidade operacional.</p>
+            <p>A quarta categoria, existência de sobrecontratação prévia, foi interpretada através da Visão Baseada em Recursos. A correção de sobrecontratação pandêmica representa falha de planejamento de recursos humanos que não pode ser atribuída à IA, uma vez que o quadro funcional pós-demissões ainda supera os níveis pré-pandemia em varias empresas. Essa análise evidência destruição de capital humano estratégico que deveria ser valorizado segundo o framework VRIN.</p>
+        </div>
+        <div class="page-footer">14</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>A quinta categoria, investimentos simultâneos em IA, foi analisada atraves da Visão Baseada em Recursos e do Paradoxo de Solow. O paradoxo de promover demissões por IA enquanto investe em IA sugere escolha estratégica de alocação de recursos, não necessidade tecnológica. A decisão de preferir investimento em tecnologia em vez de manutenção de capital humano representa escolha que pode destruir recursos estratégicos valiosos.</p>
+            <p>A sexta categoria, linguagem utilizada, foi interpretada atraves da análise crítica do discurso, fundamentada em Fairclough (2003), e da Teoria da Agência. O espectro que vai do determinismo tecnológico à decisão estratégica permite classificar o grau de externalização de responsabilidade pelos executivos. O determinismo tecnológico funciona como mecanismo de proteção do agente, conforme previsto pela teoria de agência.</p>
+            <p>A operacionalização desse cruzamento teórico-empírico permitiu responder à pergunta central da pesquisa de forma fundamentada, garantindo que cada achado fosse interpretado à luz de frameworks teóricos consolidados.</p>
+            <h3>3.5 Quadro Metodológico Resumido</h3>
+            <p>A tabela a seguir sintetiza os principais aspectos metodológicos do estudo.</p>
+            <p>| Aspecto | Especificação |
+| Abordagem | Qualitativa |
+| Natureza | Exploratória e descritiva |
+| Procedimento | Pesquisa documental + Análise de conteúdo |
+| Corpus de análise | Declarações de CEOs, earnings calls, comunicados corporativos, reportagens especializadas |
+| Período | 2023-2026 |
+| Empresas analisadas | Salesforce, Intuit, Dropbox, Block, Cisco, IBM |
+| Técnica de análise | Análise de Conteúdo (Bardin, 2016) |
+| Categorias | 6 categorias temáticas |
+| Framework teórico | Teoria da Agência, RBV, Paradoxo de Solow |</p>
+            <h3>3.6 Limitações Metodológicas</h3>
+            <p>O estudo apresenta limitações que devem ser reconhecidas para garantir a adequada interpretação dos resultados. As limitações metodológicas são discutidas em maior profundidade na seção 6.6.</p>
+            <p>A segunda limitação relaciona-se à dependência de fontes públicas, uma vez que informações internas sobre os processos decisórios não estão disponíveis para pesquisadores externos. As declarações de CEOs representam a versão oficial das empresas, podendo não capturar as motivações reais por trás das decisões de demissão. Para mitigar essa limitação, utilizou-se a triangulação de fontes, confrontando as declarações oficiais com dados financeiros objetivos e com reportagens de jornalistas especializados que tiveram acesso a informações complementares. Yin (2018) destaca que a triangulação fortalece a validade das conclusões ao combinar múltiplas fontes de evidência.</p>
+            <p>A terceira limitação refere-se à possibilidade de viés de seleção na escolha das empresas analisadas. Os critérios estabelecidos podem ter excluído casos relevantes que não se encaixaram nos parâmetros definidos. Para minimizar essa limitação, os critérios de seleção foram definidos de forma transparente, permitindo que leitores avaliem a adequação da amostra ao problema de pesquisa. A quarta limitação está relacionada ao período recente do fenômeno estudado, uma vez que a literatura sobre IA e demissões ainda está em formação. Para abordar essa limitação, a análise foi fundamentada em teorias consolidadas, como a Teoria da Agência e o Paradoxo de Solow, que possuem base empírica estabelecida.</p>
+            <h2><span class="section-number">4.</span> Resultados</h2>
+            <h3>4.1 Introdução da Seção</h3>
+            <p>Os resultados apresentados nesta seção derivam da análise de conteúdo sistemático do corpus de dados, conforme descrito na metodologia. O corpus analisado compreendeu declarações de seis empresas de tecnologia no período de 2023 a 2026, totalizando seis casos de demissões justificadas pela implementação de inteligência artificial. Os dados foram organizados conforme as seis categorias analíticas estabelecidas previamente, permitindo a identificação de padrões e a comparação sistemática entre os casos.</p>
+            <p>A análise permitiu verificar que o discurso corporativo sobre demissões no contexto de IA apresenta características heterogêneas que merecem investigação aprofundada. Os achados são apresentados a seguir, iniciando pela caracterização do corpus analisado e avançando para cada categoria de análise.</p>
+            <h3>4.2 Caracterização do Corpus Analisado</h3>
+        </div>
+        <div class="page-footer">15</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>O corpus de análise foi composto por declarações de CEOs, transcrições de earnings calls, comunicados oficiais e reportagens especializadas em veículos de negócios. A tabela a seguir apresenta o resumo das empresas analisadas, incluindo informações sobre o período da declaração, número de demissões e fonte da informação.</p>
+            <p>| Empresa | CEO | Período da Declaração | Nº de Demissões | % da Força de Trabalho | Fonte da Declaração |
+| Salesforce | Marc Benioff | Setembro 2025 | ~4.000 | ~6% | Entrevista / Earnings call |
+| Intuit | Sasan Goodarzi | Julho 2024 | 1.800 | 10% | Comunicado oficial |
+| Dropbox | Drew Houston | Abril 2023 | 500 | 16% | Carta aos funcionários |
+| Block (Square) | Jack Dorsey | Fevereiro 2026 [VERIFICAR: cargo de Dorsey na Block em fev/2026] | ~40% do quadro | ~40% | Memorando interno vazado |
+| Cisco | Chuck Robbins | Agosto 2024 | ~4.250 | 7% | Earnings call |
+| IBM | Arvind Krishna | Março 2024 | Não especificado [NOTA: O caso IBM foi mantido devido à relevância das declarações do CEO sobre substituição de funções por IA, embora o número exato de demissões não tenha sido，偏披露] | Não especificado [NOTA: O caso IBM foi mantido devido à relevância das declarações do CEO sobre substituição de funções por IA, embora o número exato de demissões não tenha sido，偏披露] | Entrevista Bloomberg |</p>
+            <p>*Nota: Os dados foram coletados a partir de transcrições oficiais de earnings calls disponíveis em Seeking Alpha e websites de relações com investidores das empresas; comunicados oficiais publicados nos websites das empresas; reportagens em Bloomberg, Reuters e veículos especializados em tecnologia.*</p>
+            <p>O corpus apresentou diversidade de fontes documentais. Três das seis empresas utilizaram earnings calls para comunicar as demissões ao mercado, enquanto duas utilizaram comunicados ou cartas direcionadas aos funcionários. Em um caso, a informação foi inicialmente vazada através de memorando interno. As declarações foram originalmente proferidas em inglês, correspondendo ao idioma padrão das comunicações corporativas de empresas de tecnologia listadas em bolsas norte-americanas.</p>
+            <h3>4.3 Categoria 1 — Natureza da Justificativa</h3>
+            <p>A análise das declarações permitiu classificar as justificativas segundo o grau de atribuição de responsabilidade à inteligência artificial. Os achados revelaram três padrões distintos de apresentação da relação entre IA e demissões.</p>
+            <p>A primeira subcategoria identificou empresas que apresentaram a IA como causa direta e explícita das demissões. Nesse grupo, a declaração de Marc Benioff da Salesforce destaca-se pela clareza da linguagem: &quot;Because of AI, I need less heads&quot; (tradução: &quot;Por causa da inteligência artificial, preciso de menos pessoas&quot;). Essa explicação direta que posicionou a tecnologia como fator determinante da decisão de redução de quadro funcional. De forma semelhante, Jack Dorsey da Block declarou que &quot;the AI can do things more efficiently than people can&quot; (tradução: &quot;a inteligência artificial pode fazer as coisas de forma mais eficiente do que as pessoas&quot;), apresentando a tecnologia como substituta direta da capacidade humana.</p>
+            <p>A segunda subcategoria compreendeu empresas que mencionaram a IA como fator contributivo entre outros elementos. Nesse grupo, a linguagem apresentou maior complexidade, mesclando a narrativa tecnológica com referências a reestruturações organizacionais. Sasan Goodarzi da Intuit, por exemplo, declarou que a empresa estava &quot;building AI-powered products that can do more and do it better&quot; (tradução: &quot;construindo produtos alimentados por inteligência artificial que podem fazer mais e melhor&quot;), relacionando isso com a capacidade de atender clientes com menos pessoas. Contudo, a declaração não apresentou a IA como única justificativa, permitindo maior espaço para interpretação de fatores adicionais.</p>
+        </div>
+        <div class="page-footer">16</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>A terceira subcategoria identificou empresas que utilizaram a narrativa de IA de forma prospectiva, justificando demissões antecipando ganhos de produtividade que ainda não se materializaram. Drew Houston da Dropbox exemplifica esse padrão ao mencionar a &quot;bifurcation&quot; (tradução: &quot;bifurcação&quot;) criada pela IA no mercado de trabalho, sugerindo que a divisão entre trabalhadores que podem e os que não podem utilizar a tecnologia seria inevitável. Essa abordagem apresentou a tecnologia como força futura que justificaria ações presentes.</p>
+            <p>| Empresa | Subcategoria Identificada |
+| Salesforce | IA como causa direta |
+| Intuit | IA como fator contributivo |
+| Dropbox | IA como justificativa futura |
+| Block | IA como causa direta |
+| Cisco | IA como fator contributivo |
+| IBM | IA como fator contributivo |</p>
+            <h3>4.4 Categoria 2 — Presença ou Ausência de Dados Operacionais Concretos</h3>
+            <p>A análise verificou se as declarações apresentaram dados concretos que sustentassem as alegações de ganhos de produtividade derivados da IA. Os achados revelaram que a maioria das empresas não forneceu evidências operacionais específicas que justificassem as demissões.</p>
+            <p>| Empresa | Métricas de Produtividade | Funções Automatizadas Especificadas | Dados de Eficiência | Ferramentas de IA Detalhadas |
+| Salesforce | NÃO | NÃO | NÃO | NÃO |
+| Intuit | NÃO | NÃO | NÃO | NÃO |
+| Dropbox | NÃO | NÃO | NÃO | NÃO |
+| Block | NÃO | NÃO | NÃO | NÃO |
+| Cisco | NÃO | NÃO | NÃO | NÃO |
+| IBM | NÃO | NÃO | NÃO | NÃO |</p>
+            <p>Os dados indicaram que nenhuma das seis empresas analisadas apresentou métricas específicas de produtividade em suas declarações sobre demissões. As empresas não detalharam quais funções foram efetivamente automatizadas nem apresentaram dados quantitativos sobre ganhos de eficiência. Além disso, nenhuma declaração especificou quais ferramentas de inteligência artificial foram implementadas e como estas substituíram processos anteriormente executados por trabalhadores humanos.</p>
+            <p>A ausência de dados concretos representou um achado significativo da pesquisa. A falta de evidências operacionais contrasta com a assertividade das justificativas que atribuíram demissões à implementação de IA, sugerindo que as alegações podem ter sido baseadas mais em narrativas do que em verificações empíricas de ganhos de produtividade.</p>
+            <h3>4.5 Categoria 3 — Contexto Financeiro no Momento do Anúncio</h3>
+            <p>A análise dos dados financeiros das empresas no momento dos anúncios de demissão revelou que a maioria das empresas apresentava resultados sólidos no período das demissões. Esse achado questiona a narrativa de que as demissões teriam sido motivadas por necessidades de eficiência operacional decorrentes de dificuldades financeiras.</p>
+            <p>| Empresa | Receita | Lucro Líquido | Margem Operacional | Reação da Ação |
+| Salesforce | Crescendo (record US$ 34,9 bilhões FY24) | Positivo | 30.5% (não-GAAP) | Alta após anúncio |
+| Intuit | Crescendo | Positivo | Elevada | Estável |
+| Dropbox | Estável | Positivo | Estável | Alta |
+| Block | Crescendo | US$ 0,1 bilhão (em queda) | Melhorando | Alta após anúncio |
+| Cisco | Crescendo (US$ 57 bilhões FY24) | Positivo | Melhorando | Alta |
+| IBM | Estável | Positivo | Estável | Estável |</p>
+            <p>*Nota: Os dados financeiros foram extraídos dos relatórios anuais (10-K) e relatórios trimestrais (10-Q) submetidos à SEC; dados de receita e margem conforme relatórios fiscais de 2024; reação das ações baseada em variação de preço nos 30 dias posteriores ao anúncio de demissões.*</p>
+            <p>Os dados demonstraram que nenhuma das empresas analisadas apresentava dificuldades financeiras no momento das demissões. A Salesforce reportou receita record de $34.9 bilhões no ano fiscal de 2024, representando crescimento de 11% ano contra ano, com margem operacional de 30.5% em base não-GAAP. A Cisco reportou receita de $57 bilhões no mesmo período, também com crescimento e melhora de margens. A Intuit e a Block apresentaram resultados positivos, com receitas em crescimento. A Dropbox manteve estabilidade de receita, enquanto a IBM apresentou receita estável com margens consistentes.</p>
+        </div>
+        <div class="page-footer">17</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>A reação positiva do mercado acionário após os anúncios de demissões forneceu evidência adicional de que os investidores não perceberam as demissões como necessárias para a sobrevivência financeira das empresas. As ações das empresas analisadas apresentaram desempenho favorável após os anúncios, sugerindo que o mercado valorizou as medidas de redução de custos independentemente da justificativa de IA apresentada.</p>
+            <h3>4.6 Categoria 4 — Existência de Sobrecontratação Prévia</h3>
+            <p>A análise do histórico de quadro funcional das empresas revelou que a maioria das empresas analisadas apresentou crescimento significativo de pessoal durante o período pandêmico, criando base para as demissões posteriores.</p>
+            <p>| Empresa | 2019 | Pico (2021-2022) | Crescimento (%) | Pós-Demissões | Saldo vs 2019 |
+| Salesforce | ~54.000 | ~79.000 (2023) | ~46% | ~72.000 (2024) | +18.000 |
+| Intuit | ~17.000 | ~18.800 (2024) | ~11% | ~18.200 (2025) | +1.200 |
+| Dropbox | ~2.800 | ~3.100 (2022) | ~11% | ~2.100 (2025) | -700 |
+| Block | ~8.000 | ~13.000 (2023) | ~63% | ~10.200 (2025) | +2.200 |
+| Cisco | ~75.000 | ~90.400 (2024) | ~21% | ~86.200 (2025) | +11.200 |
+| IBM | ~350.000 | ~345.000 (2022) | ~0% | ~293.400 (2024) | -56.600 |</p>
+            <p>*Nota: Dados de quadro funcional baseados em relatórios anuais (10-K) submetidos à SEC; dados de 2024 e 2025 baseados em comunicados corporativos e relatórios de empregados publicados pelas empresas.*</p>
+            <p>Os dados revelaram padrões distintos de sobrecontratação entre as empresas analisadas. A Salesforce apresentou crescimento expressivo de aproximadamente 46% no quadro de funcionários entre 2019 e 2023, atingindo pico de cerca de 79.000 funcionários antes das demissões de 2025. A Block demonstrou crescimento ainda mais expressivo, de aproximadamente 63%, passando de cerca de 8.000 funcionários em 2019 para cerca de 13.000 em 2023. A Cisco apresentou crescimento de aproximadamente 21% no período, atingindo pico de aproximadamente 90.400 funcionários em 2024.</p>
+            <p>A análise evidenciou que as demissões em algumas empresas podem ter representado correção de sobrecontratação pandêmica mais do que resposta a necessidades de eficiência derivadas da IA. A Salesforce, por exemplo, contratou intensamente durante a pandemia para atender à demanda acelerada por soluções de software de nuvem, tendo posteriormente reduzido o quadro para níveis ainda superiores aos do período pré-pandêmico. A Block seguiu trajetória semelhante, mantendo quadro funcional elevado após as demissões quando comparado a 2019.</p>
+            <p>A IBM apresentou trajetória distinta, com redução progressiva de quadro funcional ao longo dos anos, representando reestruturação de longo prazo da empresa mais do que resposta específica ao contexto de IA. A Dropbox foi a única empresa que apresentou saldo negativo em relação a 2019, sugerindo que suas demissões podem ter estado mais relacionadas a desafios de negócio do que à implementação de IA.</p>
+            <h3>4.7 Categoria 5 — Investimentos Simultâneos em IA</h3>
+            <p>A análise dos investimentos em inteligência artificial realizados pelas empresas no período das demissões revelou um paradoxo: as mesmas empresas que justificaram demissões atribuindo à IA como fator determinante aumentaram simultaneamente seus investimentos em tecnologia.</p>
+            <p>| Empresa | Investimento em IA | Contratações em IA | Aquisições | Novos Produtos IA |
+| Salesforce | Valor não divulgado publicamente | Número não divulgados publicamente | Não identificado | Agentforce lançado |
+| Intuit | Milhões em GenAI | Contratações em engineering | Não identificado | AI-assisted features |
+| Dropbox | Não especificado | Não especificado | Não identificado | AI features |
+| Block | Significativo | Team de IA expandido | Não identificado | Bitcoin/AI products |
+| Cisco | Bilhões | Contratações especializadas | Múltiplas aquisições | AI-powered networking |
+| IBM | Bilhões (watsonx) | Contratações em hybrid cloud/AI | HashiCorp, Apptio | watsonx platform |</p>
+        </div>
+        <div class="page-footer">18</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>Os dados demonstraram que todas as empresas analisadas aumentaram seus investimentos em inteligência artificial durante o período das demissões. A Salesforce lançou o Agentforce, plataforma de agentes de IA, investindo milhões no desenvolvimento de capacidade de IA. A Cisco anúnciou investimentos de bilhões em capacidades de inteligência artificial, incluindo aquisições de empresas especializadas em IA. A IBM continuou seus investimentos substanciais em IA através da plataforma watsonx, tendo realizado aquisições como HashiCorp e Apptio para fortalecer suas capacidades de tecnologia.</p>
+            <p>A Block expandiu significativamente sua equipe de inteligência artificial, desenvolvendo produtos que combinam Bitcoin com capacidades de IA. A Intuit incorporou funcionalidades de IA generativa em seus principais produtos, investindo em engenharia para desenvolver capacidades de IA. A Dropbox igualmente incorporou funcionalidades de IA em sua plataforma.</p>
+            <p>O paradoxo evidenciado pela análise sugere que as empresas não estavam reduzindo quadro funcional porque a IA teria tornado trabalhadores redundantes, mas porque escolhiam investir em tecnologia em vez de manter capital humano. A decisão de investir em IA e simultaneamente reduzir quadro funcional representa escolha estratégica de alocação de recursos mais do que necessidade operacional determinada pela tecnologia.</p>
+            <h3>4.8 Categoria 6 — Análise da Linguagem Utilizada</h3>
+            <p>A análise da linguagem empregada nas declarações permitiu classificar o discurso segundo o grau de determinismo tecnológico versus reconhecimento de agência gerencial.</p>
+            <p>| Empresa | CEO | Citação-Chave | Classificação da Linguagem |
+| Salesforce | Marc Benioff | &quot;Because of AI, I need less heads&quot; | Determinismo tecnológico |
+| Intuit | Sasan Goodarzi | &quot;We are building AI-powered products that can do more&quot; | Decisão estratégica |
+| Dropbox | Drew Houston | &quot;The shift to AI is creating a bifurcation&quot; | Determinismo tecnológico |
+| Block | Jack Dorsey | &quot;The AI can do things more efficiently than people can&quot; | Determinismo tecnológico |
+| Cisco | Chuck Robbins | &quot;We're refocusing our investments on AI&quot; | Decisão estratégica |
+| IBM | Arvind Krishna | &quot;We are automating roles that can be done by AI&quot; | Decisão estratégica |</p>
+            <p>Os achados indicaram que quatro das seis empresas utilizaram linguagem caracterizada por determinismo tecnológico, apresentando a IA como força inevitável e externa que determinaria as demissões. Marc Benioff da Salesforce exemplificou esse padrão ao afirmar que &quot;because of AI&quot; (tradução: &quot;por causa da IA&quot;), sugerindo que a tecnologia teria tornado as demissões necessárias independentemente de qualquer decisão gerencial. Drew Houston da Dropbox utilizou conceito de &quot;shift&quot; (tradução: &quot;mudança&quot;) para descrever a transformação tecnológica como fenômeno natural e inevitável. Jack Dorsey da Block apresentou a IA como capaz de executar tarefas &quot;more efficiently than people can&quot; (tradução: &quot;de forma mais eficiente do que as pessoas&quot;), sugerindo superioridade técnica intrínseca da tecnologia.</p>
+            <p>Duas empresas utilizaram linguagem que reconhece a natureza de decisão estratégica. Sasan Goodarzi da Intuit apresentou as demissões como parte de construção proativa de produtos de IA, sugerindo escolha deliberada de investimento em tecnologia. Chuck Robbins da Cisco descreveu o refocusing (tradução: &quot;redirecionamento&quot;) de investimentos como decisão estratégica da empresa.</p>
+            <p>A diferença de linguagem entre determinismo tecnológico e decisão estratégica tem implicações importantes para a interpretação dos resultados. O determinismo tecnológico remove responsabilidade dos tomadores de decisão, apresentando as demissões como consequências inevitáveis de forças tecnológicas. A decisão estratégica reconhece que os gestores fizeram escolhas que poderiam ter sido diferentes, abrindo espaço para questionamento sobre os fatores que motivaram essas escolhas.</p>
+            <h3>4.9 Síntese dos Resultados</h3>
+            <p>A tabela a seguir apresenta a síntese cruzando todas as categorias de análise para cada empresa analisada. Esse quadro-resumo permite visualizar os padrões identificados e prepara a base para a discussão dos achados.</p>
+        </div>
+        <div class="page-footer">19</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>| Empresa | Cat. 1 | Cat. 2 | Cat. 3 | Cat. 4 | Cat. 5 | Cat. 6 |
+| Salesforce | Causa direta | Sem dados concretos | Lucro | Sobrecontratou | Investiu em IA | Determinismo |
+| Intuit | Fator contributivo | Sem dados concretos | Lucro | Cresceu moderadamente | Investiu em IA | Decisão estratégica |
+| Dropbox | Justificativa futura | Sem dados concretos | Lucro | Estável | Investiu em IA | Determinismo |
+| Block | Causa direta | Sem dados concretos | Lucro | Sobrecontratou | Investiu em IA | Determinismo |
+| Cisco | Fator contributivo | Sem dados concretos | Lucro | Cresceu | Investiu em IA | Decisão estratégica |
+| IBM | Fator contributivo | Sem dados concretos | Lucro | Redução histórica | Investiu em IA | Decisão estratégica |</p>
+            <p>Os resultados demonstraram padrões consistentes entre as empresas analisadas. Todas as empresas apresentaram ausência de dados operacionais concretos que sustentassem as alegações de ganhos de produtividade. Todas apresentavam resultados financeiros positivos no momento das demissões. Todas aumentaram investimentos em inteligência artificial simultaneamente às reduções de quadro funcional. A maioria utilizou linguagem de determinismo tecnológico que remove agência das decisões de demissão.</p>
+            <p>Os achados indicaram que o fenômeno do AI Scapegoating apresenta características que transcendem a narrativa de necessidade tecnológica, sugerindo que as demissões podem ter sido motivadas por fatores distintos daqueles oficialmente declarados. A análise sistemática das seis categorias revelou contradições entre o discurso corporativo e a realidade operacional das empresas analisadas.</p>
+            <p class="figure-title">Figura 1</p>
+            <p>Evolução do quadro de funcionários das empresas analisadas: pré-pandemia, pico e pós-layoff</p>
+            <p>Nota. Dados obtidos a partir de annual reports e relatórios 10-K.</p>
+            <p class="figure-title">Figura 2</p>
+            <p>Percentual da força de trabalho despedida por empresa</p>
+            <p class="figure-title">Figura 3</p>
+            <p>Relação entre demissões e receita das empresas</p>
+            <h2><span class="section-number">5.</span> Discussão</h2>
+            <h3>5.1 Introdução da Seção</h3>
+            <p>Esta seção propõe-se a interpretar os resultados obtidos na seção anterior à luz do referencial teórico apresentado na revisão de literatura. O objetivo central do estudo consistiu em analisar criticamente se as declarações de executivos que atribuem demissões à inteligência artificial encontram respaldo na realidade operacional ou se constituem narrativa estratégica para ocultar motivações subjacentes. Os achados da seção de resultados revelaram padrões consistentes entre as seis empresas analisadas, e a discussão a seguir organiza-se em eixos temáticos que dialogam diretamente com as categorias de análise e com as teorias fundamentadoras da pesquisa.</p>
+            <p>A discussão responde ao chamado de Yin (2018) para que pesquisadores não apenas describam fenômenos, mas os interpretem à luz de frameworks teóricos que permitam extrair significados mais profundos. Os resultados demonstraram que o fenômeno do AI Scapegoating transcende a narrativa oficial de necessidade tecnológica, e a análise a seguir busca explicitar as implicações teóricas e práticas desses achados.</p>
+            <h3>5.2 O Paradoxo de Solow Revisitado: IA Sem Produtividade Comprovada</h3>
+            <p>O primeiro eixo de discussão retoma o conceito de Paradoxo da Produtividade de Solow, formulado originalmente em 1987 e atualizado por estudos contemporâneos como Abel et al. (2022) e Bäck et al. (2025). A teoria clássica de Solow demonstra que os benefícios de tecnologias disruptivas frequentemente não se traduzem em ganhos mensuráveis de produtividade no nível macroeconômico, pelo menos no curto prazo. Os autores contemporâneos confirmam que a versão atualizada desse paradoxo permanece aplicável ao contexto da inteligência artificial, uma vez que os ganhos de produtividade derivados da IA não se distribuem de forma uniforme entre as organizações.</p>
+        </div>
+        <div class="page-footer">20</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>Os resultados da Categoria 2, apresentada na Tabela 4, evidenciam que nenhuma das seis empresas analisadas apresentou métricas específicas de produtividade em suas declarações sobre demissões. As empresas não detalharam quais funções foram efetivamente automatizadas nem apresentaram dados quantitativos sobre ganhos de eficiência. Esse achado corrobora a proposição de Abel et al. (2022) de que os benefícios da tecnologia de informação frequentemente se manifestam em dimensões não mensuradas pelos índices convencionais, incluindo melhoria na qualidade de decisões e redução de erros, em vez de ganhos quantificáveis de output por unidade de input.</p>
+            <p>A ausência de dados concretos enfraquece a narrativa de que a IA teria elevado a produtividade ao ponto de tornar trabalhadores humanos redundantes. Em consonância com o que propõe Bäck et al. (2025), a adoção de IA não está correlacionada de forma consistente com ganhos de produtividade medidos, e os benefícios da tecnologia podem ser capturados de forma desproporcional por empresas líderes ou os custos de implementação ainda superam os retornos no curto prazo. Os dados analisados sugerem que as empresas estão promovendo demissões sem evidência de que a IA de fato elevou a produtividade ao ponto de tornar o capital humano redundante.</p>
+            <p>A aplicação do paradoxo de Solow ao nível microeconômico (firma) representa extensão teórica significativa. Enquanto a literatura original tratava do nível macroeconômico, os resultados deste estudo demonstram que o paradoxo se manifesta também no nível das firmas individuais. Empresas que alegam demissões motivadas por IA não apresentam evidências de ganhos de produtividade que sustentem essa narrativa, confirmando que a tecnologia não produziu, pelo menos até o momento, os benefícios de eficiência alegados.</p>
+            <h3>5.3 Teoria da Agência: Incentivos Ocultos dos Executivos</h3>
+            <p>O segundo eixo de discussão aplica a Teoria da Agência, desenvolvida por Jensen &amp; Meckling (1976) e aprofundada por Jensen (1986), à interpretação dos resultados. A teoria clássica postula que a relação entre acionistas (principais) e gestores (agentes) é caracterizada por assimetria informacional e potenciais conflitos de interesse, nos quais os agentes podem perseguir objetivos que maximizam seu próprio bem-estar em detrimento dos interesses dos principais.</p>
+            <p>Os resultados da Categoria 3, apresentados na Tabela 5, demonstram que nenhuma das empresas analisadas apresentava dificuldades financeiras no momento das demissões. A Salesforce reportou receita record de $34.9 bilhões no ano fiscal de 2024, a Cisco anúnciou receita de $57 bilhões, e todas as empresas apresentavam lucro líquido positivo. Em consonância com o que propõe Jensen (1986), as demissões não podem ser justificadas por necessidades financeiras, uma vez que as empresas demonstravam capacidade financeira sólida.</p>
+            <p>Os resultados da Categoria 6, apresentados na Tabela 7, revelam que quatro das seis empresas utilizaram linguagem de determinismo tecnológico, apresentando a IA como força externa e inevitável que determinaria as demissões. Marc Benioff da Salesforce exemplifica esse padrão ao afirmar que &quot;because of AI&quot; (tradução: &quot;por causa da IA&quot;), sugerindo que a tecnologia teria tornado as demissões necessárias independentemente de qualquer decisão gerencial. Esse achado evidencia o que a Teoria da Agência prevê: o agente (CEO) externaliza a responsabilidade da decisão para uma força tecnológica abstrata, protegendo sua imagem perante acionistas e mercado.</p>
+            <p>A linguagem de determinismo tecnológico funciona como mecanismo de proteção do agente. Kaplan &amp; Minton (2012) demonstram que a rotatividade de CEOs aumenta significativamente após períodos de baixo desempenho financeiro, criando incentivos para que gestores adotem medidas dramáticas de redução de custos para melhorar rapidamente as métricas financeiras. A atribuição das demissões à IA serve como narrativa que justifica decisões que, em última análise, podem ter sido motivadas por pressões de curto prazo sobre o desempenho, protegendo o CEO de responsabilização direta.</p>
+        </div>
+        <div class="page-footer">21</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>Os dados revelam que a reação positiva do mercado acionário após os anúncios de demissões forneceu evidência adicional de que os investidores não perceberam as demissões como necessárias para a sobrevivência financeira das empresas. As ações das empresas analisadas apresentaram desempenho favorável após os anúncios, sugerindo que o mercado valorizou as medidas de redução de custos independentemente da justificativa de IA apresentada. Esse comportamento do mercado cria incentivos adicionais para que CEOs utilizem a narrativa de IA como estratégia de legitimação de decisões de redução de quadro funcional.</p>
+            <h3>5.4 Visão Baseada em Recursos: A Destruição de Capital Estratégico</h3>
+            <p>O terceiro eixo de discussão aplica a Visão Baseada em Recursos (RBV), teorizada por Penrose (1959) e desenvolvida por Barney (1991) e Barney &amp; Clark (2007), à análise dos resultados. A teoria postula que as vantagens competitivas sustentável derivam de recursos internos valiosos, raros, inimitáveis e não-substituíveis (VRIN). Barney &amp; Clark (2007) enfatizam que recursos intangíveis como conhecimento tácito e capacidades organizacionais acumuladas representam fontes de vantagem competitiva sustentável que não podem ser facilmente substituídos por tecnologia.</p>
+            <p>Os resultados da Categoria 4, apresentados na Tabela 6, revelam que a maioria das empresas analisadas apresentou crescimento significativo de pessoal durante o período pandêmico. A Salesforce cresceu aproximadamente 46% no quadro de funcionários entre 2019 e 2023, a Block cresceu aproximadamente 63% entre 2019 e 2023, e a Cisco cresceu aproximadamente 21%. Os dados indicam que as demissões representam, em parte, correção de sobrecontratação pandêmica mais do que resposta a necessidades de eficiência derivadas da IA.</p>
+            <p>Os resultados da Categoria 5, apresentados na Tabela 7, demonstram que todas as empresas analisadas aumentaram seus investimentos em inteligência artificial simultaneamente às reduções de quadro funcional. A Salesforce investiu milhões no Agentforce, a Cisco anúnciou investimentos de bilhões, e a IBM continuou seus investimentos substanciais em IA através da plataforma watsonx. Esse paradoxo sugere que as empresas não estavam eliminando capital humano por redundância tecnológica, mas escolhendo investir em tecnologia em vez de manter trabalhadores.</p>
+            <p>Sob a ótica da RBV, a decisão de promover demissões de trabalhadores com conhecimento tácito acumulado e experiência organizacional representa destruição de recursos VRIN que pode prejudicar a competitividade de longo prazo. Barney &amp; Clark (2007) argumentam que empresas que preservam e desenvolvem recursos humanos estratégicos obtêm retornos superiores no longo prazo, uma vez que esses recursos permitem a implementação de estratégias que concorrentes não conseguem replicar. A decisão de substituir trabalhadores genéricos por especialistas em IA pode gerar ganhos de curto prazo na forma de redução de despesas, mas sacrifica capacidades organizacionais que determinam a competitividade futura.</p>
+            <p>O dado sobre demissões precipitadas por IA corrobora essa análise. A decisão de reduzir capital humano sem considerar sinergias entre competências humanas e artificiais representa aplicação inadequada do framework VRIN, uma vez que trabalhadores experientes possuem conhecimento tácito de difícil imitação que não pode ser imediatamente substituído por tecnologia ou por novas contratações.</p>
+            <h3>5.5 AI Washing e a Construção da Narrativa Corporativa</h3>
+            <p>O quarto eixo de discussão examina o conceito de AI Washing, analisando como a linguagem dos CEOs segue padrões que transcendem a descrição factual de eventos operacionais. O conceito de AI Washing, análogo ao greenwashing no contexto ambiental, refere-se à prática de empresas exagerar ou enganar sobre o papel da inteligência artificial em suas operações para fins de posicionamento estratégico no mercado.</p>
+        </div>
+        <div class="page-footer">22</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>Os resultados da Categoria 1, apresentados na Tabela 3, revelam três padrões distintos de apresentação da relação entre IA e demissões. A Salesforce e a Block utilizaram a IA como causa direta e explícita, enquanto a Intuit, a Cisco e a IBM mencionaram a IA como fator contributivo entre outros elementos. A Dropbox utilizou a narrativa de forma prospectiva, justificando demissões antecipando ganhos futuros. Cada padrão serve a propósitos comunicativos distintos, mas todos compartilham a característica de apresentar a tecnologia como justificativa para decisões de gestão de quadro funcional.</p>
+            <p>Os resultados da Categoria 6, apresentados na Tabela 7, demonstram que quatro das seis empresas utilizaram linguagem de determinismo tecnológico. A declaração de Marc Benioff da Salesforce (&quot;Because of AI, I need less heads&quot;) e a declaração de Jack Dorsey da Block (&quot;The AI can do things more efficiently than people can&quot;) exemplificam como a linguagem remove a agência humana da decisão, apresentando as demissões como consequências inevitáveis de forças tecnológicas. Essa linguagem serve função dupla: justifica demissões de forma mais palatável para o público e para reguladores, e posiciona a empresa como referência em tecnologia e voltada para o futuro perante investidores.</p>
+            <p>Em consonância com o que propõe Kenney &amp; Zysman (2016), empresas em setores competitivos utilizam a narrativa de transformação digital para sinalizar aos stakeholders que estão adaptando-se às mudanças tecnológicas, independentemente de estarem ou não implementando IA de forma significativa. A atribuição de demissões à IA serve como narrativa que comunica comprometimento com eficiência e modernização, mesmo quando os fatores reais por trás das demissões podem ser distintos.</p>
+            <h3>5.6 Sobrecontratação Pandêmica: A Verdadeira Causa?</h3>
+            <p>O quinto eixo de discussão propõe que as demissões de 2023-2026 podem ser predominantemente correção de erros de gestão de quadro funcional do período 2020-2022, e não consequência da implementação de IA. Essa interpretação dialoga com a teoria de destruição criadora de Schumpeter (1942), que descreve o processo de ondas de inovação nas quais novas tecnologias e organizações tornam obsoletas as estruturas anteriores.</p>
+            <p>Os dados da Tabela 5 revelam padrões claros de sobrecontratação pandêmica. A Salesforce possuía aproximadamente 54.000 funcionários em 2019, atingiu pico de aproximadamente 79.000 em 2023 (crescimento de aproximadamente 46%), e após as demissões conta com aproximadamente 72.000 funcionários, o que representa saldo positivo de aproximadamente 18.000 em relação a 2019. A Block possuía aproximadamente 8.000 funcionários em 2019, atingiu pico de aproximadamente 13.000 em 2023 (crescimento de aproximadamente 63%), e após as demissões conta com aproximadamente 10.200 funcionários, mantendo saldo positivo de aproximadamente 2.200.</p>
+            <p>Se o número de funcionários pós-demissão é próximo ou superior ao pré-pandemia, a IA não pode ser identificada como causa primária das demissões. A correção do excesso de contratações representa explicação mais robusta para os números observados. Em consonância com o que propõe D. Autor et al. (2003), a tecnologia não elimina profissões de forma uniforme, mas automatiza tarefas específicas dentro de cada ocupação. A narrativa simplificada de que a IA substitui pessoas ignora a complexidade dessa dinâmica.</p>
+            <p>A teoria schumpeteriana indica que a transformação tecnológica cria tanto destruição quanto criação de empregos, requerendo período de transição. As demissões analisadas podem representar esse período de transição, no qual empresas ajustam seu quadro funcional à nova realidade tecnológica. Contudo, a atribuição exclusiva das demissões à IA obscurece o fato de que as empresas estão, em muitos casos, simplesmente retornando a patamares de emprego anteriores à expansão pandêmica.</p>
+            <h3>5.7 Resposta à Pergunta de Pesquisa</h3>
+            <p>Esta seção responde explicitamente à pergunta de pesquisa formulada na introdução: as demissões em massa justificadas pela IA são efetivamente motivadas por ganhos de produtividade tecnológica ou constituem narrativa estratégica para ocultar outras motivações?</p>
+        </div>
+        <div class="page-footer">23</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>Diante da análise conduzida, os resultados sugerem que as falas corporativas não são integralmente embasadas na realidade operacional. Os achados indicam que:</p>
+            <p>Primeiramente, conforme demonstram os dados da Tabela 3, nenhuma das empresas disponibilizou publicamente métricas verificáveis por agentes externos de produtividade que justificassem as demissões. A ausência de evidências operacionais contrasta com a assertividade das justificativas que atribuíram demissões à implementação de IA, sugerindo que as alegações podem ter sido baseadas mais em narrativas do que em verificações empíricas de ganhos de produtividade.</p>
+            <p>Em segundo lugar, conforme evidenciam os dados da Tabela 4, todas as empresas apresentavam resultados financeiros positivos no momento das demissões. A Salesforce reportou receita record, a Cisco anúnciou crescimento de receita, e todas as empresas apresentavam lucro líquido positivo. A ausência de dificuldades financeiras questiona a narrativa de necessidade de eficiência operacional.</p>
+            <p>Em terceiro lugar, conforme mostram os dados da Tabela 6, todas as empresas aumentaram investimentos em IA simultaneamente às demissões. O paradoxo de promover demissões por IA enquanto investe em IA sugere que as empresas estão fazendo escolhas estratégicas de alocação de recursos, não respondendo a necessidades tecnológicas de eficiência.</p>
+            <p>Em quarto lugar, conforme revelam os dados da Tabela 5, a maioria das empresas sobrecontratou durante o período pandêmico. A correção desses excessos representa explicação mais robusta do que a implementação de IA para as demissões observadas.</p>
+            <p>Os resultados indicam que o argumento da IA funciona como cortina de fumaça para múltiplos fatores. Os incentivos de agência dos executivos influenciam a construção da narrativa, protegendo sua imagem perante acionistas e mercado. A sobrecontratação pandêmica emerge como fator explicativo mais robusto do que a implementação de IA para as demissões analisadas.</p>
+            <p>Não se deve ser absolutista na interpretação. Os resultados não permitem afirmar categoricamente que a IA não contribuiu em nenhum caso para ganhos de eficiência. É possível que, em alguns casos, a IA tenha de fato possibilitado automação de funções específicas. Contudo, a magnitude alegada pelos executivos não encontra respaldo nos dados analisados. As empresas não demonstraram empiricamente que a IA elevou a produtividade ao ponto de tornar o capital humano redundante.</p>
+            <h3>5.8 Limites Teóricos dos Frameworks Aplicados</h3>
+            <p>A aplicação dos frameworks teóricos selecionados ao fenômeno contemporâneo do AI Scapegoating apresenta limitações que merecem discussão explícita. Os três frameworks teóricos utilizados neste estudo — Teoria da Agência, Visão Baseada em Recursos e Paradoxo de Solow — foram desenvolvidos em contextos históricos distintos e podem não capturar integralmente a complexidade do fenômeno estudado.</p>
+            <p>A Teoria da Agência, desenvolvida por Jensen &amp; Meckling (1976) em contexto de análise de estruturas de propriedade e governança corporativa, foi originalmente formulada para explicar relações entre acionistas e gestores em empresas com separação entre propriedade e controle. Embora a teoria ofereça ferramentas valiosas para compreender os incentivos dos executivos em comunicar demissões de forma que proteja sua imagem, o framework não foi desenhado para analisar dinâmicas específicas de comunicação tecnológica. A teoria assume que o agente busca maximizar seu próprio utilidade, mas não distingue explicitamente entre diferentes tipos de comunicação estratégica, incluindo aquela que utiliza narrativas tecnológicas como instrumento de legitimação.</p>
+        </div>
+        <div class="page-footer">24</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>A Visão Baseada em Recursos, conforme desenvolvida por Barney (1991) e Barney &amp; Clark (2007), foi formulada primariamente para explicar fontes de vantagem competitiva sustentável em contextos de estabilidade relativa. Em ambientes de rápida transformação tecnológica, os pressupostos de que recursos valiosos e inimitáveis permanecem relevantes por períodos extensos podem não se aplicar. A RBV tradicional assume que a tecnologia é fator exógeno que a empresa pode incorporar, não considerando cenários nos quais a própria tecnologia transforma a natureza dos recursos organizacionais de forma acelerada. Ademais, o framework foi desenvolvido em contexto de análise de recursos tangíveis e intangíveis, não prevendo explicitamente a interação entre capital humano e inteligência artificial em substituição funcional.</p>
+            <p>O Paradoxo de Solow, formulado em 1987 e revisitado por estudos contemporâneos como Abel et al. (2022) e Bäck et al. (2025), foi originalmente desenvolvido para explicar a ausência de ganhos de produtividade mensuráveis no nível macroeconômico após a adoção de tecnologias de informação. A aplicação do paradoxo ao nível da firma individual representa extensão que não foi explicitamente prevista pelo framework original. Embora a extensão seja teoricamente justificada, ela introduz nuances que o framework original não contempla, incluindo a possibilidade de que empresas individuais percebam benefícios de produtividade que não se traduzem em indicadores macroeconômicos, ou que a narrativa de produtividade seja utilizada estrategicamente mesmo quando benefícios concretos não existem.</p>
+            <p>A convergência dos três frameworks teóricos oferece interpretação consistente dos achados, mas alimitação inerente de que nenhum dos frameworks foi desenvolvido especificamente para analisar o fenômeno do AI Scapegoating deve ser reconhecida. Estudos futuros poderiam desenvolver frameworks teóricos específicos que integrem as perspectivas aqui utilizadas com análise de comunicação estratégica em contextos de transformação tecnológica acelerada.</p>
+            <h3>5.9 Contribuições do Estudo</h3>
+            <p>Este estudo oferece contribuições em múltiplas dimensões. A contribuição teórica mais significativa consiste no avanço da compreensão do paradoxo de Solow aplicado ao contexto da inteligência artificial, demonstrando sua manifestação no nível microeconômico (firma). Enquanto a literatura anterior tratava primariamente do nível macroeconômico, este estudo evidencia que o paradoxo se manifesta também quando empresas individuais alegam demissões motivadas por IA sem apresentar evidências de ganhos de produtividade.</p>
+            <p>A contribuição teórica adicional consiste na aplicação da Teoria da Agência a um fenômeno contemporâneo novo. O estudo demonstra como a narrativa de IA funciona como mecanismo de proteção do agente, permitindo que CEOs externalizem a responsabilidade de decisões de demissão para forças tecnológicas abstratas. Essa aplicação amplia o escopo de aplicação da teoria e oferece ferramentas analíticas para compreensão de comportamentos corporativos contemporâneos.</p>
+            <p>A contribuição prática do estudo reside no oferecimento de framework analítico para que investidores, reguladores e trabalhadores avaliem criticamente alegações corporativas sobre IA e emprego. Os critérios de análise propostos neste estudo podem ser aplicados para verificação de claims corporativos, permitindo identificação de inconsistências entre narrativas e realidade operacional.</p>
+            <p>A contribuição metodológica consiste na proposição de categorias de análise que podem ser replicadas em estudos futuros sobre o discurso corporativo acerca de tecnologia e trabalho. As seis categorias desenvolvidas neste estudo (natureza da justificativa, dados operacionais concretos, contexto financeiro, sobrecontratação prévia, investimentos em IA e linguagem utilizada) oferecem estrutura sistemática para análise de fenômenos similares.</p>
+            <h2><span class="section-number">6.</span> Conclusão</h2>
+            <h3>6.1 Retomada do Objetivo</h3>
+        </div>
+        <div class="page-footer">25</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>O presente estudo teve como objetivo analisar criticamente se as declarações de executivos que atribuem demissões à inteligência artificial encontram respaldo na realidade operacional ou se constituem narrativa estratégica para ocultar motivações subjacentes. A investigação adoptou abordagem qualitativa baseada em análise documental, utilizando como corpus de análise declarações de CEOs de seis empresas de tecnologia que justificaram demissões pela implementação de IA no período de 2023 a 2026. A pergunta de pesquisa que orientou o estudo foi: as demissões em massa justificadas pela IA são efetivamente motivadas por ganhos de produtividade tecnológica ou constituem narrativa estratégica para ocultar outras motivações?</p>
+            <h3>6.2 Síntese dos Principais Achados</h3>
+            <p>Os resultados evidenciaram que nenhuma das seis empresas analisadas apresentou métricas concretas de produtividade que sustentassem a narrativa de que a IA tornou trabalhadores redundantes. Dessa forma, confirma-se a persistência do paradoxo de Solow (1987) no contexto contemporâneo da inteligência artificial, corroborando os achados de Abel et al. (2022). A ausência de dados operacionais concretos representa achado fundamental que enfraquece a premissa básica das demissões justificadas por IA.</p>
+            <p>Os achados demonstraram que os incentivos de agência, conforme teorizado por Jensen &amp; Meckling (1976), explicam o comportamento dos executivos ao utilizarem a narrativa de IA como mecanismo de externalização de responsabilidade. Quatro das seis empresas analisadas empregaram linguagem de determinismo tecnológico, apresentando a IA como força externa e inevitável que determinaria as demissões, protegendo assim a imagem do agente perante acionistas e mercado.</p>
+            <p>A análise sob a ótica da Visão Baseada em Recursos revelou contradição entre a decisão de promover demissões de trabalhadores e a preservação de recursos estratégicos valiosos, raros, inimitáveis e não-substituíveis. Barney (1991) argumenta que recursos intangíveis como conhecimento tácito representam fontes de vantagem competitiva sustentável, e a eliminação desses recursos sem consideração das sinergias entre competências humanas e artificiais indica perspectiva de curto prazo. O achado de que todas as empresas investiam em IA simultaneamente às demissões corrobora essa análise de escolha estratégica de alocação de recursos.</p>
+            <p>O estudo evidenciou que o discurso corporativo apresenta características do fenômeno denominado AI Washing, análogo ao greenwashing no contexto ambiental. A narrativa serve dupla função: justifica demissões de forma mais palatável para o público e reguladores, e posiciona a empresa como referência em tecnologia perante investidores. A atribuição de demissões à IA funciona como estratégia de legitimação organizacional em consonância com o que propõem Kenney &amp; Zysman (2016).</p>
+            <p>Os dados de headcount revelaram que a maioria das empresas analisadas sobrecontratou durante o período pandêmico. A Salesforce cresceu aproximadamente 46% entre 2019 e 2023, a Block aproximadamente 63%, e a Cisco aproximadamente 21%. Após as demissões, as empresas mantinham quadro funcional superior ao período pré-pandemia, indicando que as demissões representam correção de sobrecontratação mais do que resposta a implementação de IA. Esse achado dialoga com a teoria de destruição criadora de Schumpeter (1942) e com o modelo task-based de D. Autor et al. (2003).</p>
+            <h3>6.3 Resposta à Pergunta de Pesquisa</h3>
+        </div>
+        <div class="page-footer">26</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>Diante do exposto, conclui-se que as evidências analisadas indicam que o argumento da inteligência artificial está sendo utilizado, predominantemente, como cortina de fumaça para ocultar motivações subjacentes às demissões, tais como a correção de sobrecontratação durante o período pandêmico, as pressões por margens de lucro de curto prazo, os incentivos de agência dos executivos que buscam proteger sua imagem perante acionistas, e o posicionamento estratégico perante investidores que valorizam narrativas de eficiência tecnológica. Os dados financeiros demonstraram que as empresas apresentavam resultados positivos no momento das demissões, contradizendo a narrativa de necessidade de eficiência operacional. As declarações não sustentaram empiricamente que a IA tenha de fato elevado a produtividade ao ponto de tornar trabalhadores redundantes.</p>
+            <p>Ressalta-se que essa conclusão não significa que a inteligência artificial seja irrelevante para as transformações no mercado de trabalho. A tecnologia efetivamente promove alterações na natureza das ocupações e na demanda por competências específicas. Contudo, sua utilização como justificativa exclusiva para demissões carece de sustentação empírica nos casos analisados. O fenômeno do AI Scapegoating representa estratégia discursiva que merece atenção de investigadores, investidores e formuladores de políticas públicas.</p>
+            <h3>6.4 Contribuições do Estudo</h3>
+            <p>O estudo contribui para a atualização do paradoxo de Solow ao demonstrar sua manifestação no nível microeconômico no contexto da inteligência artificial. Enquanto a literatura original tratava primariamente do nível macroeconômico, os achados evidenciam que o paradoxo se manifesta também quando empresas individuais alegam demissões motivadas por IA sem apresentar evidências de ganhos de produtividade.</p>
+            <p>O estudo amplia a aplicação da Teoria da Agência ao analisar como executivos utilizam narrativas tecnológicas como mecanismo de proteção frente a decisões impopulares. A identificação do determinismo tecnológico como estratégia discursiva que remove agência das decisões de demissão representa contribuição teórica que amplia o escopo de análise dos comportamentos corporativos contemporâneos.</p>
+            <p>O estudo introduz o conceito de AI Washing aplicado ao discurso sobre demissões, contribuindo para a literatura sobre governança corporativa e transparência. A identificação de que a narrativa de IA serve dupla função de justificação de demissões e posicionamento estratégico representa achado com implicações práticas relevantes para múltiplos stakeholders.</p>
+            <p>O estudo oferece aos investidores um framework analítico para avaliar criticamente alegações corporativas sobre IA e emprego. As seis categorias de análise propostas permitem verificação sistemática de inconsistências entre narrativas e realidade operacional, contribuindo para decisões de investimento mais informadas.</p>
+            <p>O estudo oferece subsídios para formuladores de políticas públicas sobre a necessidade de mecanismos de transparência e accountability em decisões de demissão atribuídas à tecnologia. A identificação de que o fenômeno pode representar narrativa estratégica e não necessidade operacional efetiva indica relevância para regulação do mercado de trabalho.</p>
+            <p>O estudo propõe um modelo de categorias de análise replicável para investigações futuras sobre discurso corporativo e tecnologia. As categorias desenvolvidas (natureza da justificativa, dados operacionais concretos, contexto financeiro, sobrecontratação prévia, investimentos em IA e linguagem utilizada) oferecem estrutura sistemática que pode ser aplicada a contextos similares.</p>
+            <h3>6.5 Implicações para o Contexto do Brasil e América Latina</h3>
+            <p>Os achados deste estudo apresentam relevância direta para o contexto brasileiro e latino-americano, uma vez que as empresas de tecnologia globais que operam nestas regiões frequentemente replicam práticas de comunicação corporativa desenvolvidas em seus países de origem. A compreensão do fenômeno de AI Scapegoating permite que stakeholders nacionais avaliem criticamente alegações similares quando justificativas de IA são utilizadas por empresas que atuam nestes mercados.</p>
+        </div>
+        <div class="page-footer">27</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>Embora a amostra analise corporações norte-americanas, os achados possuem implicações diretas para o Brasil e a América Latina. Nestes mercados periféricos, marcados por maior instabilidade laboral e dependência tecnológica, o discurso corporativo pode ser importado acriticamente pelas filiais multinacionais ou empresas locais para precarizar o trabalho ou justificar cortes que, na verdade, respondem a crises macroeconômicas locais. Evidenciar que o &quot;AI Scapegoating&quot; é uma narrativa importada demanda que sindicatos, reguladores e o Ministério do Trabalho no Brasil exijam comprovações concretas e regionalizadas de produtividade antes de validarem reestruturações produtivas embasadas na automação.</p>
+            <p>A aplicação do framework analítico desenvolvido no presente estudo ao contexto brasileiro requer consideração de particularidades do mercado de trabalho nacional. O mercado de trabalho brasileiro apresenta características distintas do mercado norte-americano, incluindo maior proteção legal aos trabalhadores, diferentes estruturas de negociação coletiva e menor intensidade de anúncio de demissões por parte de empresas de tecnologia. Não obstante, a tendência de empresas globais de justificarem demissões pela implementação de IA tende a ser replicada nas operações locais, direta ou indiretamente.</p>
+            <p>As implicações para políticas públicas no Brasil são significativas. Os formuladores de políticas podem utilizar as categorias de análise propostas neste estudo como ferramentas para avaliar criticamente alegações de empresas sobre a relação entre implementação de IA e demissões. A exigência de transparência quanto aos dados que sustentam essas alegações poderia contribuir para redução da assimetria informacional entre empresas e trabalhadores. Diante disso, propõem-se mecanismos práticos e regulatórios urgentes, tais como: a obrigatoriedade da publicação de Relatórios de Impacto Algorítmico (comprovando os reais ganhos de produtividade antes de cortes em massa) e a formulação de diretrizes que exijam das empresas o custeio de fundos de amparo e requalificação tecnológica para os profissionais afetados.</p>
+            <p>Para os trabalhadores brasileiros, o estudo oferece perspectiva analítica que permite questionar narrativas que atribuem demissões exclusivamente à tecnologia. A compreensão de que a IA frequentemente funciona como justificativa para decisões que podem ter outras motivações capacita trabalhadores a demandarem informações mais detalhadas e fundamentadas por parte de empregadores.</p>
+            <p>Para investidores e analistas de mercado no Brasil, o framework oferece ferramenta para avaliação mais crítica de comunicados corporativos que atribuem demissões à implementação de IA. A capacidade de identificar inconsistências entre narrativas e realidade operacional pode informar decisões de investimento mais criteriosas.</p>
+            <h3>6.6 Limitações do Estudo</h3>
+            <p>O estudo concentrou-se exclusivamente em empresas do setor de tecnologia, o que limita a generalização dos achados para outros setores econômicos. As empresas de tecnologia apresentam características específicas de dependência de inovação e intensidade de capital humano que podem não ser reproduzidas em outros setores. Contudo, a consistência dos padrões identificados sugere que o fenômeno pode transcender o setor analisado.</p>
+            <p>A análise baseou-se em declarações públicas e documentos acessíveis, não contemplando comunicações internas ou processos decisórios privados das organizações. As declarações de CEOs representam a versão oficial das empresas, podendo não capturar as motivações reais por trás das decisões de demissão. A triangulação de fontes (earnings calls, comunicados, reportagens especializadas) buscou mitigar essa limitação.</p>
+            <p>O fenômeno investigado é recente e ainda em evolução, o que implica que a literatura sobre o tema encontra-se em estágio inicial de desenvolvimento. Essa limitação não compromete a validade dos achados, uma vez que a fundamentação teórica em teorias consolidadas (Paradoxo de Solow, Teoria da Agência, RBV) assegura robustez conceitual.</p>
+        </div>
+        <div class="page-footer">28</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>O corpus de seis empresas, embora representativo do fenômeno investigado, não permite generalizações estatísticas. A análise aprofundada de casos múltiplos permite identificar padrões consistentes que sustentam as conclusões apresentadas.</p>
+            <h3>6.7 Sugestões para Pesquisas Futuras</h3>
+            <p>Estudos quantitativos de larga escala que mensurem a correlação entre anúncios de implementação de IA e demissões em múltiplos setores representariam avanço significativo na compreensão do fenômeno. A expansão do corpus para além do setor de tecnologia permitiria verificar se os padrões identificados se repetem em outros contextos econômicos.</p>
+            <p>Pesquisas longitudinais que acompanhem empresas que demitiram por IA durante três a cinco anos para verificar se os ganhos de produtividade prometidos se materializaram constituem agenda relevante. Esse tipo de investigação permitiria avaliar se a narrativa de eficiência se traduz em resultados operacionais efetivos ou se representa apenas discurso de positioning.</p>
+            <p>Estudos qualitativos com entrevistas a trabalhadores afetados por demissões sob justificativa de IA, para compreender a perspectiva dos afetados, representariam contribuição valiosa que complementaria a análise do discurso corporativo. A captação das experiências dos trabalhadores permite avaliação mais completa das implicações do fenômeno.</p>
+            <p>Análises comparativas entre empresas que promoveram demissões por IA e empresas que optaram por requalificação, avaliando resultados de longo prazo, permitiriam identificar estratégias organizacionais mais eficazes. A comparação entre abordagens distintas oferece insights para formulação de políticas de recursos humanos.</p>
+            <p>Investigações sobre o papel dos investidores institucionais e analistas de mercado na pressão por narrativas de eficiência via IA constituem agenda de pesquisa relevante. A compreensão dos incentivos dos diferentes stakeholders enriquece a análise do fenômeno.</p>
+            <p>Estudos que expandam o conceito de AI Washing para outros contextos além de demissões, como marketing de produtos, relatórios ESG e comunicações com reguladores, representariam contribuição para a literatura sobre transparência corporativa e comunicação estratégica.</p>
+            <h3>6.8 Encerramento</h3>
+            <p>Em última análise, a compreensão das motivações reais por trás das demissões atribuídas à IA constitui etapa necessária para que a sociedade, os reguladores e os próprios trabalhadores possam distinguir entre transformação tecnológica genuína e narrativa corporativa instrumentalizada. Os achados deste estudo demonstram que a narrativa de IA, quando utilizada como justificativa exclusiva para demissões, frequentemente obscurece fatores como correção de sobrecontratação pandêmica e pressões por eficiência de curto prazo. Nesse sentido, o avanço dessa agenda de pesquisa revela-se não apenas pertinente do ponto de vista acadêmico, mas socialmente necessário em um contexto de crescente assimetria informacional entre organizações e seus stakeholders. A identificação do fenômeno de AI Scapegoating representa passo inicial para o desenvolvimento de mecanismos de transparência que permitam avaliação crítica das alegações corporativas sobre tecnologia e trabalho.</p>
+            <h2 class="references-section">Referências</h2>
+            <p>Abel, J. R., Dey, I., &amp; Gabe, T. M. (2022). The modern Solow paradox: In search for explanations. *Economics of Innovation and New Technology*, *31*(1-2), 1-17. https://doi.org/10.1080/10438599.2021.1961626</p>
+            <p>Autor, D. H. (2015). Why are there still so many jobs? The history and future of workplace automation. *Journal of Economic Perspectives*, *29*(3), 3-30. https://doi.org/10.1257/jep.29.3.3</p>
+            <p>Autor, D. H., Levy, F., &amp; Murnane, R. J. (2003). The skill content of recent technological change: An empirical exploration. *Quarterly Journal of Economics*, *118*(4), 1279-1333. https://doi.org/10.1162/003355303322552801</p>
+            <p>Bäck, A., Hajikhani, A., Jäger, A., Schubert, T., &amp; Suominen, A. (2025). Return of the Solow-paradox in AI?: AI-adoption and firm productivity. *Research Square* (preprint). https://doi.org/10.21203/rs.3.rs-7434983/v1</p>
+            <p>Bardin, L. (2016). *Análise de conteúdo*. Edições 70.</p>
+        </div>
+        <div class="page-footer">29</div>
+    </section>
+
+    <section class="paper-page">
+        <div class="page-content">
+            <p>Barney, J. B. (1991). Firm resources and sustained competitive advantage. *Journal of Management*, *17*(1), 99-120. https://doi.org/10.1177/014920639101700108</p>
+            <p>Barney, J. B., &amp; Clark, D. N. (2007). *Resource-based theory: Creating and sustaining competitive advantage*. Oxford University Press.</p>
+            <p>Becker, G. S. (1964). *Human capital: A theoretical and empirical analysis, with special reference to education*. University of Chicago Press.</p>
+            <p>Brynjolfsson, E., &amp; McAfee, A. (2014). *The second machine age: Work, progress, and prosperity in a time of brilliant technologies*. W. W. Norton &amp; Company.</p>
+            <p>Creswell, J. W., &amp; Creswell, J. D. (2018). *Research design: Qualitative, quantitative, and mixed methods approaches* (5th ed.). Sage.</p>
+            <p>Fairclough, N. (2003). *Analysing discourse: Textual analysis for social research*. Routledge.</p>
+            <p>Felten, E. W., Raj, M., &amp; Seamans, R. (2023). The variable effect of AI on productivity. *Production and Productivity*, *21*, 1-18. https://doi.org/10.4337/pap.2023.06.08</p>
+            <p>Frey, C. B., &amp; Osborne, M. A. (2017). The future of employment: How susceptible are jobs to computerisation? *Technological Forecasting and Social Change*, *114*, 254-280. https://doi.org/10.1016/j.techfore.2016.08.019</p>
+            <p>Gil, A. C. (2019). *Métodos e técnicas de pesquisa social* (7th ed.). Atlas.</p>
+            <p>Godoy, A. S. (1995). Introdução à pesquisa qualitativa e suas possibilidades. *Revista de Administração de Empresas*, *35*(2), 57-63. https://doi.org/10.1590/S0034-75901995000200003</p>
+            <p>Jensen, M. C. (1986). Agency costs of free cash flow, corporate finance and corporate governance. *American Economic Review*, *76*(2), 323-329.</p>
+            <p>Jensen, M. C., &amp; Meckling, W. H. (1976). Theory of the firm: Managerial behavior, agency costs and ownership structure. *Journal of Financial Economics*, *3*(4), 305-360. https://doi.org/10.1016/0304-405X(76)90026-0</p>
+            <p>Kaplan, S. N., &amp; Minton, B. A. (2012). How has CEO turnover changed? *Journal of Applied Corporate Finance*, *24*(4), 72-85. https://doi.org/10.1111/jacf.12015</p>
+            <p>Kenney, M., &amp; Zysman, J. (2016). The rise of the platform economy. *Issues in Science and Technology*, *32*(3), 61-69.</p>
+            <p>Penrose, E. T. (1959). *The theory of the growth of the firm*. Oxford University Press.</p>
+            <p>Schumpeter, J. A. (1942). *Capitalism, socialism and democracy*. Harper &amp; Brothers.</p>
+            <p>Solow, R. M. (1987, July 12). We'd better watch out. *The New York Times Book Review*, p. 36.</p>
+            <p>Vergara, S. C. (2016). *Projetos e relatórios de pesquisa em administração* (16th ed.). Atlas.</p>
+            <p>Yin, R. K. (2018). *Case study research and applications: Design and methods* (6th ed.). Sage.</p>
+        </div>
+        <div class="page-footer">30</div>
+    </section>
+
+</body>
+</html>

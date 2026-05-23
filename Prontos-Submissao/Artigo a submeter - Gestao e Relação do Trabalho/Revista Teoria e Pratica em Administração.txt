@@ -1,0 +1,31 @@
+https://periodicos.ufpb.br/index.php/tpa/index
+
+acesso: renatodeoliveirarosa
+senha: Rabo1000!
+
+RESUMO ESTRUTURADO (TPA)
+Objetivo: Analisar como trabalhadores descrevem suas vivências e táticas de resistência frente ao controle algorítmico e à plataformização, mapeando as respostas comportamentais diante da precarização e da exigência de hiperdisponibilidade digital.
+
+Metodologia: Pesquisa qualitativa e exploratória baseada na triangulação de dados. O corpus empírico foi composto por 27 relatos espontâneos extraídos de plataformas sociais (LinkedIn, TikTok e YouTube). O processamento foi realizado via software IRaMuTeQ, utilizando Classificação Hierárquica Descendente (CHD), Análise de Similitude e Análise Fatorial de Correspondência (AFC), confrontados com uma Revisão Sistemática de Escopo (2021-2026).
+
+Resultados: Identificou-se uma polarização discursiva em dois eixos: o eixo da urgência material (gig economy), marcado pela "escravidão digital" e esgotamento físico; e o eixo da reação estratégica (trabalho do conhecimento), onde emergem práticas como o mascaramento de tarefas, microaposentadorias e férias clandestinas (hush-cations) como mecanismos de defesa do bem-estar subjetivo.
+
+Originalidade/Relevância: O estudo inova ao utilizar a lexicometria para decodificar fenômenos emergentes (como o ghosting corporativo e as hush-cations) a partir de relatos genuínos, preenchendo a lacuna de pesquisas empíricas que capturem a agência do trabalhador para além da teoria da plataformização clássica.
+
+Implicações Teóricas e Práticas: Teoricamente, reforça o modelo de Demandas e Recursos do Trabalho (JD-R) aplicado ao digitrab. Praticamente, sinaliza a urgência de as organizações revisarem modelos de gestão baseados em visibilidade (bossware) e a necessidade de políticas públicas que assegurem o direito à desconexão no Sul Global.
+
+Palavras-chave: digitalização do trabalho; gestão algorítmica; escravidão digital; lexicometria; bem-estar subjetivo.
+
+
+STRUCTURED ABSTRACT
+Objective: To analyze how workers describe their experiences and resistance tactics in the face of algorithmic control and platformization, mapping behavioral responses to precarization and the demand for digital hyper-availability.
+
+Methodology: Qualitative and exploratory research based on data triangulation. The empirical corpus consisted of 27 spontaneous reports extracted from social platforms (LinkedIn, TikTok, and YouTube). Processing was carried out via IRaMuTeQ software, using Descending Hierarchical Classification (DHC), Similitude Analysis, and Correspondence Factor Analysis (CFA), cross-referenced with a Scoping Systematic Review (2021-2026).
+
+Results: A discursive polarization was identified in two axes: the axis of material urgency (gig economy), marked by "digital slavery" and physical exhaustion; and the axis of strategic reaction (knowledge work), where practices such as task masking, micro-retirements, and hush-cations emerge as defense mechanisms for subjective well-being.
+
+Originality/Relevance: The study innovates by using lexicometry to decode emerging phenomena (such as corporate ghosting and hush-cations) from genuine reports, filling the gap in empirical research that captures worker agency beyond classical platformization theory.
+
+Theoretical and Practical Implications: Theoretically, it reinforces the Job Demands-Resources (JD-R) model applied to digitrab. Practically, it signals the urgency for organizations to review management models based on visibility (bossware) and the need for public policies that ensure the right to disconnect in the Global South.
+
+Keywords: work platformization; algorithmic management; digital slavery; lexicometry; subjective well-being.

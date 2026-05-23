@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor de Artigos - Pesquisas Paralelas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1A365D;
+            --primary-light: #2c5282;
+            --primary-dark: #0f2744;
+            --accent: #38B2AC;
+            --accent-light: #4FD1C5;
+            --success: #48BB78;
+            --warning: #ECC94B;
+            --danger: #F56565;
+            --info: #4299E1;
+            --gray-50: #F7FAFC;
+            --gray-100: #EDF2F7;
+            --gray-200: #E2E8F0;
+            --gray-300: #CBD5E0;
+            --gray-400: #A0AEC0;
+            --gray-500: #718096;
+            --gray-600: #4A5568;
+            --gray-700: #2D3748;
+            --gray-800: #1A202C;
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+            --shadow: 0 4px 6px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.05);
+            --shadow-md: 0 10px 15px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.05);
+            --shadow-lg: 0 20px 25px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.04);
+            --shadow-xl: 0 25px 50px rgba(0,0,0,0.15);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #0f2744 0%, #1A365D 50%, #2c5282 100%);
+            min-height: 100vh;
+            color: var(--gray-800);
+            line-height: 1.6;
+        }
+
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: 0;
+        }
+
+        .particle {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            animation: float 20s infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) translateX(0); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-100vh) translateX(100px); opacity: 0; }
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .header-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 36px;
+            box-shadow: 0 10px 40px rgba(56, 178, 172, 0.4);
+            animation: pulse 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .header h1 {
+            font-size: 42px;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        .header p {
+            font-size: 18px;
+            color: rgba(255,255,255,0.8);
+            font-weight: 300;
+        }
+
+        /* Stats Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .stat-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(20px);
+            border-radius: 16px;
+            padding: 25px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.15);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.15);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+
+        .stat-card.active {
+            background: rgba(255,255,255,0.2);
+            border-color: var(--accent);
+        }
+
+        .stat-icon {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: rgba(255,255,255,0.7);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+
+        /* Filters */
+        .filters-section {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255,255,255,0.1);
+            animation: fadeInUp 0.8s ease-out 0.4s both;
+        }
+
+        .filter-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .filter-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .filter-group label {
+            display: block;
+            font-size: 11px;
+            color: rgba(255,255,255,0.6);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .search-input, .select-input {
+            width: 100%;
+            padding: 14px 18px;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.15);
+            background: rgba(255,255,255,0.08);
+            color: white;
+            font-size: 14px;
+            font-family: inherit;
+            transition: all 0.3s ease;
+        }
+
+        .search-input::placeholder {
+            color: rgba(255,255,255,0.4);
+        }
+
+        .search-input:focus, .select-input:focus {
+            outline: none;
+            border-color: var(--accent);
+            background: rgba(255,255,255,0.12);
+            box-shadow: 0 0 0 3px rgba(56, 178, 172, 0.2);
+        }
+
+        .select-input option {
+            background: var(--gray-800);
+            color: white;
+        }
+
+        /* Articles Grid */
+        .articles-section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            animation: fadeInLeft 0.6s ease-out 0.5s both;
+        }
+
+        @keyframes fadeInLeft {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .section-title .count {
+            background: var(--accent);
+            color: white;
+            font-size: 14px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+            gap: 25px;
+        }
+
+        /* Article Card */
+        .article-card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 20px;
+            padding: 28px;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+            animation: fadeInUp 0.6s ease-out both;
+        }
+
+        .article-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+        }
+
+        .article-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .article-card.status-submetido::before { background: linear-gradient(180deg, var(--info) 0%, #2B6CB0 100%); }
+        .article-card.status-pronto::before { background: linear-gradient(180deg, var(--success) 0%, #276749 100%); }
+        .article-card.status-revisao::before { background: linear-gradient(180deg, var(--warning) 0%, #B7791F 100%); }
+        .article-card.status-correcao::before { background: linear-gradient(180deg, var(--danger) 0%, #C53030 100%); }
+        .article-card.status-desenvolvimento::before { background: linear-gradient(180deg, var(--gray-400) 0%, var(--gray-500) 100%); }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 18px;
+        }
+
+        .article-number {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 18px;
+            box-shadow: 0 4px 12px rgba(26, 54, 93, 0.3);
+        }
+
+        .status-badge {
+            padding: 8px 16px;
+            border-radius: 25px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .badge-submetido { background: linear-gradient(135deg, #BEE3F8 0%, #90CDF4 100%); color: #2A4365; }
+        .badge-pronto { background: linear-gradient(135deg, #C6F6D5 0%, #9AE6B4 100%); color: #22543D; }
+        .badge-revisao { background: linear-gradient(135deg, #FEFCBF 0%, #FAF089 100%); color: #744210; }
+        .badge-correcao { background: linear-gradient(135deg, #FED7D7 0%, #FEB2B2 100%); color: #742A2A; }
+        .badge-desenvolvimento { background: linear-gradient(135deg, #E2E8F0 0%, #CBD5E0 100%); color: #4A5568; }
+
+        .badge-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: currentColor;
+            animation: blink 2s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        .article-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .article-subtitle {
+            font-size: 13px;
+            color: var(--gray-500);
+            margin-bottom: 20px;
+            font-style: italic;
+            line-height: 1.5;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 18px;
+        }
+
+        .info-item {
+            background: var(--gray-50);
+            padding: 14px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .info-item:hover {
+            background: var(--gray-100);
+            transform: translateX(3px);
+        }
+
+        .info-item .label {
+            font-size: 10px;
+            color: var(--gray-400);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .info-item .value {
+            font-size: 13px;
+            color: var(--gray-700);
+            font-weight: 500;
+            word-break: break-word;
+        }
+
+        .info-item .value a {
+            color: var(--info);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .info-item .value a:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
+        .keywords {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .keyword {
+            background: linear-gradient(135deg, var(--gray-100) 0%, var(--gray-200) 100%);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            color: var(--gray-600);
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .keyword:hover {
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .actions {
+            display: flex;
+            gap: 12px;
+            padding-top: 18px;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .btn {
+            flex: 1;
+            padding: 12px 16px;
+            border: none;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            box-shadow: 0 4px 12px rgba(26, 54, 93, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(26, 54, 93, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--gray-100);
+            color: var(--gray-600);
+        }
+
+        .btn-secondary:hover {
+            background: var(--gray-200);
+            transform: translateY(-2px);
+        }
+
+        .notes-section {
+            margin-top: 18px;
+            padding: 16px;
+            background: linear-gradient(135deg, #FFFBEB 0%, #FFF5D6 100%);
+            border-radius: 12px;
+            border-left: 4px solid var(--warning);
+        }
+
+        .notes-section .label {
+            font-size: 10px;
+            color: #B7791F;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 8px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .notes-section textarea {
+            width: 100%;
+            border: 1px solid #F6D860;
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 13px;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 70px;
+            background: white;
+            transition: all 0.3s ease;
+        }
+
+        .notes-section textarea:focus {
+            outline: none;
+            border-color: var(--warning);
+            box-shadow: 0 0 0 3px rgba(236, 201, 75, 0.2);
+        }
+
+        /* No Results */
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: rgba(255,255,255,0.6);
+        }
+
+        .no-results-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            opacity: 0.5;
+        }
+
+        .no-results h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 30px;
+            color: rgba(255,255,255,0.5);
+            font-size: 13px;
+            animation: fadeInUp 0.8s ease-out 0.6s both;
+        }
+
+        .footer a {
+            color: var(--accent-light);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 { font-size: 28px; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .articles-grid { grid-template-columns: 1fr; }
+            .filter-row { flex-direction: column; }
+            .filter-group { width: 100%; }
+            .info-grid { grid-template-columns: 1fr; }
+            .stat-card { padding: 18px; }
+            .stat-number { font-size: 28px; }
+        }
+
+        @media print {
+            body { background: white; }
+            .particles, .filters-section, .notes-section textarea { display: none; }
+            .article-card { box-shadow: none; border: 1px solid #ddd; }
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: rgba(255,255,255,0.1); }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.3); border-radius: 5px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.5); }
+    </style>
+</head>
+<body>
+
+    <div class="particles" id="particles"></div>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="header-icon">📚</div>
+            <h1>Monitor de Artigos</h1>
+            <p>Pesquisas Paralelas ao Doutorado | Renato de Oliveira Rosa</p>
+        </div>
+
+        <div class="stats-grid" id="statsGrid">
+            <div class="stat-card active" data-filter="all">
+                <div class="stat-icon">📋</div>
+                <div class="stat-number" id="totalCount">0</div>
+                <div class="stat-label">Total</div>
+            </div>
+            <div class="stat-card" data-filter="submetido">
+                <div class="stat-icon">✅</div>
+                <div class="stat-number" id="submetidoCount">0</div>
+                <div class="stat-label">Submetidos</div>
+            </div>
+            <div class="stat-card" data-filter="pronto">
+                <div class="stat-icon">🚀</div>
+                <div class="stat-number" id="prontoCount">0</div>
+                <div class="stat-label">Prontos</div>
+            </div>
+            <div class="stat-card" data-filter="revisao">
+                <div class="stat-icon">👁️</div>
+                <div class="stat-number" id="revisaoCount">0</div>
+                <div class="stat-label">Em Revisão</div>
+            </div>
+            <div class="stat-card" data-filter="correcao">
+                <div class="stat-icon">🔧</div>
+                <div class="stat-number" id="correcaoCount">0</div>
+                <div class="stat-label">Em Correção</div>
+            </div>
+            <div class="stat-card" data-filter="desenvolvimento">
+                <div class="stat-icon">⚡</div>
+                <div class="stat-number" id="desenvolvimentoCount">0</div>
+                <div class="stat-label">Desenvolvimento</div>
+            </div>
+        </div>
+
+        <div class="filters-section">
+            <div class="filter-row">
+                <div class="filter-group" style="flex: 2;">
+                    <label>🔍 Buscar Artigo</label>
+                    <input type="text" class="search-input" id="searchInput" placeholder="Digite o título, autores ou palavras-chave...">
+                </div>
+                <div class="filter-group">
+                    <label>📂 Categoria</label>
+                    <select class="select-input" id="categoryFilter">
+                        <option value="all">Todas as Categorias</option>
+                        <option value="submetido">Submetidos</option>
+                        <option value="pronto">Prontos para Submissão</option>
+                        <option value="revisao">Em Revisão</option>
+                        <option value="correcao">Em Correção</option>
+                        <option value="desenvolvimento">Em Desenvolvimento</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>🎯 Periódico</label>
+                    <select class="select-input" id="journalFilter">
+                        <option value="all">Todos os Periódicos</option>
+                        <option value="RGT">Revista de Gestão e Tecnologia</option>
+                        <option value="Liceu">Revista Liceu-online</option>
+                        <option value="RCCC">Revista Catarinense da Ciência Contábil</option>
+                        <option value="Ambiente">Revista Ambiente Contábil</option>
+                        <option value="Alcance">Revista Alcance</option>
+                        <option value="TPA">Revista TPA</option>
+                        <option value="UnivContabil">Revista Universo Contábil</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="articles-section">
+            <h2 class="section-title">
+                <span>📖</span> Artigos Encontrados
+                <span class="count" id="articleCount">0</span>
+            </h2>
+            <div class="articles-grid" id="articlesGrid"></div>
+            <div class="no-results" id="noResults" style="display: none;">
+                <div class="no-results-icon">🔍</div>
+                <h3>Nenhum artigo encontrado</h3>
+                <p>Tente ajustar seus filtros de busca</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Última atualização: Maio 2026 | Pesquisas Paralelas ao Doutorado</p>
+            <p style="margin-top: 10px;">
+                <a href="https://github.com/renato0503/TeseDoutorado" target="_blank">GitHub: TeseDoutorado</a> | 
+                <a href="https://github.com/renato0503/Artigos-Parelelos" target="_blank">Artigos-Parelelos</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const articles = [
+            {
+                id: 1,
+                title: "Transformação Digital e Sistemas de Controle",
+                subtitle: "Liderança em Transformação Digital e Desempenho Individual: Uma Análise Multinível",
+                status: "submetido",
+                statusLabel: "Submetido",
+                journal: "RGT",
+                journalName: "Revista de Gestão e Tecnologia (FPL)",
+                authors: "Messan Komlanvi Akoumani (UnB), Renato Rosa, Paulo Roberto Barbosa Lustosa",
+                period: "Maio 2026",
+                keywords: ["transformação digital", "sistemas de controle", "desempenho individual", "liderança"],
+                notes: "Aguardando parecer do editor. Artigo em coautoria com Messan (UnB)."
+            },
+            {
+                id: 2,
+                title: "Carteira Inteligente IA",
+                subtitle: "Apoio à Escolha de Ações com Dividendos com Uso de GPT: Uma Análise de Sustentabilidade",
+                status: "submetido",
+                statusLabel: "Submetido",
+                journal: "Liceu",
+                journalName: "Revista Liceu-online (FECAP)",
+                authors: "Renato Rosa et al.",
+                period: "Maio 2026",
+                keywords: ["inteligência artificial", "ações dividendos", "GPT", "finanças", "carteira inteligente"],
+                notes: "Submetido para avaliação. Artigo sobre uso de IA em decisões de investimento."
+            },
+            {
+                id: 3,
+                title: "ChatGPT e Relatórios Gerenciais",
+                subtitle: "Como o ChatGPT Afeta a Produção, o Uso e a Qualidade dos Relatórios Gerenciais",
+                status: "submetido",
+                statusLabel: "Submetido",
+                journal: "RCCC",
+                journalName: "Revista Catarinense da Ciência Contábil (RCCC)",
+                authors: "Messan Komlanvi Akoumani, Renato Rosa, Paulo Roberto Barbosa Lustosa",
+                period: "Maio 2026",
+                keywords: ["ChatGPT", "relatórios gerenciais", "IA generativa", "contabilidade"],
+                notes: "Submetido na RCCC. Aguardando parecer."
+            },
+            {
+                id: 4,
+                title: "Transparência em Fundações de Apoio",
+                subtitle: "Análise dos Determinantes Financeiros e Estruturais nas Fundações de Apoio à Pesquisa",
+                status: "revisao",
+                statusLabel: "Em Revisão",
+                journal: "Ambiente",
+                journalName: "Revista Ambiente Contábil (UFRN)",
+                authors: "Renato Rosa, Isielli Tierling",
+                period: "Maio 2026",
+                keywords: ["transparência", "fundações de apoio", "terceiro setor", "evidenciação"],
+                notes: "Devolutiva recebida da Casi. Preparando versão para Congresso UFSC."
+            },
+            {
+                id: 5,
+                title: "O Paradoxo da Produtividade da IA",
+                subtitle: "Uma Análise Crítica do Discurso Corporativo sobre Demissões no Contexto da Implementação de IA",
+                status: "pronto",
+                statusLabel: "Pronto",
+                journal: "Alcance",
+                journalName: "Revista Alcance (UNIVALI)",
+                authors: "Renato Rosa et al.",
+                period: "Pronto para submissão",
+                keywords: ["paradoxo produtividade", "teoria agência", "AI washing", "discurso organizacional"],
+                notes: "Versões v1 e v2 disponíveis. Artigo pronto para submissão na Revista Alcance."
+            },
+            {
+                id: 6,
+                title: "Entre a Escravidão Digital e a Fuga Institucional",
+                subtitle: "Análise Lexicométrica das Táticas de Resistência sob a Gestão Algorítmica",
+                status: "pronto",
+                statusLabel: "Pronto",
+                journal: "TPA",
+                journalName: "Revista TPA (UFPB)",
+                authors: "Renato Rosa",
+                period: "Pronto para submissão",
+                keywords: ["digitalização trabalho", "gestão algorítmica", "escravidão digital", "lexicometria", "bem-estar"],
+                notes: "Revisar formato TPA. Resumo estruturado preparado. Credenciais: renatodeoliveirarosa / Rabo1000!"
+            },
+            {
+                id: 7,
+                title: "Sistemas de Controle Gerencial e Criatividade",
+                subtitle: "O Efeito Mediador da Percepção de Justiça Organizacional",
+                status: "correcao",
+                statusLabel: "Em Correção",
+                journal: "Messan",
+                journalName: "Artigo Messan - Coautor",
+                authors: "Messan Komlanvi Akoumani (UnB)",
+                period: "Aguardando correções",
+                keywords: ["controles formais", "controles informais", "criatividade", "justiça organizacional"],
+                notes: "Verificar formatação APA. Revisar hipóteses e modelo teórico."
+            },
+            {
+                id: 8,
+                title: "Pensamento Integrado nas Organizações",
+                subtitle: "O Papel dos Controles Formais e Informais na Qualidade da Evidenciação Integrada",
+                status: "correcao",
+                statusLabel: "Em Correção",
+                journal: "Messan",
+                journalName: "Artigo Messan - Coautor",
+                authors: "Messan Komlanvi Akoumani (UnB)",
+                period: "Aguardando correções",
+                keywords: ["relatório integrado", "controles formais", "pensamento integrado", "IIRC 2021"],
+                notes: "Revisar introdução e referencial teórico. Verificar alinhamento com IIRC 2021."
+            },
+            {
+                id: 9,
+                title: "Avaliação de Desempenho em Contextos Não Presenciais",
+                subtitle: "Uma Análise Contextualizada para o Ambiente Contábil Moderno",
+                status: "desenvolvimento",
+                statusLabel: "Desenvolvimento",
+                journal: "UnivContabil",
+                journalName: "Revista Universo Contábil (FURB)",
+                authors: "Renato Rosa",
+                period: "Em desenvolvimento",
+                keywords: ["avaliação desempenho", "não presencial", "contabilidade", "contexto digital"],
+                notes: "Ligado à dissertação. Artigo em fase de desenvolvimento."
+            },
+            {
+                id: 10,
+                title: "O Novo Contrato Psicológico de Trabalho da Geração Z",
+                subtitle: "Uma Análise das Expectativas e Realidades no Mercado de Trabalho Contemporâneo",
+                status: "desenvolvimento",
+                statusLabel: "Desenvolvimento",
+                journal: "Eigedin",
+                journalName: "Artigo Eigedin",
+                authors: "Eigedin et al.",
+                period: "Em desenvolvimento",
+                keywords: ["geração Z", "contrato psicológico", "trabalho", "marketing"],
+                notes: "Artigo em desenvolvimento com Eigedin."
+            },
+            {
+                id: 11,
+                title: "Carga Cognitiva, Finanças Comportamentais e Tomada de Decisão",
+                subtitle: "Investigando o Papel da Carga Cognitiva nas Decisões Financeiras",
+                status: "desenvolvimento",
+                statusLabel: "Desenvolvimento",
+                journal: "Eigedin",
+                journalName: "Artigo Eigedin",
+                authors: "Eigedin et al.",
+                period: "Em desenvolvimento",
+                keywords: ["carga cognitiva", "finanças comportamentais", "tomada decisão", "psicologia"],
+                notes: "Artigo em desenvolvimento com Eigedin."
+            }
+        ];
+
+        function createParticles() {
+            const container = document.getElementById('particles');
+            for (let i = 0; i < 30; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 20 + 's';
+                particle.style.animationDuration = (15 + Math.random() * 15) + 's';
+                container.appendChild(particle);
+            }
+        }
+
+        function updateCounts() {
+            const counts = {
+                all: articles.length,
+                submetido: articles.filter(a => a.status === 'submetido').length,
+                pronto: articles.filter(a => a.status === 'pronto').length,
+                revisao: articles.filter(a => a.status === 'revisao').length,
+                correcao: articles.filter(a => a.status === 'correcao').length,
+                desenvolvimento: articles.filter(a => a.status === 'desenvolvimento').length
+            };
+
+            document.getElementById('totalCount').textContent = counts.all;
+            document.getElementById('submetidoCount').textContent = counts.submetido;
+            document.getElementById('prontoCount').textContent = counts.pronto;
+            document.getElementById('revisaoCount').textContent = counts.revisao;
+            document.getElementById('correcaoCount').textContent = counts.correcao;
+            document.getElementById('desenvolvimentoCount').textContent = counts.desenvolvimento;
+        }
+
+        function getStatusClass(status) {
+            const classes = {
+                'submetido': 'status-submetido',
+                'pronto': 'status-pronto',
+                'revisao': 'status-revisao',
+                'correcao': 'status-correcao',
+                'desenvolvimento': 'status-desenvolvimento'
+            };
+            return classes[status] || '';
+        }
+
+        function getBadgeClass(status) {
+            const classes = {
+                'submetido': 'badge-submetido',
+                'pronto': 'badge-pronto',
+                'revisao': 'badge-revisao',
+                'correcao': 'badge-correcao',
+                'desenvolvimento': 'badge-desenvolvimento'
+            };
+            return classes[status] || '';
+        }
+
+        function renderArticles(filteredArticles) {
+            const grid = document.getElementById('articlesGrid');
+            const noResults = document.getElementById('noResults');
+            const countEl = document.getElementById('articleCount');
+
+            countEl.textContent = filteredArticles.length;
+
+            if (filteredArticles.length === 0) {
+                grid.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            grid.style.display = 'grid';
+            noResults.style.display = 'none';
+
+            grid.innerHTML = filteredArticles.map((article, index) => `
+                <div class="article-card ${getStatusClass(article.status)}" style="animation-delay: ${index * 0.1}s">
+                    <div class="card-header">
+                        <div class="article-number">${article.id}</div>
+                        <span class="status-badge ${getBadgeClass(article.status)}">
+                            <span class="badge-dot"></span>
+                            ${article.statusLabel}
+                        </span>
+                    </div>
+                    <div class="article-title">${article.title}</div>
+                    <div class="article-subtitle">${article.subtitle}</div>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="label">Periódico Alvo</div>
+                            <div class="value">${article.journalName}</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="label">Período</div>
+                            <div class="value">${article.period}</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="label">Autores</div>
+                            <div class="value">${article.authors}</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="label">ID</div>
+                            <div class="value">#${article.id.toString().padStart(3, '0')}</div>
+                        </div>
+                    </div>
+                    <div class="keywords">
+                        ${article.keywords.map(k => `<span class="keyword">${k}</span>`).join('')}
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="btn btn-primary">📄 Ver Artigo</a>
+                        <a href="#" class="btn btn-secondary">📁 Arquivos</a>
+                    </div>
+                    <div class="notes-section">
+                        <div class="label">📝 Anotações</div>
+                        <textarea placeholder="Adicione observações sobre este artigo...">${article.notes}</textarea>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function filterArticles() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const categoryFilter = document.getElementById('categoryFilter').value;
+            const journalFilter = document.getElementById('journalFilter').value;
+
+            const filtered = articles.filter(article => {
+                const matchesSearch = searchTerm === '' || 
+                    article.title.toLowerCase().includes(searchTerm) ||
+                    article.subtitle.toLowerCase().includes(searchTerm) ||
+                    article.authors.toLowerCase().includes(searchTerm) ||
+                    article.keywords.some(k => k.toLowerCase().includes(searchTerm));
+
+                const matchesCategory = categoryFilter === 'all' || article.status === categoryFilter;
+                const matchesJournal = journalFilter === 'all' || article.journal === journalFilter;
+
+                return matchesSearch && matchesCategory && matchesJournal;
+            });
+
+            renderArticles(filtered);
+        }
+
+        document.getElementById('statsGrid').addEventListener('click', (e) => {
+            const card = e.target.closest('.stat-card');
+            if (!card) return;
+
+            document.querySelectorAll('.stat-card').forEach(c => c.classList.remove('active'));
+            card.classList.add('active');
+
+            const filter = card.dataset.filter;
+            document.getElementById('categoryFilter').value = filter;
+            filterArticles();
+        });
+
+        document.getElementById('searchInput').addEventListener('input', filterArticles);
+        document.getElementById('categoryFilter').addEventListener('change', filterArticles);
+        document.getElementById('journalFilter').addEventListener('change', filterArticles);
+
+        createParticles();
+        updateCounts();
+        renderArticles(articles);
+    </script>
+</body>
+</html>

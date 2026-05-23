@@ -1,0 +1,14 @@
+Li seu artigo e gostaria de compartilhar algumas observações que podem servir como insumo para o aprimoramento do trabalho em versões futuras. Ressalto que minhas observações não têm uma característica de parecerista, nem avaliador, mas sim de apoio formativo.
+
+De forma geral, o artigo apresenta uma proposta promissora, ao combinar fundamentos da análise fundamentalista com IA em uma aplicação voltada à construção de carteiras de dividendos. A clareza na descrição da arquitetura da ferramenta e o comparativo com soluções existentes reforçam o potencial de inovação do trabalho. Contudo, entendo que há espaço para aprimorar a conexão entre o embasamento teórico e a contribuição tecnológica, bem como para destacar os limites e as possibilidades de expansão da proposta.
+
+Alguns pontos para sua reflexão:
+
+É importante ressaltar, logo na introdução e na conclusão, que o artigo não se restringe a uma discussão conceitual, mas materializa-se em uma aplicação prática que integra IA e análise fundamentalista.
+O texto apresenta boas referências, mas poderia deixar mais claro como os conceitos de dividend yield, payout, ROE e fluxo de caixa operacional são incorporados nos prompts específicos.
+Como discutimos, o artigo menciona a dependência de APIs gratuitas, mas poderia indicar limitações como riscos de alucinação do modelo de linguagem, vieses nos prompts e eventuais restrições regulatórias (CVM, LGPD, etc).
+É necessário deixar mais clara as métricas de avaliação de precisão das respostas em relação ao padrão esperado.
+Acho interessante explorar métricas ESG como possível extensão, pode ser um diferencial.
+Avaliar a possibilidade de estudos empíricos (voluntários) para medir o impacto da ferramenta.
+
+Entendo que o artigo já está bem estruturado e demonstra viabilidade prática. As sugestões acima buscam apenas contribuir para que a versão futura se apresente ainda mais robusta. Fique à vontade para continuar as discussões.

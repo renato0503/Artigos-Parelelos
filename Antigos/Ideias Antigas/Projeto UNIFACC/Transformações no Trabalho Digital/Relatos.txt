@@ -1,0 +1,383 @@
+[
+  {
+    "contexto": "DIGITALIZAÇÃO DO TRABALHO: DESAFIOS EMERGENTES E PERSPECTIVAS CRÍTICAS",
+    "temas_emergentes": [
+      {
+        "tema": "Microaposentadoria e Novas Relações com o Trabalho",
+        "descricao": "Relatos sobre a tendência da 'microaposentadoria', pausas estratégicas na carreira, e a busca por um novo equilíbrio entre vida profissional e pessoal, impulsionada principalmente pela Geração Z. Aborda a quebra de paradigmas do modelo de carreira tradicional e a resposta das novas gerações ao esgotamento e à falta de propósito.",
+        "relatos": [
+          {
+            "id": 26,
+            "autor": "Natalia Cas",
+            "cargo": "Luxury Market | Customer Experience | Hot...",
+            "resumo_do_relato": "A autora compartilha uma meta pessoal de 'médiaalegria' (ir a shows a cada dois meses) como uma forma de combater a exaustão, relacionando essa prática aos conceitos de 'microalegrias' e 'microaposentadoria' para manter a saúde mental e a felicidade durante a carreira.",
+            "transcricao": "Eu tenho visto várias reportagens sobre “microalegrias” (pequenos momentos de alegria no dia a dia pra combater a exaustão) e “microaposentadoria” (pausas planejadas pra descansar e aproveitar a vida durante a carreira).\n\nCoincidentemente esse ano eu havia criado uma meta pra mim que traz o que eu chamaria de médiaalegria (já que não é micro e nem macro). Essa meta era: ir em shows ou musicais há cada dois meses.\n\nEssa meta é importante pra mim, assim como para minha saúde mental, porque são experiências que eu gosto muito e me trazem felicidade.\n\nElas me dão algo para esperar e um motivo para me esforçar todos os dias.\n\nEu coloquei dois meses, porque não depende de mim ter algo que me interesse pra assistir todo mês, mas felizmente já bati a meta antes da metade do ano.\n\nJá consegui ir em 6 shows/musicais em 5 meses e já tenho outros 4 planejados para os próximos meses (até agosto).\n\nAlgumas dessas experiências foram vividas com meus pais, outras com minhas melhores amigas, em outras eu estava sozinha e conheci novas pessoas.\n\nNão foram apenas momentos, elas criaram “memórias” e me motivam todos os dias.\n\nJá estou feliz hoje porque tenho 4 shows/musicais pra ir no futuro!"
+          },
+          {
+            "id": 27,
+            "autor": "Cliciane Monteiro, CFP®",
+            "cargo": "Gerente de Relacionamento Estilo - Banco...",
+            "resumo_do_relato": "Define a 'microaposentadoria' como o novo modelo de vida da Geração Z, que consiste em pausas estratégicas na carreira para buscar experiências pessoais, em vez de esperar décadas para viver. Aponta o equilíbrio vida-trabalho, o trabalho remoto e a busca por propósito como motores dessa tendência.",
+            "transcricao": "A Micro Aposentadoria: O Novo Modelo de Vida da Geração Z\n\nA Geração Z está quebrando paradigmas e redefinindo o conceito de aposentadoria. Ao invés de esperar décadas para viver plenamente, muitos jovens dessa geração estão apostando na micro aposentadoria – um modelo em que a pausa para o descanso, viagem e exploração da vida ocorre de forma mais frequente ao longo da jornada, não apenas no fim da carreira.\n\n💡 O que é a Micro Aposentadoria?\n\nTrata-se de uma pausa estratégica na carreira para buscar experiências pessoais, sem abrir mão do trabalho. A ideia é trabalhar por alguns anos, poupar e investir, e então tirar um período de meses ou até um ano para se dedicar a projetos pessoais, viagens ou ao autoconhecimento. Após a pausa, o ciclo se reinicia.\n\n⚡️ Por que a Geração Z está adotando esse modelo?\n\n1. Busca por equilíbrio entre vida pessoal e profissional: A Geração Z valoriza mais o tempo livre e as experiências de vida do que simplesmente acumular riquezas ao longo de décadas.\n\n2. Tecnologia e trabalho remoto: A possibilidade de trabalhar de qualquer lugar, com a flexibilidade proporcionada pelas novas tecnologias, facilita a adoção de uma vida mais equilibrada e sem fronteiras.\n\n3. Autoconhecimento e propósito: Em vez de esperar a aposentadoria tradicional, essa geração busca entender seu propósito e valores ao longo da vida, priorizando o bem-estar emocional e a saúde mental."
+          },
+          {
+            "id": 21,
+            "autor": "Ivan Neres",
+            "cargo": "Especialista em Soluções de Educação na F...",
+            "resumo_do_relato": "Explica o conceito de 'microaposentadoria', mencionando sua origem no livro 'Trabalhe 4 Horas por Semana' (2007). Define o termo como pequenas pausas planejadas ao longo da vida produtiva para viver experiências significativas sem esperar a aposentadoria tradicional.",
+            "transcricao": "💡 Você já ouviu falar em microaposentadoria?\nEssa ideia inovadora surgiu em 2007, inspirada no livro Trabalhe 4 Horas por Semana, e hoje ganha ainda mais relevância em tempos de trabalho híbrido e busca por equilíbrio entre vida pessoal e profissional.\nA microaposentadoria propõe pequenas pausas planejadas ao longo da vida produtiva — em vez de esperar pela aposentadoria tradicional — permitindo viver experiências significativas enquanto ainda estamos em plena atividade.\n\n#Microaposentadoria #FuturoDoTrabalho #Produtividade #QualidadedeVida #TrabalhoHíbrido #CarreiraComSentido"
+          },
+          {
+            "id": 25,
+            "autor": "Andrei Sundfeld",
+            "cargo": "Liderança Democrática | Mentoria | Desenv...",
+            "resumo_do_relato": "Cita um artigo sobre como a Geração Z está redefinindo o mundo do trabalho, valorizando flexibilidade, propósito, crescimento contínuo e 'microaposentadorias' para buscar equilíbrio, afirmando que entender essas expectativas é uma estratégia, não apenas uma tendência.",
+            "transcricao": "O artigo do Jonathan H. Westover, PhD, MPA, AF-CIPD, SFHEA para a Coaches Council mostra como a Geração Z está redefinindo o mundo do trabalho. Eles valorizam flexibilidade, propósito e crescimento contínuo — e até “micro-aposentadorias” para buscar equilíbrio. Entender essas expectativas não é só tendência, é estratégia. Vale super a leitura!"
+          },
+          {
+            "id": 20,
+            "autor": "Ex-RH",
+            "cargo": "38 seguidores",
+            "resumo_do_relato": "Questiona o modelo tradicional de trabalho e apresenta as pausas na carreira (sabáticos ou microaposentadorias) como uma escolha para combater o esgotamento. O post é uma reflexão sobre viver a vida, apesar das obrigações do trabalho.",
+            "transcricao": "Será que a vida é só sobre esperar passar 40 anos cheios de 44 horas semanais? Será que a gente nasceu só pra ir trabalhar, muitas vezes, em empregos em que não acreditamos e/ou não pagam o suficiente?\n\nBom, precisamos pagar as contas, né? Esse é o sistema: trabalho, salário, boletos, repetir 😫😫😫\n\n“Fazer pausas de semanas ou meses na carreira é uma escolha para combater o esgotamento e perseguir paixões, e poderia se encaixar em planos de carreira de empresas para reter talentos”, disse a Erin Lowry, nesta coluna sobre Gen Z e micro-aposentadorias, da Bloomberg.\n\nEste não é um post “tire um ano sabático, você consegue, basta se planejar”. A “meritocracia” do Brasil não permitiria. Este é um post de reflexão. Te pergunto: você sente que está vivendo, ou apenas trabalhando-pagando-conta-repetindo?\n\nNunca se esqueça: você está AQUI nesta vida, APESAR de ter que trabalhar!\nFaça o que fizer, enfrente o que vier, mas nunca desista de você! 💙\n\n#anosabático #sabático #carreira"
+          },
+          {
+            "id": 14,
+            "autor": "Matheus D.",
+            "cargo": "Especialista em Estratégias de Tráfego Pag...",
+            "resumo_do_relato": "O autor reflete sobre a necessidade das empresas se adaptarem às Gerações Z e Alpha, destacando a 'microaposentadoria' como uma tendência crescente. Afirma que a Geração Z tem pouca paciência com a cultura corporativa tradicional e que a mentalidade do 'não gostei daqui, tchau' é comum.",
+            "transcricao": "Olha que louco \"As empresas vão ter que se adaptar a Gen z e Gen Alpha?\" ou vamos seguir ao contrário? Uma vez a Gen z já está começando a ter \"Microaposentadoria\" creio que o começo da frase faça mais sentido!\n\nA gen z não tem mais \"saco\" e tão pouca está preocupada com Fit cultural das empresas, que por sinal sabemos que em sua grande maioria só funciona na teoria ou no linkedin, entendo esse comportamento atual que por sua vez tem sim um \"Q\" de Genialidade, vemos o mercado de trabalho e o mercado de consumo tomar novos rumos, a paciência para trabalho da Gen Z está a quase zero \"Não gostei daqui, tchau\", existe uma dificuldade enorme de se ver profissionais atualmente querendo algo a longo prazo a nível de carreira, o Agora é o que importa. Mas e a Gen Alpha, o que será que ela nos trará de novidade? afinal em poucos anos elas estarão entrando no mercado de trabalho, ou será que isso não fará parte do dia a dia delas?\n\nO que você gen z e dono de empresa estão achando de tudo isso?\n\n#genz #marketing #mercadodetrabalho #genalpha #empresas"
+          },
+          {
+            "id": 9,
+            "autor": "Eduardo Sarno Alarcon",
+            "cargo": "Engenharia Civil | Saneamento | Engenharia...",
+            "resumo_do_relato": "Um relato pessoal onde o autor anuncia o fim de seus 'dias de microaposentadoria' ao compartilhar seu retorno ao trabalho em um novo e desafiador projeto, mostrando a aplicação prática do conceito como um período entre empregos.",
+            "transcricao": "Os dias de microaposentadoria estão chegando ao fim....\n\nÉ com muita satisfação e alegria que compartilho com todos que volto a atuar pela JHE Engenharia num desafio enorme: um contrato com a Sabesp para gerenciamento e fiscalização das obras em estações de tratamento de esgoto!!\n\nMuito trabalho pela frente! Mas com uma empresa que te valoriza e fornece todo o suporte necessário, tudo fica mais fácil!"
+          },
+          {
+            "id": 8,
+            "autor": "Alessandra Matsumi",
+            "cargo": "Comunicação Interna | Cultura Organizacio...",
+            "resumo_do_relato": "A autora argumenta que a Geração Z busca coerência em vez de status ('crachá'). Aponta que 'quiet quitting', 'revenge quitting' e 'micro aposentadorias' são respostas silenciosas a culturas que não praticam os valores que pregam, como saúde mental, flexibilidade e inclusão.",
+            "transcricao": "A Geração Z não quer um crachá. Quer coerência.\nE talvez você precise rever o EVP da sua empresa.\n\nPropósito, saúde mental, flexibilidade e inclusão deixaram de ser “valores de employer branding”. Agora, esses são critérios básicos para que um talento da nova geração decida entrar e, principalmente, permanecer nas empresas.\nLi recentemente o artigo do André Katz no Mundo RH sobre como a Geração Z está pressionando uma mudança real nos EVPs (Employee Value Proposition) e nas estratégias de Employer Branding.\nE, como profissional que trabalha com cultura organizacional, comunicação e experiência do colaborador, posso afirmar: essa transformação não é tendência. É urgência.\n“Quiet quitting”, “revenge quitting” e as micro aposentadorias são apenas respostas simbólicas (e muitas vezes silenciosas) da Geração Z para culturas que ainda operam sob os códigos da geração anterior.\nEssa geração:\n- Quer pausas, e não só férias.\n- Quer líderes mais humanos, não executivos inalcançáveis.\n- Quer empresas que não falem de diversidade em datas comemorativas, mas que pratiquem todos os dias.\n- Quer coerência entre o que a empresa diz e o que a empresa faz.\n\nE os dados confirmam:\n- Segundo a Deloitte, 44% da Geração Z deixariam a empresa em até dois anos se não enxergarem conexão com seus valores.\n- A LinkedIn Employer Brand Research mostra que 86% dos jovens profissionais pesquisam a reputação da empresa antes de aceitar uma proposta.\n- Já a Glassdoor aponta que 58% da Geração Z priorizam cultura organizacional em vez de benefícios.\n- E, talvez o mais direto: 76% não se candidatariam a uma empresa com reputação negativa, mesmo desempregados.\n\nA pergunta que fica é: se o EVP é a promessa, a sua cultura é a entrega?"
+          },
+          {
+            "id": 3,
+            "autor": "Janaina Manfredini",
+            "cargo": "Especialista em Gente, Gestão & Estratégia...",
+            "resumo_do_relato": "Contrasta o retorno dos Baby Boomers ao mercado com as pausas da Geração Z ('microaposentadoria'), analisando o fenômeno como uma redefinição do equilíbrio entre trabalho e lazer. Discute o que isso significa para as organizações e a necessidade de repensar modelos de carreira.",
+            "transcricao": "Enquanto os Baby Boomers voltam ao mercado, a Geração Z faz uma pausa na sua carreira e vai viajar. Estranho? Ou apenas um reflexo das novas dinâmicas do mundo corporativo?\n\nA “microaposentadoria” é uma tendência que tem ganhado força entre os jovens profissionais. Em vez de esperar décadas para desfrutar da vida, eles estão redefinindo o equilíbrio entre trabalho e lazer, fazendo pausas estratégicas entre empregos para descansar, explorar novos caminhos e recarregar energias. Mesmo porque, efetivamente, talvez a aposentadoria nunca chegue para eles.\n\nAo mesmo tempo, uma realidade bem diferente acontece do outro lado do espectro geracional. Muitos aposentados estão voltando ao mercado de trabalho. Seja pela necessidade financeira diante do alto custo de vida ou pela busca por propósito e conexão. De qualquer forma, esse retorno representa uma reconfiguração da força de trabalho.\n\nMas o que esse movimento significa para as organizações? Que o modelo tradicional de carreira linear está ruindo. Que as pausas profissionais não são mais um tabu, e sim uma estratégia. E que a diversidade geracional traz novas formas de colaboração e inovação. Empresas que insistirem em práticas ultrapassadas perderão talentos - tanto os jovens que buscam flexibilidade, quanto os experientes que precisam de um ambiente mais inclusivo.\n\nSe de um lado há uma geração recusando a exaustão como modelo de vida, do outro há profissionais que não querem (ou não podem) parar. Como equilibrar essas forças? É necessário investir em modelos híbridos, combater o etarismo, oferecer treinamentos e capacitação tecnológica, valorizar o bem-estar dos colaboradores e reformular as práticas tradicionais de trabalho para criar um ambiente no qual tanto Baby Boomers quanto a Geração Z possam prosperar. Concorda? Deixe aqui sua opinião sobre o assunto também."
+          }
+        ]
+      },
+      {
+        "tema": "Ghosting no Emprego e Processos Seletivos",
+        "descricao": "Relato sobre a prática de 'ghosting' por parte das empresas durante processos seletivos, onde candidatos são deixados sem resposta ou feedback após participarem de entrevistas. O fenômeno é criticado como desrespeitoso e associado a 'vagas fantasma'.",
+        "relatos": [
+          {
+            "id": 4,
+            "autor": "Emely Moraes",
+            "cargo": "Marketing Digital | Social listening | Criação...",
+            "resumo_do_relato": "A autora descreve o processo
+
+
+{
+  "contexto": "DIGITALIZAÇÃO DO TRABALHO: DESAFIOS EMERGENTES E PERSPECTIVAS CRÍTICAS",
+  "temas_emergentes": [
+    {
+      "tema": "Escravidão Digital",
+      "descricao": "Conjunto de relatos que abordam a 'escravidão digital' sob múltiplas perspectivas: a dependência psicológica de redes sociais, jogos e dispositivos ('escravidão do celular'); novas formas de exploração laboral em plataformas de aplicativos (gig economy), jogos 'play-to-earn' e esquemas de apostas ('bets'); e reflexões filosóficas sobre a perda da autonomia, o controle por algoritmos e o futuro da humanidade diante da Inteligência Artificial (AGI).",
+      "relatos": [
+        {
+          "id": 1,
+          "situacao_descrita": "A verdade sobre a escravidão digital",
+          "plataforma": "Shorts Youtube",
+          "transcricao": "O vídeo fala em como as pessoas ficam reféns da tecnologia no mundo atual,jogos,redes sociais e etc. Também em como perdem o tempo da vida real por conta da internet.",
+          "url": "https://youtube.com/shorts/cls1QQwwjBc?si=xswtjyMtCfJZSsns"
+        },
+        {
+          "id": 2,
+          "situacao_descrita": "Escravidão Eletrônica, Escravidão Digital",
+          "plataforma": "Shorts Youtube",
+          "transcricao": "O vídeo “Escravidão Eletrônica / Escravidão Digital” aborda o conceito de um porquê usamos a expressão “escravidão” no contexto tecnológico e digital.",
+          "url": "https://youtu.be/ggwhPlVKEvk?feature=shared"
+        },
+        {
+          "id": 3,
+          "situacao_descrita": "A Escravidão digital vai ser forte no Brasil",
+          "plataforma": "kwai",
+          "transcricao": "Mostra como as pessoas estão cada vez mais presas às telas dos celulares, trocando momentos reais por interações virtuais. Aponta a dependência emocional e a ilusão de conexão.",
+          "url": "https://kwai-video.com/p/Ct0p67K7"
+        },
+        {
+          "id": 4,
+          "situacao_descrita": "AGI: A escravidão social e Revolta",
+          "plataforma": "Shorts Youtube",
+          "transcricao": "A Inteligência Artificial Geral (AGI) pode se tornar a tecnologia mais poderosa da história. Mas se criarmos AGIs com verdadeira inteligência e criatividade, será ético forçá-las a obedecer como ferramentas? O físico e filósofo David Deutsch alerta que tratar AGIs como escravas pode levar a consequências imprevisíveis, incluindo rebelião. Neste vídeo, exploramos suas ideias sobre AGI, escravidão digital e a possibilidade de uma revolta das máquinas.",
+          "url": "https://youtu.be/rhhhIsj5NBw?si=2fo5D9GMShir-vU0"
+        },
+        {
+          "id": 5,
+          "situacao_descrita": "O futuro da escravidão digital",
+          "plataforma": "Shorts Youtube",
+          "transcricao": "O vídeo relato sobre como será o futuro das gerações se continuarem totalmente dependentes do mundo digital, faz uma pequena comparação das empresas Japonesas e Brasileiras e como seria trazer essas experiências de fora para o Brasil",
+          "url": "https://youtube.com/shorts/8LmjG7onOnc?si=iJEaJNs6SDjC71DD"
+        },
+        {
+          "id": 6,
+          "situacao_descrita": "A escravidão digital está a Porta",
+          "plataforma": "kwai",
+          "transcricao": "Aborda o impacto psicológico da escravidão digital, mostrando como a mente humana está sendo programada para o consumo constante de conteúdo, causando ansiedade e distração.",
+          "url": "https://kwai-video.com/p/2NslqCGM"
+        },
+        {
+          "id": 7,
+          "situacao_descrita": "Motorista ou Escravo",
+          "plataforma": "kwai",
+          "transcricao": "Motoristas de app vivem a chamada escravidão digital, sendo explorados por algoritmos sem direitos trabalhistas. Trabalham muito, ganham pouco e ainda são controlados pelo sistema.",
+          "url": "https://kwai-video.com/p/CqKHsCn4"
+        },
+        {
+          "id": 8,
+          "situacao_descrita": "Escravidão digital moderna",
+          "plataforma": "TikTok",
+          "transcricao": "Vivemos em uma era em que saber tudo é uma armadilha.",
+          "url": "https://vm.tiktok.com/ZMSUpHM7c/"
+        },
+        {
+          "id": 9,
+          "situacao_descrita": "A escravidão digital no Brasil",
+          "plataforma": "TikTok",
+          "transcricao": "A escravidão no Brasil antigamente era uma coisa que afetava muito o ser humano.",
+          "url": "https://vm.tiktok.com/ZMSUph3NV/"
+        },
+        {
+          "id": 10,
+          "situacao_descrita": "escravidão do celular",
+          "plataforma": "TikTok",
+          "transcricao": "Hoje em dia o celular é uma ferramenta bastante utilizada, porém temos que ter um controle sobre esse aparelho.",
+          "url": "https://vm.tiktok.com/ZMSUp555Y/"
+        },
+        {
+          "id": 11,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "TikTok",
+          "transcricao": "Relato sobre uma pessoa que está está sobrevivendo em uma recuperação de dependência digital, fala areipeito da geração z que são as que estão mais intensa nesse mundo digital e não conseguem viver sem internet, fala sobre o que está acontecendo na sua vida desde quando entrou na internet até o momento em que percebeu que já estava sendo tão dependente da sua vida na internet do que fora dela",
+          "url": "https://vm.tiktok.com/ZMS5PWSua/"
+        },
+        {
+          "id": 12,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "TikTok",
+          "transcricao": "Dona Maria quer contratar um serviço pela internet sem registar os direito do tralhador",
+          "url": "https://vm.tiktok.com/ZMS5KXMjF/"
+        },
+        {
+          "id": 13,
+          "situacao_descrita": "Jogos “play-to-earn” que viram armadilha",
+          "plataforma": "Shorts Youtube",
+          "transcricao": "Jogos de blockchain com modelo “jogue para ganhar” atraem pessoas em países pobres com promessas de renda. Muitos acabam contraindo dívidas para comprar ativos digitais do jogo e depois são forçados a jogar longas horas para pagar os “patrões digitais” que controlam suas contas. Sem contrato justo e sob vigilância, perdem sua liberdade digital e financeira.",
+          "url": "https://youtube.com/shorts/OP1xSk7KfAk?si=fvnHgMhYepzcZ426"
+        },
+        {
+          "id": 14,
+          "situacao_descrita": "Trabalho Digital nos Aplicativos",
+          "plataforma": "Shorts Youtube",
+          "transcricao": "Milhões de pessoas no mundo trabalham por meio de aplicativos como transporte, delivery, serviços domésticos e freelance. Apesar da aparência de autonomia, muitos enfrentam jornadas exaustivas, baixa remuneração, falta de direitos trabalhistas e avaliação constante por algoritmos. Sem vínculo formal, ficam desprotegidos em casos de acidentes, doenças ou bloqueios injustos nas plataformas.",
+          "url": "https://youtube.com/shorts/hiSONSCwzjQ?si=8XVhSB_oANwB1-D2"
+        },
+        {
+          "id": 15,
+          "situacao_descrita": "Escravidão Digital em Bets",
+          "plataforma": "Shorts Youtube",
+          "transcricao": "Em vários países da Ásia e da África, pessoas são aliciadas com promessas de emprego e acabam forçadas a trabalhar em plataformas ilegais de apostas online, conhecidas como “bets”. Sem liberdade, vivem sob vigilância, têm documentos retidos e são obrigadas a enganar usuários em jogos e apostas. Trabalham exaustivamente, sem salário justo e sob ameaças constantes, configurando uma nova forma de escravidão digital.",
+          "url": "https://youtube.com/shorts/pIRxCqHdu9k?si=ctn4oZv2oyLq_Zsh"
+        },
+        {
+          "id": 16,
+          "situacao_descrita": "Reflexão sobre a escravidão digital",
+          "plataforma": "Youtube",
+          "transcricao": "O Padre Paulo Ricardo alerta sobre como a dependência excessiva da tecnologia, especialmente dos celulares e redes sociais, está nos tornando escravos modernos. Ele explica que a atenção humana é explorada por algoritmos e que isso afeta nossa capacidade de concentração, convivência familiar e vida espiritual. Propõe que recuperemos o controle sobre o uso da tecnologia por meio da disciplina, lembrando que ela deve ser uma ferramenta a nosso serviço – e não um senhor que nos domina.",
+          "url": "https://youtu.be/ba5gsZWLttg?si=zyDsxBeFDA7LfrTK"
+        },
+        {
+          "id": 17,
+          "situacao_descrita": "Liberte-se da Escravidão Digital",
+          "plataforma": "Shorts Youtube",
+          "transcricao": "Esse vídeo relato uma forma de sair da escravidão digital, melhor maneira de sair desse vicio, para você voltar a ter foco nos seu cotidiano",
+          "url": "https://youtube.com/shorts/gdKm8PFzBQc?si=X2W9zIEXJFTNg1Ju"
+        },
+        {
+          "id": 18,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "You Tube",
+          "transcricao": "“Se você faz isso sinto muito, mas você nunca vai sair da escravidão digital. Você pega o celular pra ver uma coisinha rápida e do nada já passaram 40 minutos ou pior 3hrs como assim? Sabe o é pior você nem lembra direito o que viu mas o algoritmo lembra de tudo sobre você e é por isso que você está preso a cada rolagem do feed, o seu cérebro recebe uma pequena dose de dopamina, pequena mas viciante você não tá usando o celular o celular está usando você. Parabéns agora você é um NPC da internet, se quer sair dessa a primeira coisa que você precisa fazer é parar de agir no piloto automático, começa a contar o tempo que você passa no celular. Se não consegue parar pelo menos perceba quanto tempo está indo pro lixo porque no final a escolha é sua ou você controla isso ou isso vai te controlar. Qual foi o seu recorde de tempo preso no celular?”",
+          "url": "https://youtube.com/shorts/6ZDopV3qdUw?si=_dbZjAZzIkT5BxJo"
+        },
+        {
+          "id": 19,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "Tik Tok",
+          "transcricao": "“As telas têm levado a culpa da falta de foco nas novas gerações, mas será que isso realmente é verdade? Ou o uso excessivo da internet pode ser o sintoma de algo mais profundo? Como preencher os seus buracos emocionais? Eu não sei se você sabe mas a autonomia, a competência e a sociabilidade são chaves cruciais pra saúde mental de qualquer ser humano. Mas quando a gente olha a vida de muitas crianças, o lugar onde essas três coisas parecem estar mais presentes, infelizmente é no digital. Os videogames parabenizam por conquistas simples, o que dá uma sensação de competência. O medo dos pais de expor as crianças ao perigo e as suas agendas lotadas, tiram delas a autonomia e muitas vezes, a sociabilidade que o on-line está ali para oferecer. E apesar de ser mais forte nas novas gerações, isso se aplica a qualquer pessoa. Quantas vezes você já trocou desconforto da vida real pela segurança do digital? E se os seus filhos estao muito tempo na tela, como estão essas 3 coisas nele? E lembre-se que ficar horas olhando uma tela, é um sintoma de algo muito mais profundo. Pense nisso!”",
+          "url": "https://vm.tiktok.com/ZMSPLuLSK/"
+        },
+        {
+          "id": 20,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "You Tube",
+          "transcricao": "“A nova escravidão é digital voluntária, você sabia que 44% dos indivídados alegaram jogar em bets na tentativa de recuperar seu próprio dinheiro perdido? Pois é, e ainda tem influenciadores “do bem” que divulgam isso como se não fosse nada, milhões de pessoas perderam bilhões de reais no Brasil, tendo suas expectativas e sonhos jogados no lixo achando que mudar de vida num passe de mágica. Liberdade financeira virou a nova forma de prisão psicológica, elas caem na ilusão de que tudo vai melhorar e que tudo vai mudar influenciada por pessoas que dizem ser do bem e acabam se afundando no buraco que elas próprias cavaram.”",
+          "url": "https://youtube.com/shorts/pIRxCqHdu9k?si=XC5SljNKS8A5-SW_"
+        },
+        {
+          "id": 21,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "You Tube",
+          "transcricao": "“Você sabia que o comportamento do seu filho com o tablet é o mesmo comportamento que um adulto tem quando é viciado em cocaína, dopamina, ansiedade, isolamento, tudo por causa de um joguinho colorido. Seu filho precisa de ajuda e você precisa agir agora.”",
+          "url": "https://youtube.com/shorts/u1gTu64swp0?si=ShUDaZTW4dIF-wrQ"
+        },
+        {
+          "id": 22,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "You Tube",
+          "transcricao": "“Quem trabalha com o digital não sabe quando é feriado, que a gente tem a vantagem de trabalhar quando a gente quer. Então a gente acaba trabalhando todo dia, porque a obrigação rouba o prazer, quando você é obrigado a trabalhar, é chato de trabalhar, quando você não é obrigado a trabalhar você não se incomoda de trabalhar todos os dias porque você não ta sendo obrigado a trabalhar. E você ganha de acordo com o o seu resultado, então você acaba nao sabendo quando é feriado, você acaba trabalhando 16hrs e não parece que você trabalhou.”",
+          "url": "https://youtube.com/shorts/-7-PbaCKn38?si=mr0yqmfPHtyicAVb"
+        },
+        {
+          "id": 23,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "You Tube",
+          "transcricao": "“Na escravatura digital vai ter 60 milhões de pessoas, vai ser a coisa mais um horripilante que a humanidade já viu, nós somos um povo que não anda nos próprios carros a gente não cria carro a gente não cria computador, a gente não cria tecnologia, a gente só vende matéria-prima e compra ela. A gente vende a preço de tonelada e compra a preço de grama. Nós somos um povo que vai ser dominada em pouco tempo, a gente não entendeu o que é feito então pra você que está na periferia, se você desistiu de prosperar seu filho não vai desistir.”",
+          "url": "https://youtube.com/shorts/wlf5FPEZ7XI?si=ktCU7lQSJSW-5lnV"
+        },
+        {
+          "id": 24,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "Linkedin",
+          "transcricao": "“O verdadeiro custo de depender de processos manuais não é apenas financeiro; é a escravidão invisível que amarra seu império digital. A sua operação não avança porque está esperando que você solte o botão. Enquanto você sustenta a empresa, presos ao operacional, o mundo continua a girar — movido por inteligência autônoma que não precisa descansar. Instale liberdade e reconheça que o que você faz desaparecer vale mais do que qualquer economia de curto prazo.”",
+          "url": "https://www.linkedin.com/posts/guilhermetorres20_liberdadeoperacional-impaezrioinvisaedvel-activity-7333507567299493888-OTPl?utm_source=share&utm_medium=member_ios&rcm=ACoAADQl764BSLKhQKBBTKtOCtS2FlRAvsOGDhg"
+        },
+        {
+          "id": 25,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "Linkedin",
+          "transcricao": "“O impacto da revolução tecnológica desencadeada pelo lançamento do iPhone em 2007. A tecnologia deixou de ser apenas um acessório e passou a integrar o próprio tecido da existência humana, modificando não apenas as ferramentas que usamos, mas também nossas relações, percepções e comportamentos. Podemos interpretar essa transformação como uma mudança ontológica — ou seja, uma mudança na própria natureza do ser. A geração que nasceu após 2007 já habita um mundo em que o digital e o físico não são mais entidades separadas, mas interconectadas em uma realidade híbrida. A tecnologia não é apenas um meio; ela constitui o próprio modo de ser no mundo. Podemos nos perguntar: essa nova humanidade é mais livre ou mais condicionada? Se antes a tecnologia era algo externo ao humano, hoje ela se torna parte da identidade de cada indivíduo. Mas até que ponto essa integração redefine o conceito de autonomia e subjetividade? Psicologicamente, essa mudança pode ser vista como uma reconfiguração do desejo e da forma como o sujeito se relaciona com o mundo. Se antes o desejo era mediado pela ausência e pela construção simbólica, hoje ele é amplificado pela instantaneidade e pela hiperconectividade. O acesso imediato à informação, ao consumo e à interação pode gerar uma nova forma de ansiedade, em que a espera e a contemplação cedem espaço para a necessidade constante de estímulo. Isso pode afetar profundamente os processos psíquicos, sobretudo na construção da identidade e das relações interpessoais. O impacto dessa nova realidade transcende a mera inovação tecnológica. Estamos testemunhando uma mudança de paradigma na maneira como o humano se percebe e interage com o mundo. A questão que se impõe é: estamos, de fato, diante de uma \"nova humanidade\" ou apenas de uma nova configuração de velhos desafios existenciais? Afinal, como Nietzsche poderia sugerir, toda transformação tecnológica carrega consigo não apenas possibilidades, mas também novas formas de escravidão e dependência. Se olharmos para o momento atual, marcado por avanços na inteligência artificial e na integração cada vez maior entre homem e máquina, percebemos que essa trajetória não tem sinais de desaceleração. Estamos entrando em uma era em que a distinção entre o orgânico e o artificial se torna cada vez mais nebulosa. O que nos resta, então, é a reflexão crítica: a tecnologia nos aprimora ou nos limita? E, acima de tudo, o que significa \"ser humano\" em um mundo onde a inovação redefine constantemente a existência? Essa nova humanidade ainda está em construção. E talvez sua maior marca seja a própria incerteza sobre o que virá a seguir.”",
+          "url": "https://www.linkedin.com/posts/eduardo-mollo-450289_o-impacto-tecnol%C3%B3gico-na-identidade-humana-activity-7331731734104879104-J6ov?utm_source=share&utm_medium=member_ios&rcm=ACoAADQl764BSLKhQKBBTKtOCtS2FlRAvsOGDhg"
+        },
+        {
+          "id": 26,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "You Tube",
+          "transcricao": "1:25 - 2:18“A curiositas hoje é uma praga que afeta inclusive os católicos. Os católicos deixaram de estudar ficam horas por dia vendo vídeos no Instagram no YouTube no WhatsApp e acham que estão estudando estão buscando a verdade e não estão, ficam a procura de respostas fáceis pra responder protestantes, até os modernistas, progressistas pra defender a igreja, mas você deve ir atrás da verdade pra defender a igreja não atrás desses argumentos fáceis os argumentos devem vir da verdade não o contrário. As pessoas estão querendo simplesmente satisfazer a sua curiosidade a respeito de temas polêmicos, enfim é pra tentar auxiliar-los nessa busca autêntica da verdade com a virtude da estudiositas.”",
+          "url": "https://youtu.be/ba5gsZWLttg?si=Xr_YkeUFNMP3egYi"
+        },
+        {
+          "id": 27,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "Linkedin",
+          "transcricao": "“Quem não usa IA, vai puxar a carroça. Isso aqui não é ficção científica. É um alerta brutal sobre o futuro do trabalho. Enquanto alguns ainda resistem à Inteligência Artificial, outros já a estão dominando e assumindo o controle. Se você não aprender a usar IA agora, vai acabar sendo mais um puxando a carroça no novo jogo do mercado. Não se trata de saber tudo, mas de não ficar parado. Quem aprende primeiro, comanda. Quem demora, obedece. A IA não vai te substituir. Pessoas que usam IA sim. A diferença entre liberdade e escravidão digital está em uma habilidade: aprender rápido. Você está construindo ferramentas ou sendo usado por elas? Essa imagem incomoda? Então ela está funcionando. ⚡️Comece agora. Ou prepare-se para ser puxado pelo sistema. Não deixe o robô assumir as rédeas da sua vida.”",
+          "url": "https://www.linkedin.com/posts/legado9ox_inteligenciaartificial-futurodotrabalho-revolucaodigital-activity-7329677445228290048-wScm?utm_source=share&utm_medium=member_ios&rcm=ACoAADQl764BSLKhQKBBTKtOCtS2FlRAvsOGDhg"
+        },
+        {
+          "id": 28,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "Tik Tok",
+          "transcricao": null,
+          "url": "https://vm.tiktok.com/ZMSPSBp4g/"
+        },
+        {
+          "id": 29,
+          "situacao_descrita": "Escravidão Digital",
+          "plataforma": "Tik Tok",
+          "transcricao": null,
+          "url": "https://vm.tiktok.com/ZMSPS71YE/"
+        }
+      ]
+    },
+    {
+      "tema": "Microaposentadoria",
+      "descricao": "Fenômeno crescente, especialmente entre a Geração Z, que consiste em pausas estratégicas e planejadas ao longo da carreira para descanso, viagens ou desenvolvimento pessoal. Os relatos contrastam este novo modelo com a carreira linear tradicional, vendo-o como uma resposta ao esgotamento e uma busca por maior equilíbrio e bem-estar.",
+      "relatos": [
+        {
+          "id": 30,
+          "situacao_descrita": "Micro aposentadoria",
+          "plataforma": "TikTok",
+          "transcricao": "Uma tendência entre jovens profissionais, especialmente da Geração Z, que consiste em fazer pausas planejadas na carreira para descanso, viagens, ou desenvolvimento pessoal, antes da aposentadoria tradicional. É uma forma de equilibrar a vida profissional com a pessoal, buscando bem-estar e evitando o esgotamento.",
+          "url": "https://vm.tiktok.com/ZMS5fbKR5/"
+        },
+        {
+          "id": 31,
+          "situacao_descrita": "Microaposentadorias",
+          "plataforma": "Linkedin",
+          "transcricao": "“A Geração Z, formada por jovens nascidos entre meados da década de 1990 e o início de 2010, está redesenhando o conceito de trabalho e descanso de maneira profunda. Essa geração, que cresceu em um mundo hiperconectado e cheio de incertezas, busca alternativas que priorizem equilíbrio e bem-estar ao invés de seguir os modelos tradicionais de carreira linear. Duas práticas que exemplificam essa transformação são as microaposentadorias e as férias secretas, conceitos amplamente discutidos por autores e especialistas como Tim Ferriss, em Trabalhe 4 Horas por Semana, e Celinne Da Costa, em suas análises sobre trabalho remoto e estilo de vida. As microaposentadorias, termo popularizado por Ferriss, referem-se a pausas estratégicas ao longo da carreira, onde profissionais tiram períodos sabáticos para viajar, explorar novos interesses ou simplesmente descansar. Essa prática rompe com a ideia de esperar até os 60 ou 70 anos para aproveitar os frutos de uma vida de trabalho. Em vez disso, a Geração Z está optando por distribuir momentos de lazer e desenvolvimento pessoal ao longo de suas vidas, refletindo a valorização do presente e a busca por experiências que proporcionem sentido. Já as férias secretas, um conceito mais recente, abordado por autores como Celinne Da Costa em estudos sobre \"escapadas intencionais\", tratam de pequenas viagens ou pausas planejadas de forma discreta, longe da exposição nas redes sociais. Para essa geração, o valor das experiências está em sua autenticidade e na desconexão, um contrapeso à constante pressão de performar e compartilhar tudo online. Essas escapadas costumam ser voltadas para destinos alternativos ou atividades que permitam uma verdadeira imersão, como retiros de mindfulness, oficinas criativas ou aventuras em locais pouco conhecidos. Os impactos da geração Z ainda levará um tempo para ser compreendida. Nesse intervalo de tempo, será necessário rever as formas como os diálogos são construídos com essa geração.”",
+          "url": "https://www.linkedin.com/posts/alex-santana-3b40a11b2_a-gera%C3%A7%C3%A3o-z-uma-nova-vis%C3%A3o-sobre-a-vida-activity-7299399183877246976-mmeU?utm_source=share&utm_medium=member_ios&rcm=ACoAADQl764BSLKhQKBBTKtOCtS2FlRAvsOGDhg"
+        },
+        {
+          "id": 32,
+          "situacao_descrita": "Microaposentadorias",
+          "plataforma": "Linkedin",
+          "transcricao": "“Enquanto os Baby Boomers voltam ao mercado, a Geração Z faz uma pausa na sua carreira e vai viajar. Estranho? Ou apenas um reflexo das novas dinâmicas do mundo corporativo? \nA “microaposentadoria” é uma tendência que tem ganhado força entre os jovens profissionais. Em vez de esperar décadas para desfrutar da vida, eles estão redefinindo o equilíbrio entre trabalho e lazer, fazendo pausas estratégicas entre empregos para descansar, explorar novos caminhos e recarregar energias. Mesmo porque, efetivamente, talvez a aposentadoria nunca chegue para eles. \nAo mesmo tempo, uma realidade bem diferente acontece do outro lado do espectro geracional. Muitos aposentados estão voltando ao mercado de trabalho. Seja pela necessidade financeira diante do alto custo de vida ou pela busca por propósito e conexão. De qualquer forma, esse retorno representa uma reconfiguração da força de trabalho. \nMas o que esse movimento significa para as organizações? Que o modelo tradicional de carreira linear está ruindo. Que as pausas profissionais não são mais um tabu, e sim uma estratégia. E que a diversidade geracional traz novas formas de colaboração e inovação. Empresas que insistirem em práticas ultrapassadas perderão talentos – tanto os jovens que buscam flexibilidade, quanto os experientes que precisam de um ambiente mais inclusivo. \nSe de um lado há uma geração recusando a exaustão como modelo de vida, do outro há profissionais que não querem (ou não podem) parar. Como equilibrar essas forças? É necessário investir em modelos híbridos, combater o etarismo, oferecer treinamentos e capacitação tecnológica, valorizar o bem-estar dos colaboradores e reformular as práticas tradicionais de trabalho para criar um ambiente no qual tanto Baby Boomers quanto a Geração Z possam prosperar. Concorda? Deixe aqui sua opinião sobre o assunto também. Conte aqui como você imagina as estratégias para esse cenário?”",
+          "url": "https://www.linkedin.com/posts/janaina-manfredini-6203791b_enquanto-os-baby-boomers-voltam-ao-mercado-activity-7307740098689703936-RRkl?utm_source=share&utm_medium=member_ios&rcm=ACoAADQl764BSLKhQKBBTKtOCtS2FlRAvsOGDhg"
+        },
+        {
+          "id": 33,
+          "situacao_descrita": "Microaposentadorias",
+          "plataforma": "Linkedin",
+          "transcricao": "“A Geração Z não quer um crachá. Quer coerência. E talvez você precise rever o EVP da sua empresa. Propósito, saúde mental, flexibilidade e inclusão deixaram de ser “valores de employer branding”. Agora, esses são critérios básicos para que um talento da nova geração decida entrar e, principalmente, permanecer nas empresas. Li recentemente o artigo do André Katz no Mundo RH sobre como a Geração Z está pressionando uma mudança real nos EVPs (Employee Value Proposition) e nas estratégias de Employer Branding. E, como profissional que trabalha com cultura organizacional, comunicação e experiência do colaborador, posso afirmar: essa transformação não é tendência. É urgência. “Quiet quitting”, “revenge quitting” e as micro aposentadorias são apenas respostas simbólicas (e muitas vezes silenciosas) da Geração Z para culturas que ainda operam sob os códigos da geração anterior. Essa geração: - Quer pausas, e não só férias. - Quer líderes mais humanos, não executivos inalcançáveis. - Quer empresas que não falem de diversidade em datas comemorativas, mas que pratiquem todos os dias. - Quer coerência entre o que a empresa diz e o que a empresa faz. E os dados confirmam: - Segundo a Deloitte, 44% da Geração Z deixariam a empresa em até dois anos se não enxergarem conexão com seus valores. - A LinkedIn Employer Brand Research mostra que 86% dos jovens profissionais pesquisam a reputação da empresa antes de aceitar uma proposta. - Já a Glassdoor aponta que 58% da Geração Z priorizam cultura organizacional em vez de benefícios. - E, talvez o mais direto: 76% não se candidatariam a uma empresa com reputação negativa, mesmo desempregados. A pergunta que fica é: se o EVP é a promessa, a sua cultura organizacional cumpre o que foi prometido? Porque se não estiver cumprindo, você não tem uma estratégia de marca empregadora que vai atrair a Geração Z. Tem só um discurso de marketing interno que é bonito para fora, mas que não reflete o que acontece internamente. O resultado disso é o alto turnover, notas baixas no Glassdoor e um público interno que não acredita no discurso da empresa. E aí, como sua organização está gerenciando a marca empregadora para atrair e reter os talentos da nova geração?”",
+          "url": "https://www.linkedin.com/posts/alessandramatsumi_evp-employerbranding-geraaexaetoz-activity-7326672369215791105-60oU?utm_source=share&utm_medium=member_ios&rcm=ACoAADQl764BSLKhQKBBTKtOCtS2FlRAvsOGDhg"
+        },
+        {
+          "id": 34,
+          "situacao_descrita": "Microaposentadorias",
+          "plataforma": "Linkedin",
+          "transcricao": "“Os dias de microaposentadoria estão chegando ao fim.... É com muita satisfação e alegria que compartilho com todos que volto a atuar pela JHE Engenharia num desafio enorme: um contrato com a Sabesp para gerenciamento e fiscalização das obras em estações de tratamento de esgoto!! Muito trabalho pela frente! Mas com uma empresa que te valoriza e fornece todo o suporte necessário, tudo fica mais fácil!”",
+          "url": "https://www.linkedin.com/posts/eduardosarnoalarcon_os-dias-de-microaposentadoria-est%C3%A3o-chegando-activity-7305234923265646592-G2dG?utm_source=share&utm_medium=member_ios&rcm=ACoAADQl764BSLKhQKBBTKtOCtS2FlRAvsOGDhg"
+        },
+        {
+          "id": 35,
+          "situacao_descrita": "Microaposentadorias",
+          "plataforma": "You Tube",
+          "transcricao": null,
+          "url": "https://youtube.com/shorts/pLRo8YsiauY?si=7FFu7UhGUU0bWpM8"
+        },
+        {
+          "id": 36,
+          "situacao_descrita": "Microaposentadorias",
+          "plataforma": "Linkedin",
+          "transcricao": "“Olha que louco \"As empresas vão ter que se adaptar a Gen z e Gen Alpha?\" ou vamos seguir ao contrário? Uma vez a Gen z já está começando a ter \"Microaposentadoria\" creio que o começo da frase faça mais sentido! A Gen z não tem mais \"Saco\" e tão pouca está preocupada com Fit cultural das empresas, que por sinal sabemos que em sua grande maioria só funciona na teoria ou no linkedin, entendendo esse comportamento atual que por sua vez tem sim um \"Q\" de Genialidade. vemos o mercado de trabalho e o mercado de consumo tomar novos rumos, a paciência para trabalho da Gen Z está a quase zero \"Não gostei daqui, tchau\" existe uma dificuldade enorme de se ver profissionais atualmente querendo algo a longo prazo a nível de carreira, o Agora é o que importa. Mas e a Gen Alpha, o que será que ela nos trará de novidade? afinal em poucos anos elas estarão entrando no mercado de trabalho, ou será que isso não fará parte do dia a dia delas? O que você Gen z e dono de empresa estão achando de tudo isso? ”",
+          "url": "https://www.linkedin.com/posts/0matheus_genz-marketing-mercadodetrabalho-activity-7313594101210275840-_1S9?utm_source=share&utm_medium=member_ios&rcm=ACoAADQl764BSLKhQKBBTKtOCtS2FlRAvsOGDhg"
+        },
+        {
+          "id": 37,
+          "situacao_descrita": "Microaposentadorias",
+          "plataforma": "Linkedin",
+          "transcricao": "“Será que a vida é só sobre esperar passar 40 anos cheios de 44 horas semanais? Será que a gente nasceu só pra ir trabalhar, muitas vezes, em empregos em que não acreditamos e/ou não pagam o suficiente? Bom, precisamos pagar as contas, né? Esse é o sistema: trabalho, salário, boletos, repetir “Fazer pausas de semanas ou meses na carreira é uma escolha para combater o esgotamento e perseguir paixões, e poderia se encaixar em planos de carreira de empresas para reter talentos”, disse a Erin Lowry, nesta coluna sobre Gen Z e micro-aposentadorias, da Bloomberg. Este não é um post \"tire um ano sabático, você consegue, basta se planejar\". A \"meritocracia\" do Brasil não permitiria. Este é um post de reflexão. Te pergunto: você sente que está vivendo, ou apenas trabalhando-pagando-conta-repetindo? Nunca se esqueça: você está AQUI nesta vida, APESAR de ter que trabalhar! Faça o que fizer, enfrente o que vier, mas nunca desista de você! ”",
+          "url": "https://www.linkedin.com/posts/ex-rh_anosabaertico-sabaertico-carreira-activity-7321148413994065924-sn9p?utm_source=share&utm_medium=member_ios&rcm=ACoAADQl764BSLKhQKBBTKtOCtS2FlRAvsOGDhg"
+        },
+        {
+          "id": 38,
+          "situacao_descrita": "Microaposentadorias",
+          "plataforma": "Linkedin",
+          "transcricao": "“Você já ouviu falar em microaposentadoria? Essa ideia inovadora surgiu em 2007, inspirada no livro Trabalhe 4 Horas por Semana, e hoje ganha ainda mais relevância em tempos de trabalho híbrido e busca por equilíbrio entre vida pessoal e profissional. A microaposentadoria propõe pequenas pausas planejadas ao longo da vida produtiva — em vez de esperar pela aposentadoria tradicional — permitindo viver experiências significativas enquanto ainda estamos em plena atividade.”",
+          "url": "https://www.linkedin.com/posts/ivan-neres_entenda-o-que-%C3%A9-e-como-funciona-a-microaposentadoria-activity-7324062451170230276-Zlhl?utm_source=share&utm_medium=member_ios&rcm=ACoAADQl764BSLKhQKBBTKtOCtS2FlRAvsOGDhg"
+        },
+        {
+          "id": 39,
+          "situacao_descrita": "Microaposentadorias",
+          "plataforma": "You Tube",
+          "transcricao": null,
+          "url": "https://youtube.com/shorts/iUTkhgzoiQM?si=AqKYhWGQ7v_2SR4i"
+        },
+        {
+          "id": 40,
+          "situacao_descrita": "Microaposentadorias",
+          "plataforma": "Linkedin",
+          "transcricao": "“O artigo do para a Coaches Council mostra como a Geração Z está redefinindo o mundo do trabalho. Eles valorizam flexibilidade, propósito e crescimento contínuo — e até “micro-aposentadorias” para buscar equilíbrio. Entender essas expectativas não é só tendência, é estratégia.”",
+          "url": "https://www.linkedin.com/posts/andrei-sundfeld_why-organizations-need-to-take-notice-of-activity-7323855184743297024-VcUH?utm_source=share&utm_medium=member_ios&rcm=ACoAADQl764BSLKhQKBBTKtOCtS2FlRAvsOGDhg"
+        },
+        {
+          "id": 41,
+          "situacao_descrita": "Microaposentadorias",
+          "plataforma": "Linkedin",
+          "transcricao": "“Eu tenho visto várias reportagens sobre “microalegrias” (pequenos momentos de alegria no dia a dia pra combater a exaustão) e “microaposentadoria” (pausas planejadas pra descansar e aproveitar a vida durante a carreira). Coincidentemente esse ano eu havia criado uma meta pra mim que traz o que eu chamaria de médiaalegria (já que não é micro e nem macro). Essa meta era: ir em shows ou musicais há cada dois meses. Essa meta é importante pra mim, assim como para minha saúde mental, porque são experiências que eu gosto muito e me trazem felicidade. Elas me dão algo para esperar e um motivo para me esforçar todos os dias. Eu coloquei dois meses, porque não depende de mim ter algo que me interesse pra assistir todo mês, mas felizmente já bati a meta antes da metade do ano. Já consegui ir em 6 shows/musicais em 5 meses e já tenho outros 4 planejados para os próximos meses (até agosto). Algumas dessas experiências foram vividas com meus pais, outras com minhas melhores amigas, em outras eu estava sozinha e conheci novas pessoas. Não foram apenas momentos, elas criaram “memórias” e me motivam todos os dias. Já estou feliz hoje porque tenho 4 shows/musicais pra ir no futuro!”",
+          "url": "https://www.linkedin.com/posts/nataliacas_eu-tenho-visto-v%C3%A1rias-reportagens-sobre-activity-7336502041092980736-JmPp?utm_source=share&utm_medium=member_ios&rcm=ACoAADQl764BSLKhQKBBTKtOCt
