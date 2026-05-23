@@ -104,7 +104,7 @@
 #### Artigo 8: Sistemas de Controle Gerencial e Criatividade
 - **Status:** EM CORREÇÃO
 - **Subtítulo:** O Efeito Mediador da Percepção de Justiça Organizacional
-- **Autores:** Messan Komlanvi Akoumani (UnB)
+- **Autores:** Messan Komlanvi Akoumani (UnB), Renato de Oliveira Rosa
 - **Periódico Alvo:** Artigo de Coautor
 - **Arquivos:** `Messan_Sistemas_Controle_Criatividade.html` (HTML corrigido)
 - **Notas:** Verificar formatação APA. Revisar hipóteses e modelo teórico.
@@ -112,7 +112,7 @@
 #### Artigo 9: Pensamento Integrado nas Organizações
 - **Status:** EM CORREÇÃO
 - **Subtítulo:** O Papel dos Controles Formais e Informais na Qualidade da Evidenciação Integrada
-- **Autores:** Messan Komlanvi Akoumani (UnB)
+- **Autores:** Messan Komlanvi Akoumani (UnB), Renato de Oliveira Rosa
 - **Periódico Alvo:** Artigo de Coautor
 - **Arquivos:** `Messan_Pensamento_Integrado.html` (HTML corrigido)
 - **Notas:** Revisar introdução e referencial teórico. Verificar alinhamento com IIRC 2021.
@@ -123,13 +123,13 @@
 
 #### Artigo 10: O Novo Contrato Psicológico de Trabalho da Geração Z
 - **Status:** EM DESENVOLVIMENTO
-- **Autores:** Eigedin et al.
+- **Autores:** Renato de Oliveira Rosa
 - **Tema:** Contrato Psicológico da Geração Z
 - **Arquivos:** `Artigo Eigedin - O NOVO CONTRATO PSICOLÓGICO DE TRABALHO DA GERAÇÃO Z.docx`, `O Novo Contrato Psicológico de Trabalho da Geração Z Uma análise.pptx`
 
 #### Artigo 11: Carga Cognitiva, Finanças Comportamentais e Tomada de Decisão
 - **Status:** EM DESENVOLVIMENTO
-- **Autores:** Eigedin et al.
+- **Autores:** Renato de Oliveira Rosa
 - **Tema:** Carga Cognitiva
 - **Arquivos:** `Artigo - Carga Cognitiva.docx`, `CARGA COGNITIVA, FINANÇAS COMPORTAMENTAIS E.pptx`
 
