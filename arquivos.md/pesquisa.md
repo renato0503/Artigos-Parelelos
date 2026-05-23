@@ -13,6 +13,9 @@
 | Linha de Pesquisa | Contabilidade, Controladoria e Finanças Aplicadas ao Setor Privado |
 | Orientador | Prof. Dr. Olavo Venturim Caldas |
 | Instituição | Fucape Business School |
+| **GitHub (Tese)** | https://github.com/renato0503/TeseDoutorado |
+| **GitHub (Artigos)** | https://github.com/renato0503/Artigos-Parelelos |
+| **Monitor Online** | https://renato0503.github.io/Artigos-Parelelos |
 
 ---
 
@@ -367,3 +370,18 @@ site:linkedin.com/pulse "compras públicas" tecnologia
 ## Infraestrutura de Visualização
 
 O projeto conta com 10 visualizações em SVG (5 gráficos + 5 figuras) geradas via Python/matplotlib, armazenadas em `Tese/imagens/`. As visualizações cobrem: complexidade textual (boxplot), sobrevivência contratual (Kaplan-Meier), latência decisória (barras), importância de variáveis (SHAP), enquadramento midiático (barras empilhadas), arquitetura do sistema, ciclo DSR, pipeline NLP, rede de fornecimento e interface do copiloto.
+
+---
+
+## Monitor de Artigos Online
+
+O projeto conta com um monitor interativo para os artigos das pesquisas paralelas:
+
+| Recurso | URL |
+|---------|-----|
+| **GitHub Pages** | https://renato0503.github.io/Artigos-Parelelos |
+| **Repositório** | https://github.com/renato0503/Artigos-Parelelos |
+| **Artigos** | 11 artigos monitorados |
+| **Status** | 5 submetidos, 2 prontos, 2 em correção, 2 em desenvolvimento |
+
+O monitor permite filtrar por status, categoria, periódico e buscar por título/autor/palavras-chave.

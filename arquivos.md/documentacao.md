@@ -99,11 +99,14 @@ Doutorado/
 
 ---
 
-## Repositório GitHub
+## Repositórios GitHub
 
-**URL:** https://github.com/renato0503/TeseDoutorado
-
-**GitHub Pages:** https://renato0503.github.io/TeseDoutorado/
+| Repositório | URL | Descrição |
+|-------------|-----|-----------|
+| **TeseDoutorado** | https://github.com/renato0503/TeseDoutorado | 17 artigos da tese |
+| **GitHub Pages (Tese)** | https://renato0503.github.io/TeseDoutorado/ | Visualização da tese |
+| **Artigos-Parelelos** | https://github.com/renato0503/Artigos-Parelelos | Monitor de artigos paralelos |
+| **GitHub Pages (Artigos)** | https://renato0503.github.io/Artigos-Parelelos | Monitor interativo (11 artigos) |
 
 ---
 

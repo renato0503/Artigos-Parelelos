@@ -152,15 +152,26 @@ def calcular_complexidade(texto: str) -> dict:
 
 ---
 
-## Repositório
+## Repositórios
 
-**URL:** https://github.com/renato0503/TeseDoutorado
+| Repositório | URL | Descrição |
+|-------------|-----|-----------|
+| **TeseDoutorado** | https://github.com/renato0503/TeseDoutorado | 17 artigos da tese |
+| **Artigos-Parelelos** | https://github.com/renato0503/Artigos-Parelelos | Monitor de artigos paralelos |
+| **Monitor Online** | https://renato0503.github.io/Artigos-Parelelos | Visualização interativa |
 
-**Organização:**
+**Organização Tese:**
 - `Tese/` - Arquivos da tese
 - `Artigos/` - 17 artigos em desenvolvimento
 - `scripts/` - Scripts Python de análise
 - `dados/` - Dados brutos e processados
+
+**Organização Artigos Paralelos:**
+- `index.html` - Monitor interativo com 11 artigos
+- `Submetidos/` - 5 artigos aguardando parecer
+- `Prontos-Submissao/` - 2 artigos prontos
+- `Em-Desenvolvimento/` - 2 artigos em desenvolvimento
+- `arquivos.md/` - Documentação de referência
 
 ---
 

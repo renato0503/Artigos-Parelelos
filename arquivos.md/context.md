@@ -16,7 +16,9 @@
 | **Linha de Pesquisa** | Contabilidade, Controladoria e Finanças Aplicadas ao Setor Privado |
 | **Orientador** | Prof. Dr. Olavo Venturim Caldas |
 | **Instituição** | Fucape Business School |
-| **GitHub** | https://github.com/renato0503/TeseDoutorado |
+| **GitHub (Tese)** | https://github.com/renato0503/TeseDoutorado |
+| **GitHub (Artigos)** | https://github.com/renato0503/Artigos-Parelelos |
+| **Monitor Online** | https://renato0503.github.io/Artigos-Parelelos |
 
 ---
 
@@ -30,7 +32,7 @@
 
 ## Status Consolidado dos Artigos
 
-### 1. Artigos Submetidos (Aguardando Parecer)
+### 1. Artigos Submetidos (Aguardando Parecer) - 5 artigos
 
 > **NOTA:** Estes são artigos de pesquisas PARALELAS ao doutorado.
 
@@ -56,32 +58,29 @@
 - **ORCID Lustosa:** https://orcid.org/0000-0003-4624-197X
 - **Arquivos:** `Artigo - Adoção Inicial de Inteligência Artificial Generativa em Relatórios Gerenciais.docx/pdf`, `Revisões - Congresso UNC.docx`
 
+#### Artigo 4: Transparência em Relatórios de Prestação de Contas
+- **Status:** SUBMETIDO
+- **Periódico:** Revista Ambiente Contábil (UFRN)
+- **URL:** https://periodicos.ufrn.br/ambiente
+- **Autores:** Renato Rosa, Isielli Tierling
+- **Arquivos:** 
+  - `Submetidos/Artigo Submetido - Indicadores em Agencias de Pesquisa/01_MANUSCRITO_SEM_IDENTIFICACAO.docx`
+  - `Submetidos/Artigo Submetido - Indicadores em Agencias de Pesquisa/02_ARQUIVO_DADOS_AUTORES.docx`
+  - Versão para Congresso UFSC em `Versão - Congresso UFSC/`
+
+#### Artigo 5: Avaliação de Desempenho em Contextos Não Presenciais
+- **Status:** SUBMETIDO
+- **Periódico:** Revista Universo Contábil (FURB)
+- **URL:** https://www.revista.univille.br/index.php/unicontabil/index
+- **Autores:** Renato Rosa
+- **Arquivos:** `Artigo Revista (Revista Universo Contábil (FURB)) -30.03.docx`, `folha de rosto2.docx`, `Folha de Rosto.docx`
+- **Notas:** Submetido em Maio 2026. Aguardando parecer.
+
 ---
 
-### 2. Artigo Resubmeter (Em Revisão Após Feedback)
+### 2. Artigos Prontos para Submissão - 2 artigos
 
-> **NOTA:** Pesquisa paralela ao doutorado.
-
-#### Artigo 4: Indicadores em Agências de Pesquisa
-- **Status:** RESUBMETER
-- **Submetido Originally a:** Revista Ambiente Contábil (UFRN)
-- **Nova Versão:** Congresso UFSC
-- **Devolutiva:** Recebido feedback da Casi com diretrizes para revisão
-- **Arquivos na Versão UFSC:**
-  - `Identi.docx/pdf` (artigo com identificação)
-  - `Sem Identi.docx/pdf` (versão cega)
-  - `Devolutiva - Casi.docx` (feedback recebido)
-  - `Dados coletados.xlsx`
-  - `Analise dos dados.docx`
-  - `Novo draft.docx`
-
----
-
-### 3. Artigos Prontos para Submissão
-
-> **NOTA:** Pesquisas paralelas ao doutorado.
-
-#### Artigo 5: Gestão e Relação do Trabalho - Entre a Escravidão Digital e a Fuga Institucional
+#### Artigo 6: Entre a Escravidão Digital e a Fuga Institucional
 - **Status:** PRONTO PARA SUBMISSÃO
 - **Periódico Alvo:** Revista Teoria e Prática em Administração (TPA - UFPB)
 - **URL:** https://periodicos.ufpb.br/index.php/tpa/index
@@ -91,32 +90,48 @@
 - **Palavras-chave:** digitalização do trabalho; gestão algorítmica; escravidão digital; lexicometria; bem-estar subjetivo.
 - **Arquivos:** `Artigo - ENTRE A ESCRAVIDÃO DIGITAL E A FUGA INSTITUCIONAL.docx`, `Relatorio - ANÁLISE LEXICOMÉTRICA.docx`, `RELATOS - Gestao e Relação do Trabalho.xlsx`
 
-#### Artigo 6: Paradoxo da Produtividade IA
+#### Artigo 7: O Paradoxo da Produtividade da IA
 - **Status:** PRONTO PARA SUBMISSÃO
 - **Periódico Alvo:** Revista Alcance (UNIVALI)
 - **URL:** https://periodicos.univali.br/index.php/ra/index
 - **Versões:** v1 e v2 disponíveis
 - **Arquivos:** `paradoxo_produtividade_ia_v1.docx`, `paradoxo_produtividade_ia_v2.docx`, `tabelas.xlsx`, `Documento suplementar - revista alcance.docx`
 
-#### Artigo 7: Artigos a Submeter - Messan
-- **Status:** PRONTO PARA SUBMISSÃO
-- **Arquivos:** `Artigo 2_ a submeter pdf.docx`, `Artigo (version final).docx`
+---
+
+### 3. Artigos em Correção - 2 artigos
+
+#### Artigo 8: Sistemas de Controle Gerencial e Criatividade
+- **Status:** EM CORREÇÃO
+- **Subtítulo:** O Efeito Mediador da Percepção de Justiça Organizacional
+- **Autores:** Messan Komlanvi Akoumani (UnB)
+- **Periódico Alvo:** Artigo de Coautor
+- **Arquivos:** `Messan_Sistemas_Controle_Criatividade.html` (HTML corrigido)
+- **Notas:** Verificar formatação APA. Revisar hipóteses e modelo teórico.
+
+#### Artigo 9: Pensamento Integrado nas Organizações
+- **Status:** EM CORREÇÃO
+- **Subtítulo:** O Papel dos Controles Formais e Informais na Qualidade da Evidenciação Integrada
+- **Autores:** Messan Komlanvi Akoumani (UnB)
+- **Periódico Alvo:** Artigo de Coautor
+- **Arquivos:** `Messan_Pensamento_Integrado.html` (HTML corrigido)
+- **Notas:** Revisar introdução e referencial teórico. Verificar alinhamento com IIRC 2021.
 
 ---
 
-### 4. Artigos em Desenvolvimento / Antigos
+### 4. Artigos em Desenvolvimento - 2 artigos
 
-> **NOTA:** Pesquisas paralelas, não relacionadas à tese de doutorado.
+#### Artigo 10: O Novo Contrato Psicológico de Trabalho da Geração Z
+- **Status:** EM DESENVOLVIMENTO
+- **Autores:** Eigedin et al.
+- **Tema:** Contrato Psicológico da Geração Z
+- **Arquivos:** `Artigo Eigedin - O NOVO CONTRATO PSICOLÓGICO DE TRABALHO DA GERAÇÃO Z.docx`, `O Novo Contrato Psicológico de Trabalho da Geração Z Uma análise.pptx`
 
-#### Artigo 8: Avaliação de Desempenho em Contextos Não Presenciais
-- **Status:** DESENVOLVIMENTO (ligado à dissertação)
-- **Instituição:** Revista Universo Contábil (FURB)
-- **Arquivos:** `Artigo Revista (Revista Universo Contábil (FURB)) -30.03.docx`, `folha de rosto2.docx`, `Folha de Rosto.docx`, `Email.txt`
-
-#### Artigos Eigedin
-- **Status:** antigo
-- **Temas:** Contrato Psicológico da Geração Z, Carga Cognitiva
-- **Arquivos:** `Artigo Eigedin - O NOVO CONTRATO PSICOLÓGICO DE TRABALHO DA GERAÇÃO Z.docx`, `Artigo - Carga Cognitiva.docx`
+#### Artigo 11: Carga Cognitiva, Finanças Comportamentais e Tomada de Decisão
+- **Status:** EM DESENVOLVIMENTO
+- **Autores:** Eigedin et al.
+- **Tema:** Carga Cognitiva
+- **Arquivos:** `Artigo - Carga Cognitiva.docx`, `CARGA COGNITIVA, FINANÇAS COMPORTAMENTAIS E.pptx`
 
 ---
 
@@ -156,44 +171,43 @@ O diretório `arquivos.md/` contém documentação de referência:
 
 | Arquivo | Conteúdo |
 |---------|----------|
+| `context.md` | Estado atual dos artigos (este arquivo) - com status e localização |
 | `revisor.md` | Diretrizes de avaliação ad-hoc (double-blind peer review) - 20 critérios de rigor |
 | `processo.md` | Fases do doutorado, stack tecnológico, Git, checklists |
 | `pesquisa.md` | APIs disponíveis (PNCP, Portal Transparência, TCU, etc.), mapeamento 5W2H |
 | `documentacao.md` | Estrutura da tese, 17 artigos, arquitetura de extração de dados |
 | `escrita.md` | Guia completo de escrita acadêmica (ABNT, APA, Vancouver), proibições, conectivos |
-| `formatacao.md` | (não lido ainda) |
-| `diretrizes.md` | (não lido ainda) |
-| `graficos.md` | (não lido ainda) |
+| `formatacao.md` | Regras de formatação para periódicos nacionais |
+| `diretrizes.md` | Diretrizes de submissão por periódico |
+| `graficos.md` | Guia para criação de gráficos e visualizações |
 
 ---
 
-### 7. Congressos 2026
+### 7. Monitor de Artigos Online
 
-Arquivo `Congressos 2026.xlsx` contém calendarização de eventos acadêmicos.
+O projeto conta com um monitor interativo de artigos publicado no GitHub Pages:
+
+**URL:** https://renato0503.github.io/Artigos-Parelelos
+
+**Funcionalidades:**
+- Visualização de todos os 11 artigos em cards interativos
+- Filtros por status (Submetidos, Prontos, Em Revisão, Em Correção, Desenvolvimento)
+- Busca por título, autores e palavras-chave
+- Filtro por periódico alvo
+- Anotações editáveis em cada artigo
+
+**Repositório:** https://github.com/renato0503/Artigos-Parelelos
 
 ---
 
-### 8. Projeto UNIFACC (Ideias Antigas)
-
-Local: `Ideias Antigas/Projeto UNIFACC/Transformações no Trabalho Digital/`
-
-Contém:
-- Artigo 1 e 2 sobre Transformações no Trabalho e Digitalização
-- Dados `RELATOS.xlsx`, `20 RELATOS 4.0.xlsx`
-- Prints de telas (IMG_*.jpeg)
-- Proposta de Projeto para Prof. Renato Rosa
-
----
-
-### 9. Resumo de Status
+### 8. Resumo de Status
 
 | Status | Quantidade | Artigos |
 |--------|------------|---------|
-| **Submetido** | 3 | Artigos 1, 2, 3 |
-| **Resubmeter** | 1 | Artigo 4 |
-| **Pronto p/ Submissão** | 3 | Artigos 5, 6, 7 |
-| **Em Desenvolvimento** | 1 | Artigo 8 |
-| **Antigos** | 2+ | Eigedin e outros |
+| **Submetido** | 5 | Artigos 1, 2, 3, 4, 5 |
+| **Pronto p/ Submissão** | 2 | Artigos 6, 7 |
+| **Em Correção** | 2 | Artigos 8, 9 |
+| **Em Desenvolvimento** | 2 | Artigos 10, 11 |
 | **Estrutura Tese** | 17 | Completa (projeto separado) |
 
 ---
@@ -211,13 +225,39 @@ A tese é composta por 17 artigos sobre "Copiloto Algorítmico para Compras Púb
 
 ---
 
-### 10. Próximas Ações Recomendadas
+### 9. Próximas Ações Recomendadas
 
-1. **Acompanhar artigos submetidos** - Verificar pareceres das revistas
-2. **Revisar artigo 4** - Incorporar devolutiva da Casi para resubmissão UFSC
-3. **Submeter artigo 5** - TPA (credenciais já disponíveis)
-4. **Submeter artigo 6** - Revista Alcance
-5. **Avançar artigos da tese** - Desenvolver os 17 artigos conforme estrutura
+1. **Acompanhar artigos submetidos** - Verificar pareceres das revistas (RGT, Liceu-online, RCCC, Ambiente Contábil, Universo Contábil)
+2. **Submeter artigo 6** - TPA (credenciais já disponíveis: renatodeoliveirarosa / Rabo1000!)
+3. **Submeter artigo 7** - Revista Alcance
+4. **Revisar artigos Messan** - Incorporar correções dos artigos 8 e 9
+5. **Continuar desenvolvimento artigos Eigedin** - Artigos 10 e 11
+6. **Avançar artigos da tese** - Desenvolver os 17 artigos conforme estrutura
+
+---
+
+### 10. Pasta de Artigos (Estrutura)
+
+```
+Artigos 2026/
+├── index.html                    # Monitor de artigos online
+├── arquivos.md/                  # Documentação de referência
+│   ├── context.md               # Este arquivo - estado dos artigos
+│   ├── revisor.md              # Critérios de peer review
+│   ├── processo.md             # Fluxo de trabalho
+│   ├── pesquisa.md             # APIs e fontes de dados
+│   ├── documentacao.md         # Estrutura da tese
+│   ├── escrita.md              # Guia de escrita acadêmica
+│   ├── formatacao.md           # Regras de formatação
+│   ├── diretrizes.md           # Diretrizes por periódico
+│   └── graficos.md             # Visualização de dados
+├── Submetidos/                   # 5 artigos submetidos
+├── Prontos-Submissao/            # 2 artigos prontos + HTMLs
+├── Em-Desenvolvimento/           # 2 artigos em desenvolvimento (Eigedin)
+├── Antigos/                      # Artigos antigos e ideias
+├── Congressos 2026.xlsx          # Calendarização de eventos
+└── TeseDoutorado/               # (link para repositório separado)
+```
 
 ---
 
