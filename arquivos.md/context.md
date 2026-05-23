@@ -81,14 +81,16 @@
 ### 2. Artigos Prontos para Submissão - 2 artigos
 
 #### Artigo 6: Entre a Escravidão Digital e a Fuga Institucional
-- **Status:** PRONTO PARA SUBMISSÃO
-- **Periódico Alvo:** Revista Teoria e Prática em Administração (TPA - UFPB)
-- **URL:** https://periodicos.ufpb.br/index.php/tpa/index
-- **Credenciais:** renatodeoliveirarosa / Rabo1000!
+- **Status:** REJEITADO - PRONTO PARA NOVA SUBMISSÃO
+- **Rejeição:** TPA (15/04/2026) - desalinhamento de escopo. O revisor elogiou mérito acadêmico, mas pediu maior explicitação de contribuições práticas para Administração.
+- **Periódicos Sugeridos:** Organizações & Sociedade (O&S), CEBAPE
+- **URL O&S:** https://www.revistaoandsociedade.ufba.br/
+- **URL CEBAPE:** https://revista.cecape.org.br/
 - **Resumo Estruturado:** Preparado (incluso no arquivo `Revista Teoria e Pratica em Administração.txt`)
 - **Metodologia:** Pesquisa qualitativa com 27 relatos de redes sociais, IRaMuTeQ, Classificação Hierárquica Descendente (CHD), Análise de Similitude, AFC, Revisão Sistemática de Escopo (2021-2026)
 - **Palavras-chave:** digitalização do trabalho; gestão algorítmica; escravidão digital; lexicometria; bem-estar subjetivo.
 - **Arquivos:** `Artigo - ENTRE A ESCRAVIDÃO DIGITAL E A FUGA INSTITUCIONAL.docx`, `Relatorio - ANÁLISE LEXICOMÉTRICA.docx`, `RELATOS - Gestao e Relação do Trabalho.xlsx`
+- **Ação:** Adaptar manuscrito incluindo discussão de contribuições práticas para profissionais de Administração antes de submeter a O&S ou CEBAPE.
 
 #### Artigo 7: O Paradoxo da Produtividade da IA
 - **Status:** PRONTO PARA SUBMISSÃO
